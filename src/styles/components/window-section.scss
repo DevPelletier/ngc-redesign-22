@@ -29,7 +29,7 @@ section.window {
     padding: 0;
 
     .img-container img {
-      @include img-full-height;
+      // @include img-full-height;
     }
 
     &.height-sm {
