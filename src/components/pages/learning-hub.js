@@ -239,8 +239,6 @@ function LearningHub() {
           </div>
         </div>
       </section>
-
-
     </>
   );
 }

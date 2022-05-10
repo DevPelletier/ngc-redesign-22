@@ -11,7 +11,7 @@ function LandingHero() {
         <div className="hero-text">
           <div className="text-container">
             <h2>Welcome to Northern Green Canada</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, obcaecati quas maiores, totam voluptatibus ipsum consectetur praesentium illo consequuntur, nulla adipisci corrupti amet ad facilis laborum. Repellat rerum, autem aliquid?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, obcaecati quas maiores, totam voluptatibus ipsum consectetur praesentium illo consequuntur.</p>
             <Link to="/start-here" className="primary-link">
             New To Medical Cannabis? Start Here
             </Link>

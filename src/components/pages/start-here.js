@@ -17,6 +17,8 @@ function StartHere() {
           <div className="text-container">
             <h2>The Beginner's Guide to Medicinal Cannabis</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error, unde consectetur dolor reiciendis sint nobis, ut inventore in laboriosam reprehenderit eius laborum perferendis. Sed necessitatibus autem asperiores impedit esse.</p>
+            <p> Quo quisquam aut nemo molestiae neque aliquid reiciendis et aliquam ducimus laborum saepe voluptatem sint, autem.</p>
+
           </div>
           <div className="img-container col-width-md push-right border-radius">
             <img src="imgs/3-2-vert-01.jpg" alt=""/>

@@ -7,7 +7,7 @@ import '../../styles/components/two-steps-section.scss';
 const homepage = {
   sectionTitle: 'How to Get Started',
   sectionParagraph: 'In order to purchase medical cannabis from Northern Green Canada, you must be a registered NGC client. Registering is quick and easy! See the 2 simple steps to becoming an NGC client below:',
-  card1_Title: 'Step 1: <br />Sign Up With NGC',
+  card1_Title: 'Step 1: Sign Up With NGC',
   card1_P1: 'Click the Register button below to sign up with us quickly and easily. Once you’re registered, you will receive occasional updates from us on our new and upcoming medical cannabis products.',
   card1_P2: 'Don’t worry - signing up doesn’t lock you into anything. You can choose to complete your registration with us by submitting your Medical Document at any time.',
   card1_P3: 'XXX',
@@ -27,7 +27,7 @@ const register = {
   card1_Title: 'Step 1: Sign Up With NGC',
   card1_P1: 'COMPLETE!',
   card1_P2: 'You will receive a confirmation email from us within moments. If you don’t receive this email, please check your spam folder, or contact our Client Services Team for assistance! We will reach out within 24 hours.',
-  card1_P3: 'ClientServices@NorthernGreenCanada.com<br />1-866-233-3707<br />Available Monday to Friday 8:00am to 4:30pm',
+  card1_P3: 'ClientServices@NorthernGreenCanada.com | 1-866-233-3707 | Available Monday to Friday 8:00am to 4:30pm',
   card1_P4: 'Now for Step 2',
   card1_btn: 'Step 2: Get A Prescription',
   card2_Title: 'Step 2: Get A Prescription',

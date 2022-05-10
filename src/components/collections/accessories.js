@@ -14,7 +14,7 @@ const Collection = (props) => {
         <div className="collection-listings-container">
           <div className="listing-container border-radius">
             <Link to="/product" className="listing-img-link">
-              <div className="img-container border-radius">
+              <div className="img-container exact-size border-radius">
                 <img src="imgs/prod-square.png" alt=""/>
               </div>
               <div className="tags-container">
@@ -39,7 +39,7 @@ const Collection = (props) => {
           </div>
           <div className="listing-container border-radius">
             <Link to="/product" className="listing-img-link">
-              <div className="img-container border-radius">
+              <div className="img-container exact-size border-radius">
                 <img src="imgs/prod-square.png" alt=""/>
               </div>
               <div className="tags-container">
@@ -64,7 +64,7 @@ const Collection = (props) => {
           </div>
           <div className="listing-container border-radius">
             <Link to="/product" className="listing-img-link">
-              <div className="img-container border-radius">
+              <div className="img-container exact-size border-radius">
                 <img src="imgs/prod-square.png" alt=""/>
               </div>
               <div className="tags-container">
@@ -89,7 +89,7 @@ const Collection = (props) => {
           </div>
           <div className="listing-container border-radius">
             <Link to="/product" className="listing-img-link">
-              <div className="img-container border-radius">
+              <div className="img-container exact-size border-radius">
                 <img src="imgs/prod-square.png" alt=""/>
               </div>
               <div className="tags-container">
@@ -114,7 +114,7 @@ const Collection = (props) => {
           </div>
           <div className="listing-container border-radius">
             <Link to="/product" className="listing-img-link">
-              <div className="img-container border-radius">
+              <div className="img-container exact-size border-radius">
                 <img src="imgs/prod-square.png" alt=""/>
               </div>
               <div className="tags-container">

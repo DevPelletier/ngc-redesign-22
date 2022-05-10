@@ -15,6 +15,8 @@ import LearningHub from './components/pages/learning-hub';
 import Product from './components/pages/product';
 import Article from './components/pages/article';
 
+import GoToTop from './components/go-to-top';
+
 import Other from './components/pages/other';
 import UnderConstrPage from './components/pages/under-constr-pg';
 
@@ -45,6 +47,7 @@ function App() {
         </Switch>
         <NewsletterSignup />
         <Footer />
+        <GoToTop />
       </Router>
     </>
   );

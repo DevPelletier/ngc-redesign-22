@@ -9,7 +9,7 @@ function Section_IsMedCannRightForMe() {
     return (
       <section className="ismedcannright_1 bg-grey-bigknot">
         <div className="inner-section two-col-40-60">
-          <div className="text-container">
+          <div className="text-container margin-top-md">
             <h2>Is Medical Cannabis Right for Me?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis perferendis explicabo consequuntur iusto provident consectetur doloribus atque quis odio eaque alias laborum ullam, ducimus sit accusamus mollitia officiis ratione.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis perferendis explicabo consequuntur iusto provident consectetur doloribus atque quis odio eaque alias laborum ullam, ducimus sit accusamus mollitia officiis ratione.</p>

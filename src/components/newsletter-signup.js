@@ -22,8 +22,8 @@ function NewsletterSignup() {
                 <input type="email" name="email" placeholder="Email" />
               </div>
             </div>
-            <button type="submit" value="Submit" class="btn-success">
-              <span className="material-symbols-rounded btn-submit">arrow_forward</span>
+            <button type="submit" value="Submit" class="btn-success" disabled>
+              <span className="material-symbols-rounded btn-submit">check</span>
             </button>
           </form>
         </div>

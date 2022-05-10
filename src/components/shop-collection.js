@@ -25,7 +25,7 @@ function ShopCollection() {
             <div className="collection-listings-container">
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size exact size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -51,7 +51,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -77,7 +77,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -102,7 +102,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -127,7 +127,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -161,7 +161,7 @@ function ShopCollection() {
             <div className="collection-listings-container">
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -186,7 +186,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -211,7 +211,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -236,7 +236,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -261,7 +261,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -295,7 +295,7 @@ function ShopCollection() {
             <div className="collection-listings-container">
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -320,7 +320,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -345,7 +345,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -370,7 +370,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -395,7 +395,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -429,7 +429,7 @@ function ShopCollection() {
             <div className="collection-listings-container">
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -454,7 +454,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -479,7 +479,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -504,7 +504,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -529,7 +529,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -563,7 +563,7 @@ function ShopCollection() {
             <div className="collection-listings-container">
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -588,7 +588,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -613,7 +613,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -638,7 +638,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">
@@ -663,7 +663,7 @@ function ShopCollection() {
               </div>
               <div className="listing-container border-radius">
                 <Link to="/product" className="listing-img-link">
-                  <div className="img-container border-radius">
+                  <div className="img-container exact-size border-radius">
                     <img src="imgs/test.jpg" alt=""/>
                   </div>
                   <div className="tags-container">

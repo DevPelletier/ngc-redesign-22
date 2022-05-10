@@ -28,20 +28,32 @@ section.window {
     grid-gap: 0;
     padding: 0;
 
+    .img-container img {
+      @include img-full-height;
+    }
+
     &.height-sm {
-      min-height: 650px;
+      min-height: 600px;
 
       .img-container {
-        min-height: 650px;
+        max-height: 800px;
       }
     }
 
     &.height-md {
       min-height: 850px;
+      .img-container {
+        max-height: 1000px;
+      }
+
     }
 
     &.height-lg {
       min-height: 1000px;
+
+      .img-container {
+        max-height: 1200px;
+      }
     }
 
 

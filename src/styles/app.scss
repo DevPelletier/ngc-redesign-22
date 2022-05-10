@@ -58,9 +58,15 @@ img {
   overflow: hidden;
   // background-color: $blue01;
 
-  // img {
-  //   max-width: 120%;
-  // }
+  img {
+    max-width: 120%;
+  }
+
+  &.exact-size {
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 button,
@@ -166,7 +172,9 @@ footer {
   gap: 0 16px;
 }
 
-
+.margin-top-md {
+  margin-top: 5vh;
+}
 
 .two-col-even {
   display: grid;

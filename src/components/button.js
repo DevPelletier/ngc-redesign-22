@@ -14,7 +14,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize, url}) 
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-  const linkProps = url ? {to: url} : {};
+  const linkProps = url ? {to: url} : {LINK};
 
   // const checkButtonLink = LINK==(buttonLink) ? buttonLink : LINK;
 

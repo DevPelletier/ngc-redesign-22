@@ -108,11 +108,12 @@ function ShopAll() {
             <Button
               buttonStyle="btn--primary sub-menu-btn"
               onClick={executeScrollMPRef}
+              disabled
               // onClick={()=>setShowMP(!showMostPopular)}
               // url="#most-popular"
               >
               Most Popular
-              <span className="img-container"><img src="imgs/prod-square.png" alt=""/></span>
+              <span className="img-container exact-size exact-size"><img src="imgs/prod-square.png" alt=""/></span>
             </Button>
             <Button
               buttonStyle="btn--primary sub-menu-btn"
@@ -121,35 +122,35 @@ function ShopAll() {
               // url="#dried-flower"
               >
               Dried Flower
-              <span className="img-container"><img src="imgs/prod-square.png" alt=""/></span>
+              <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
             </Button>
             <Button
               buttonStyle="btn--primary sub-menu-btn"
               onClick={executeScrollOilRef}
               >
               Cannabis Oils
-              <span className="img-container"><img src="imgs/prod-square.png" alt=""/></span>
+              <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
             </Button>
             <Button
               buttonStyle="btn--primary sub-menu-btn"
               onClick={executeScrollSprayRef}
               >
               Cannabis Sprays
-              <span className="img-container"><img src="imgs/prod-square.png" alt=""/></span>
+              <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
             </Button>
             <Button
               buttonStyle="btn--primary sub-menu-btn"
               onClick={executeScrollVapesRef}
               >
               Vaporizers
-              <span className="img-container"><img src="imgs/prod-square.png" alt=""/></span>
+              <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
             </Button>
             <Button
               buttonStyle="btn--primary sub-menu-btn"
               onClick={executeScrollAccessRef}
               >
               Accessories
-              <span className="img-container"><img src="imgs/prod-square.png" alt=""/></span>
+              <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
             </Button>
           </div>
         </div>
@@ -158,19 +159,19 @@ function ShopAll() {
           <div className="sub-menu border-radius">
             <Button buttonStyle="btn--primary sub-menu-btn">
               High CBD
-              <span className="img-container"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
+              <span className="img-container exact-size"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
             </Button>
             <Button buttonStyle="btn--primary sub-menu-btn">
               High THC
-              <span className="img-container"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
+              <span className="img-container exact-size"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
             </Button>
             <Button buttonStyle="btn--primary sub-menu-btn">
               1:1 (THC:CBD)
-              <span className="img-container"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
+              <span className="img-container exact-size"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
             </Button>
             <Button buttonStyle="btn--primary sub-menu-btn">
               No THC
-              <span className="img-container"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
+              <span className="img-container exact-size"><img src="imgs/ngc_loose_knot.svg" alt="" className="svg-filter-green03 svg-hover-lightgrey" /></span>
             </Button>
           </div>
         </div>

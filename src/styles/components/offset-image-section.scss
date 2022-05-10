@@ -22,20 +22,23 @@ section.offset-image {
   }
 
   .offset-img {
-    background: $blue01;
-    position: relative;
-    top: 10%;
-    left: -10%;
+    position: absolute;
+    right: 10vw;
     overflow: hidden;
-    width: 40vw;
-    height: 45vw;
+    width: 37vw;
+    height: 60vh;
     min-height: 700px;
 
     .img-container {
+      margin-top: 100px;
+      height: inherit;
+      @include img-full-height;
+
       // @include center-selfAll-inrelativepos;
 
       img {
-        @include center-selfAll-inrelativepos;
+        @include img-full-height;
+        // @include center-selfAll-inrelativepos;
       }
     }
   }

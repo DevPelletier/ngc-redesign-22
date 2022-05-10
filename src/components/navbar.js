@@ -39,7 +39,7 @@ function Navbar() {
     return (
         <nav className="navbar test">
           <div className="inner-section navbar-container">
-            <div className="img-container">
+            <div className="img-container exact-size">
               <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                 <img src="./imgs/ngc_logo_wordmark_green.png" alt="Northern Green Canada Logo Wordmark Green" />
               </Link>

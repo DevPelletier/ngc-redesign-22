@@ -16,12 +16,13 @@ form.newsletter-signup {
   @include center-selfX;
   display: flex;
   align-content: center;
+  font-family: $font-stack;
 
   .newsletter-inputs {
     background-color: $green02;
     padding: 10px 24px;
     border-radius: 32px;
-    margin-right: 24px;
+    margin-right: 16px;
     max-width: 720px;
     min-width: 40vw;
     display: flex;
@@ -62,9 +63,13 @@ form.newsletter-signup {
       color: white;
       background: $orange01;
       border-radius: 100%;
-      font-size: 40px;
-      padding: 10px;
+      font-size: 32px;
+      padding: 8px;
       margin: auto;
+      border: 2px solid $orange01;
+      transition: all 0.2s ease;
+
+      @include btn-hover-orange;
     }
   }
 }

@@ -65,6 +65,7 @@ section.shop-collection {
       max-height: 380px;
 
       img {
+        max-width: 95%;
         transition: all 0.2s ease;
       }
     }
@@ -81,7 +82,7 @@ section.shop-collection {
       border-color: $blue02;
 
       img {
-        max-width: 107%;
+        max-width: 100%;
       }
     }
   }
