@@ -1,0 +1,294 @@
+//////////////////////////////// REACT TUTORIAL STYLES ////////////////////////////////
+
+// .home {
+//   display: flex;
+//   height: 90vh;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 3rem;
+// }
+
+//////////////////////////////// END ////////////////////////////////
+
+
+@import './core';
+@import './typography';
+
+//////////////////////////////// REUSABLE RESETS ////////////////////////////////
+
+.under-construction-responsive {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: $font-stack;
+  color: $green04;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+form,
+fieldset,
+label {
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.img-container {
+  @include flex-center;
+  overflow: hidden;
+  // background-color: $blue01;
+
+  // img {
+  //   max-width: 120%;
+  // }
+}
+
+button,
+input {
+  background: none;
+  border: none;
+  outline: none;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+
+//////////////////////////////// APP GRID ////////////////////////////////
+body #root {
+  display: grid;
+  grid-template-columns: [left] auto [right];
+}
+
+section, nav {
+  grid-column: left / right;
+  display: grid;
+  grid-template-columns: [left] auto [lineL1] 120px [lineL2] 120px [lineL3] 120px [lineL4] 120px [lineL5] 120px [lineL6] 120px [center] 120px [lineR6] 120px [lineR5] 120px [lineR4] 120px [lineR3] 120px [lineR2] 120px [lineR1] auto [right];
+  grid-gap: 0 16px;
+  @include section-padding-lg-md;
+
+  .inner-section {
+    grid-column: lineL1 / lineR1;
+
+    &.full-width { grid-column: left / right; }
+    &.width-01 { grid-column: lineL1 / lineR1; }
+    &.width-02 { grid-column: lineL2 / lineR2; }
+    &.width-03 { grid-column: lineL3 / lineR3; }
+  }
+
+  &.text-and-image {
+  }
+
+  &.text-interject {
+    .inner-section {
+      @include flex-center-col;
+      font-style: italic;
+    }
+  }
+
+}
+
+footer {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+//////////////////////////////// UNIVERSAL STYLES ////////////////////////////////
+.text-centered {
+  text-align: center;
+}
+
+.border-radius {
+  border-radius: 5px;
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.flex-center-col {
+  @include flex-center-col;
+}
+
+.flex-center {
+  @include flex-center;
+}
+
+.two-col-40-60 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 0 16px;
+}
+
+.two-col-60-40 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 0 16px;
+}
+
+.two-col-70-30 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 0 16px;
+}
+
+.two-col-30-70 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 0 16px;
+}
+
+
+
+.two-col-even {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 16px;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.push-left {
+  margin-right: auto;
+}
+
+.center-selfX {
+  @include center-selfX;
+}
+
+.center-selfY {
+  @include center-selfY;
+}
+
+.centerAll {
+  @include centerAll;
+}
+
+.center-selfXY {
+  @include center-selfXY;
+}
+
+
+.bg-grey-bigknot {
+  background-color: $white01;
+  background-image: url('../../public/imgs/ngc_looseknot_e8e8e8_2000px.png');
+  background-repeat: no-repeat;
+  background-position: right -400px top 50%;
+  background-size: 80%;
+}
+
+.bg-f7f8f9-bigknot-center {
+  // background-color: $white01;
+  background-image: url('../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+.no-bg-img {
+  background-image: none !important;
+}
+
+.col-width-full {
+  width: 100%;
+}
+.col-width-md {
+  width: 80%;
+}
+.col-width-sm {
+  width: 60%;
+}
+.col-width-xsm {
+  width: 40%;
+  min-width: 600px;
+}
+
+.flexcont-space-between {
+  @include flex-center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-spacer {
+  grid-column: left / right;
+  height: 240px;
+}
+
+.material-symbols-rounded {
+  &.background {
+    border-radius: 100%;
+    background-color: $green02 !important;
+    padding: 2px;
+    color: white;
+  }
+
+  &.blue01 {
+    color: $blue01 !important;
+  }
+}
+
+// SVG COLOURS
+// #E8E8E8
+.svg-filter-lightgrey {
+  filter: invert(100%) sepia(7%) saturate(20%) hue-rotate(251deg) brightness(111%) contrast(82%);
+  transition: all 0.2s ease;
+}
+
+.svg-filter-green03 {
+  filter: invert(16%) sepia(11%) saturate(4544%) hue-rotate(137deg) brightness(101%) contrast(105%);
+  transition: all 0.2s ease;
+}
+
+
+@media screen and (max-width: 1500px) {
+  section {
+    grid-template-columns: [left] 5% [lineL1] 1fr [lineL2] 1fr [lineL3] 1fr [lineL4] 1fr [lineL5] 1fr [lineL6] 1fr [center] 1fr [lineR6] 1fr [lineR5] 1fr [lineR4] 1fr [lineR3] 1fr [lineR2] 1fr [lineR1] 5% [right];
+    grid-gap: 0 10px;
+  }
+
+}
+
+
+@media screen and (max-width: 1250px) {
+  .under-construction-responsive {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: $green04;
+    color: white;
+    @include flex-center-col;
+    padding: 10%;
+    z-index: 999;
+  }
+}

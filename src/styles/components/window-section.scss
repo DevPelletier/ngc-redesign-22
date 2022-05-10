@@ -1,0 +1,82 @@
+@import '../core';
+
+
+section.window {
+  padding: 0;
+  background-color: $green04;
+  color: white;
+  // background-image: url('../../../public/imgs/ngc_logo_knot_grey1.png');
+  // background-repeat: no-repeat;
+  // background-position: right -400px top 50%;
+  // background-size: 1500px;
+
+  .inner-section {
+    grid-column: left / right;
+  }
+
+  h3 {
+    color: $white02;
+  }
+
+  .window-row {
+    width: 100%;
+    // min-height: 700px;
+    // max-height: 1000px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: [left] 50% [center] 50% [right];
+    grid-gap: 0;
+    padding: 0;
+
+    &.height-sm {
+      min-height: 650px;
+
+      .img-container {
+        min-height: 650px;
+      }
+    }
+
+    &.height-md {
+      min-height: 850px;
+    }
+
+    &.height-lg {
+      min-height: 1000px;
+    }
+
+
+    .window-left,
+    .window-right {
+      @include center-onlyY;
+      height: inherit;
+
+      &.text-container {
+        padding: 130px 0;
+        margin: 0 auto;
+        width: 40vw;
+        max-width: 650px;
+        min-width: 450px;
+      }
+
+      .img-container {
+        background-color: $blue01;
+      }
+
+      &.img-window {
+        background-color: $blue02;
+      }
+    }
+
+    .window-left {
+      grid-column: left / center;
+    }
+
+    .window-right {
+      grid-column: right / center;
+    }
+  }
+
+  .button-row {
+    margin-right: auto;
+  }
+}

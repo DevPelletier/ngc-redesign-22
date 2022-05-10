@@ -1,0 +1,300 @@
+@import '../core';
+
+
+nav {
+  padding: 0;
+}
+
+//////////////////////////////// REACT TUTORIAL STYLES ////////////////////////////////
+.navbar {
+  background: $white02;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  width: 100%;
+
+  .inner-section {
+  }
+}
+
+.navbar-container {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  height: 100%;
+  // width: 95vw;
+  // max-width: 1820px;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: inherit;
+  width: 100%;
+  max-width: 2200px;
+
+
+  .img-container {
+    justify-content: flex-start;
+    background-color: white;
+  }
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 3vw;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  // width: 450px;
+
+  width: 25vw;
+  min-width: 250px;
+  max-width: 450px;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  background-color: $green03;
+  @include flex-center;
+  justify-content: flex-end;
+  // display: grid;
+  // grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  // justify-content: end;
+  height: 100px;
+
+  li:last-child {
+    margin-right: 3vw;
+  }
+}
+
+.nav-item {
+  height: 100px;
+  @include center-onlyY;
+  position: relative;
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: inherit;
+  font-family: $font-stack;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.33;
+  box-sizing: inherit;
+
+  a {
+    font-family: $font-stack;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.33;
+  }
+
+  &:hover {
+    transition: all 0.2s ease;
+  }
+}
+
+// .nav-links:hover {
+//   border-bottom: 8px solid $orange01;
+//   transition: all 0.2s ease-out;
+// }
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.dropdown_container {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 240px;
+  z-index: 1;
+  transition: all 0.2s ease-out;
+
+
+  .dropdown-link {
+    color: $green04;
+    display: inline-block;
+    font-family: $font-stack;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.33;
+    transition: all 0.2s ease;
+  }
+
+  .dropdown-btn {
+    padding: 0 20px;
+    height: 70px;
+    @include centerAll;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: $greenMain01;
+      color: white;
+    }
+  }
+}
+
+.dropdown {
+  &:hover {
+    .dropdown_container {
+      border-top: 8px solid $orange01;
+      display: grid;
+      grid-template-rows: 70px;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 100%);
+      background-color: white;
+      z-index: 1;
+    }
+  }
+}
+
+// NEED TO FIX THIS BREAKPOINT IS TOO LARGE
+@media screen and (max-width: 1700px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    @include flex-center-col;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+
+    a.btn {
+      margin: 1rem;
+    }
+
+  }
+
+  .nav-menu.active {
+    background: $green03;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    @include flex-center;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .nav-item {
+    min-width: 240px;
+    @include flex-center;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+  }
+
+  .menu-icon {
+    @include flex-center;
+    justify-content: flex-end;
+    background-color: $green03;
+    cursor: pointer;
+    padding-right: 3vw;
+
+    span {
+      // margin-right: 3vw;
+      font-size: 50px;
+      color: white;
+      transition: all 0.3s ease;
+      padding: 2px;
+      @include flex-center;
+
+      &:hover {
+        color: $orange01;
+        // font-size: 54px;
+        // padding: 0;
+      }
+    }
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .dropdown {
+    &:hover {
+      .dropdown_container {
+        left: 100%;
+        bottom: unset;
+        transform: unset;
+        top: 0;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+}
+//////////////////////////////// END ////////////////////////////////

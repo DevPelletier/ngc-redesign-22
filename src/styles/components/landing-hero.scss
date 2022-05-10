@@ -1,0 +1,34 @@
+@import '../core';
+
+.hero-container {
+  display: grid;
+  grid-template-columns: [left] 1fr [center] 1fr [right];
+  grid-gap: 0;
+  padding: 0;
+  height: 650px;
+}
+
+.hero-text {
+  grid-column: left / center;
+  background-color: $green02;
+  color: white;
+  height: inherit;
+  @include flex-center-col;
+  text-align: left;
+  justify-content: flex-start;
+
+  .text-container {
+    max-width: 650px;
+    margin: auto 5%;
+  }
+
+  a {
+    color: white;
+    border-color: white !important;
+  }
+}
+
+.hero-img-container {
+  grid-column: center / right;
+  height: inherit;
+}

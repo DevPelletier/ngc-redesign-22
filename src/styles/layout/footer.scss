@@ -1,0 +1,73 @@
+@import '../core';
+
+footer {
+  background-color: $green02;
+  color: white;
+  @include section-padding-lg-sm;
+  @include centerAll;
+
+  .footer-links-container {
+    @include center-selfX;
+    @include flex-center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 2000px;
+
+    gap: 48px 16px;
+  }
+
+  .footer-link-list {
+    width: 15vw;
+    min-width: 220px;
+    max-width: 360px;
+    padding-bottom: 32px;
+    text-align: left;
+    margin-right: auto;
+
+    h3 {
+      padding-bottom: 10px;
+      color: white;
+    }
+
+    li {
+      margin-bottom: 16px;
+    }
+
+    &.contact {
+      width: 25vw;
+      min-width: 330px;
+    }
+
+    a {
+      color: white;
+    }
+  }
+
+  .legal-links-container {
+    @include center-selfX;
+    @include centerAll;
+    grid-row-gap: 24px;
+    min-width: 330px;
+    margin-top: 50px;
+  }
+
+  .logo-container {
+    height: 120px;
+    width: 120px;
+    @include centerAll;
+    @include center-selfX;
+
+  }
+
+  .social-container {
+    margin-top: 40px;
+    display: flex;
+    a {
+      margin-right: 40px;
+
+      &:hover {
+        svg { color: $orange01; }
+      }
+    }
+  }
+}

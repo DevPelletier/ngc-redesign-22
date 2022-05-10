@@ -1,0 +1,42 @@
+@import '../core';
+
+section.offset-image {
+  padding: 0;
+  background-color: $grey02;
+  // padding-bottom: 260px;
+  // This height will have to change if the text part becomes bigger... need to figure out how to do that lol
+
+
+  .inner-section.offset-text {
+    grid-column: left / lineR6;
+    background: white;
+    padding: 125px 0;
+    width: calc(140px + (((100vw - (140px + 16*11px))/12)*7));
+    height: fit-content;
+
+    .text-container {
+      max-width: 540px;
+      margin-left: 7vw;
+      margin-right: 7vw;
+    }
+  }
+
+  .offset-img {
+    background: $blue01;
+    position: relative;
+    top: 10%;
+    left: -10%;
+    overflow: hidden;
+    width: 40vw;
+    height: 45vw;
+    min-height: 700px;
+
+    .img-container {
+      // @include center-selfAll-inrelativepos;
+
+      img {
+        @include center-selfAll-inrelativepos;
+      }
+    }
+  }
+}

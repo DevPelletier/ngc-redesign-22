@@ -1,0 +1,52 @@
+@import '../core';
+
+section.exploreprods {
+  background: $white02;
+
+  .inner-section {
+    grid-column: lineL2 / lineR2;
+    @include flex-center-col;
+  }
+
+  .text-container {
+    width: 40vw;
+    max-width: 600px;
+    min-width: 300px;
+  }
+
+  .explore-prod-container {
+    width: 100%;
+    @include flex-center;
+    flex-wrap: wrap;
+    // display: grid;
+    // grid-template-columns: repeat(5, 1fr);
+    grid-gap: 32px 16px;
+    margin: 32px auto;
+    color: $green04;
+  }
+
+  .explore-prod-btn {
+    border: none;
+    @include flex-center-col;
+    padding: 40px 30px;
+    @include shadow-01;
+    @include border-radius;
+    background-color: $white01;
+    background-image: url('../../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
+    background-repeat: no-repeat;
+    background-position: right 50% top 30%;
+    background-size: 80%;
+    width: 250px;
+
+    &:hover {
+      @include shadow-02;
+    }
+
+    .img-container {
+      margin-bottom: 30px;
+      // height: 75%;
+      // need to just do square images...?
+      width: 75%;
+    }
+  }
+}

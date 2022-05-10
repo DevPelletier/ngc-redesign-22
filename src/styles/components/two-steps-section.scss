@@ -1,0 +1,58 @@
+@import '../core';
+
+section.two-steps {
+  .inner-section {
+    grid-column: lineL2 / lineR2;
+  }
+}
+
+.two-steps-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.step-1,
+.step-2 {
+  @include flex-center-col;
+  justify-content: space-between;
+  // min-width: 400px;
+  width: 32vw;
+  max-width: 620px;
+  padding: 40px 50px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    // @include shadow-01;
+  }
+
+  a.btn {
+    margin-top: 32px;
+    align-self: flex-end;
+  }
+}
+
+.step-1 {
+  background-color: $blue01;
+}
+
+.step-2 {
+  background-color: $green04;
+  color: white;
+}
+
+@media screen and (max-width: 1300px) {
+  .two-steps-container {
+    flex-direction: column;
+    align-items: center;
+
+    .step-1, .step-2 {
+      width: 100%;
+      margin-bottom: 50px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

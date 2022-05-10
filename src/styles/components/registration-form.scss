@@ -1,0 +1,152 @@
+@import '../core';
+
+section.registration-form {
+  background-color: $green04;
+
+  .inner-section {
+    &.reg-form-container {
+      grid-column: lineL2 / lineR2;
+    }
+  }
+
+  .reg-form-container {
+    background: $white02;
+    padding: 80px 100px;
+    width: 80vw;
+    max-width: 1000px;
+    // min-width: 600px;
+    margin: auto;
+    @include flex-center-col;
+    @include shadow-01;
+  }
+
+  form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: [left] 1fr [center] 1fr [right];
+    grid-gap: 32px 24px;
+
+    label.mainLabel {
+      @include flex-center-col;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+
+      &.left {
+        grid-column: left / center;
+      }
+
+      &.right {
+        grid-column: center / right;
+      }
+
+      &.full {
+        grid-column: left / right;
+      }
+
+      .non-text-input {
+        margin-left: 10px;
+      }
+
+      p {
+        margin-bottom: 10px;
+
+        &.sm {
+          margin: 10px auto 20px;
+        }
+      }
+
+    }
+
+    input {
+      padding: 20px 24px;
+      border: 2px solid $green04;
+      font-size: 20px;
+      line-height: normal;
+      width: 100%;
+
+      font-family: $font-stack;
+
+    }
+
+    .checkbox-container {
+      @include flex-center;
+      justify-content: flex-start;
+      text-align: left;
+      @include standard-p-styles;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      input {
+        width: 16px;
+        margin-right: 10px;
+      }
+    }
+
+    /////////// START OF CUSTOM SELECT STYLES
+    // .dropdown-container {
+    //   position: relative;
+    //
+    //   select {
+    //     display: none;
+    //   }
+    // }
+    //
+    // .select-selected {
+    //   background-color: DodgerBlue;
+    // }
+    //
+    // /* Style the arrow inside the select element: */
+    // .select-selected:after {
+    //   position: absolute;
+    //   content: "";
+    //   top: 14px;
+    //   right: 10px;
+    //   width: 0;
+    //   height: 0;
+    //   border: 6px solid transparent;
+    //   border-color: #fff transparent transparent transparent;
+    // }
+    //
+    // /* Point the arrow upwards when the select box is open (active): */
+    // .select-selected.select-arrow-active:after {
+    //   border-color: transparent transparent #fff transparent;
+    //   top: 7px;
+    // }
+    //
+    // /* style the items (options), including the selected item: */
+    // .select-items div,.select-selected {
+    //   color: #ffffff;
+    //   padding: 8px 16px;
+    //   border: 1px solid transparent;
+    //   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    //   cursor: pointer;
+    // }
+    //
+    // /* Style items (options): */
+    // .select-items {
+    //   position: absolute;
+    //   background-color: DodgerBlue;
+    //   top: 100%;
+    //   left: 0;
+    //   right: 0;
+    //   z-index: 99;
+    // }
+    //
+    // /* Hide the items when the select box is closed: */
+    // .select-hide {
+    //   display: none;
+    // }
+    //
+    // .select-items div:hover, .same-as-selected {
+    //   background-color: rgba(0, 0, 0, 0.1);
+    // }
+    /////////// END OF CUSTOM SELECT STYLES
+
+    a.btn {
+      margin-left: 0;
+    }
+  }
+}

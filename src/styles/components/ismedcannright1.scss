@@ -1,0 +1,48 @@
+@import '../core';
+
+
+.ismedcannright_1 {
+
+  .inner-section {
+    grid-columns: lineL2 / lineR2;
+  }
+}
+
+.issue-card-container {
+
+}
+
+.issue-card {
+  background-color: white;
+  padding: 50px 2vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0 2vw;
+  border: 2px solid $green03;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-bottom: 50px;
+
+  .icon-item {
+    height: 5vw;
+    width: 5vw;
+    max-height: 75px;
+    max-width: 75px;
+    min-height: 40px;
+    min-width: 40px;
+
+    background: $green02;
+    border-radius: 100%;
+    @include centerAll;
+
+    span {
+      font-size: 42px;
+      color: white;
+    }
+  }
+
+  a.primary-link {
+    margin: 0;
+  }
+}

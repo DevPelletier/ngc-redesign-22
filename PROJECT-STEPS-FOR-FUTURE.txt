@@ -1,0 +1,19 @@
+Step 1
+Terminal - npx create-react-app APPNAME
+
+Step 2
+cd into the directory
+
+Step 3
+Install React Router Dom (5.2!), Material Icons, etc.
+npm install react-router-dom@5.2.0
+npm install material-icons@latest
+
+Step 4
+Create subdirectories: Assets, Components, Styles, Tests
+
+Step 5
+Copy the format here and get started!
+
+Step 6
+terminal run yarn start for a server

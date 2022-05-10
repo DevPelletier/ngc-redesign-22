@@ -1,0 +1,104 @@
+@import '../core';
+
+section.article-hero {
+  height: 70vh;
+  max-height: 700px;
+  min-height: 500px;
+  // background-color: $green04;
+  // color: white;
+
+  .inner-section {
+    text-align: left;
+  }
+
+  .text-container {
+    @include flex-center-col;
+    align-items: flex-start;
+  }
+
+  .img-container {
+    max-height: 450px;
+  }
+}
+
+section.article-info {
+  background-color: $green04;
+  color: white;
+
+  .inner-section {
+  }
+
+  p.h4-style {
+    font-weight: 400;
+  }
+
+  h3 { color: white; }
+
+  .article-author-tags-container {
+    font-style: normal;
+    position: absolute;
+    text-align: left;
+    left: 7.5%;
+
+    h6 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+section.article {
+  .inner-section {
+    @include flex-center-col;
+    text-align: left;
+
+    & > div {
+      margin-bottom: 120px;
+    }
+  }
+
+  .single-col-text {
+    width: 80%;
+    // min-width: 500px;
+    max-width: 680px;
+  }
+
+  .two-offset-imgs {
+    width: 90%;
+    @include flex-center;
+    justify-content: space-between;
+
+    .img-container {
+      height: 100%;
+      width: 45%;
+
+      &:last-child {
+        height: 75%;
+        width: 35%;
+      }
+    }
+  }
+
+  .two-col-even {
+    grid-column-gap: 8vw;
+
+    .text-container {
+
+    }
+  }
+
+  .how-can-i-try-medcann {
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 5vw;
+    margin-top: 140px !important;
+    // background-color: $white02;
+  }
+}
+
+section.text-interject {
+  @include section-padding-lg-sm;
+}

@@ -1,0 +1,54 @@
+@import '../core';
+
+section.ismedcannright_3 {
+  background-color: $green02;
+  background-image: url('../../../public/imgs/ngc_logo_knot_grey1.png');
+  background-repeat: no-repeat;
+  background-position: right -400px top 50%;
+  background-size: 80%;
+
+  color: white;
+
+  .inner-section {
+  }
+
+  .explore-medcann-card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px 16px;
+    margin: 50px 0;
+
+  }
+
+  .explore-medcann-card {
+    background: white;
+    color: $green04;
+    width: 100%;
+    max-width: 820px;
+    padding: 50px 70px;
+    @include flex-center-col;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    @include shadow-02;
+
+    a.primary-link {
+      margin-top: 32px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+  section.ismedcannright_3 {
+    .explore-medcann-card-container {
+      grid-template-columns: 1fr;
+
+      .explore-medcann-card {
+        margin: auto;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,176 @@
+@import './core';
+
+p, a, input, input::placeholder {
+  @include standard-p-styles;
+
+}
+p {
+  margin-bottom: 32px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &.sm {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.013rem;
+  }
+
+  &.h4-style {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    letter-spacing: 0.016rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+  }
+}
+input::placeholder {
+  font-weight: 300;
+  letter-spacing: 0.06rem;
+}
+
+h1, h2 {
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+  letter-spacing: 0.031rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.063rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: $green02;
+}
+
+h4 {
+  font-size: 1.75rem;
+  line-height: 2.375rem;
+  letter-spacing: 0.016rem;
+  font-weight: 800;
+  margin-bottom: 32px;
+  text-transform: capitalize;
+}
+
+h5 {
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.031rem;
+  font-weight: 800;
+}
+
+h6,
+a.h6-style {
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+  letter-spacing: 0.063rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+
+  &.primary-link {
+    display: inline-flex;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    border-bottom: 1px solid $green04;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    transition: all 0.2s;
+
+    & > span.material-symbols-rounded {
+      position: relative;
+      top: 4px;
+      transition: all 1s ease;
+    }
+
+    &:hover {
+      border-bottom: 4px solid $green04;
+      padding-bottom: 3px;
+
+      & > span.material-symbols-rounded.arrow {
+        left: 4px;
+      }
+    }
+
+    &.sm-primary-link {
+      font-size: 1rem;
+      padding-bottom: 2px;
+    }
+  }
+
+  &.link-centered {
+    margin: unset;
+    text-align: center;
+  }
+
+  &.dark-link {
+    color: white;
+    border-color: white;
+
+    &:hover {
+      color: white;
+      border-color: white;
+    }
+  }
+}
+
+span {
+  &.link-separator {
+    font-weight: 400;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+ul {
+  &.list-styled {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+    li {
+      color: $green04;
+      margin-bottom: 12px;
+
+      &::before {
+        content: "\2022";
+        color: $green02;
+        font-weight: bold;
+        display: inline-block;
+        width: 1.5rem;
+        margin-left: -1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  p {
+    font-size: 0.938rem;
+    line-height: 1.563rem;
+  }
+
+  h1, h2 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+    line-height: 0.938rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+  }
+}

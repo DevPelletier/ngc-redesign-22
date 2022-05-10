@@ -1,0 +1,70 @@
+@import '../core';
+
+section.newsletter {
+  background-color: $green04;
+  color: white;
+  @include flex-center-col;
+
+  .newsletter-container {
+    @include centerAll;
+  }
+
+}
+
+form.newsletter-signup {
+  margin-top: 24px;
+  @include center-selfX;
+  display: flex;
+  align-content: center;
+
+  .newsletter-inputs {
+    background-color: $green02;
+    padding: 10px 24px;
+    border-radius: 32px;
+    margin-right: 24px;
+    max-width: 720px;
+    min-width: 40vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    div {
+
+      &:nth-child(1) {
+        width: 47%;
+        margin-left: 0;
+      }
+      &:nth-child(2) {
+        width: 50%;
+        margin-right: 0;
+        padding-left: 30px;
+        border-left: 0.5px solid $grey02;
+      }
+    }
+
+    input {
+      height: 40px;
+      width: 100%;
+      color: white;
+      &::placeholder {
+        color: $greenMain01;
+      }
+      // @include center-onlyY;
+    }
+  }
+
+  button[type="submit"] {
+    @include centerAll;
+    width: 60px;
+    height: 60px;
+
+    .btn-submit {
+      color: white;
+      background: $orange01;
+      border-radius: 100%;
+      font-size: 40px;
+      padding: 10px;
+      margin: auto;
+    }
+  }
+}

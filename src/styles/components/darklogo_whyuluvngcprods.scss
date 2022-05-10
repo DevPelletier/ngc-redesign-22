@@ -1,0 +1,31 @@
+@import '../core';
+
+section.dark-logostamp_whyngcprods {
+  background-color: $green02;
+  color: white;
+  background-image: url('../../../public/imgs/ngc_looseknot_lightgreen_600px.png'), url('../../../public/imgs/ngc_badge_nocopy_lightgreen_600px.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -350px bottom -350px, right -350px top -350px;
+  @include section-padding-lg-lg;
+
+
+  .inner-section {
+    &.text-container {
+      grid-column: lineL2 / lineL6;
+
+      h4 {
+        margin-top: 80px;
+      }
+    }
+
+    &.img-container {
+      grid-column: center / lineR2;
+    }
+  }
+
+  .img-container {
+    margin: 6vh 0;
+    background: none;
+    max-height: 90%;
+  }
+}

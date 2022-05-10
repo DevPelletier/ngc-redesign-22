@@ -1,0 +1,179 @@
+// Fun stuff to maybe include later =>
+// ABILITY TO MAP OUT VALUES FOR DIFFERENT USES
+// @use "sass:map";
+//
+// $theme-colors: (
+//   "success": #######,
+//   "info": ########,,
+//   "warning": ########,,
+// );
+// .alert {
+//   // Instead of $theme-color-#{warning}
+//   background-color: map.get($theme-colors, "warning");
+// }
+
+
+ ///////////////////// COLOURS /////////////////////
+$greenMain01: #4D8382;
+$greeMainn02: #419391;
+$green01: #357171;
+$green02: #115757;
+$green03: #003636;
+$green04: #002727;
+$white01: #FFF;
+$white02: #F7F8F9;
+$grey01: #E8E8E8;
+$grey02: #D8D8D8;
+$blue01: #CEE8E8;
+$blue02: #A6D4D4;
+$orange01: #F18069;
+$orange02: #C65943;
+
+ ///////////////////// FONTS /////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400,0,800;1,800&display=swap');
+$font-stack: 'Lato', Helvetica, sans-serif;
+
+
+ ///////////////////// MIXINS /////////////////////
+ // The below are referenced from here:
+ // https://moderncss.dev/complete-guide-to-centering-in-css/#vertically-and-horizontally-xy
+@mixin centerAll {
+  display: grid;
+	place-content: center;
+  text-align: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@mixin flex-center-col {
+  @include flex-center;
+  flex-direction: column;
+}
+
+
+@mixin center-selfAll-inrelativepos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin center-selfY-inrelativepos {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin center-selfX-inrelativepos {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin center-onlyY {
+  display: grid;
+  align-content: center;
+}
+
+@mixin center-onlyX {
+  display: grid;
+	justify-content: center;
+}
+
+
+@mixin center-selfX {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin center-selfY {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@mixin center-selfXY {
+  margin: auto;
+}
+
+@mixin section-padding-lg-lg {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+
+@mixin section-padding-lg-md {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@mixin section-padding-lg-sm {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@mixin section-padding-sm-lg {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@mixin section-padding-sm-sm {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+////////////// TYPOGRAPHY
+@mixin standard-p-styles {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.013rem;
+  font-weight: 400;
+}
+
+@mixin shadow-01 {
+  box-shadow: 0 8px 12px rgb(0 0 0 / 15%);
+}
+
+@mixin shadow-02 {
+  box-shadow: 0 12px 16px rgb(0 0 0 / 18%);
+}
+
+
+@mixin border-radius {
+  border-radius: 5px;
+}
+
+@mixin btn-hover-green {
+  &:hover {
+    background-color: $green02;
+    color: white;
+    border-color: $green02;
+  }
+}
+
+@mixin btn-hover-orange {
+  &:hover {
+    background-color: $orange02;
+    color: white;
+    border-color: $orange02;
+  }
+}
+
+@mixin btn-hover-white {
+  &:hover {
+    background-color: white;
+    color: $green04;
+    border-color: $green03;
+  }
+}
+
+@mixin img-full-height {
+  height: 100%;
+  width: auto;
+  max-width: unset;
+}

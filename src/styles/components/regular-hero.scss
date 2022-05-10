@@ -1,0 +1,32 @@
+@import '../core';
+
+
+section.regular-hero {
+
+  background-color: white;
+  // background-image: url('../../../public/imgs/ngc_logo_knot_grey1.png');
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: 80%;
+
+
+  .inner-section {
+    grid-column: lineL4 / lineR4;
+    @include flex-center-col;
+  }
+
+  p#registration-flag {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+    span {
+      text-transform: uppercase;
+      padding: 3px 12px;
+      border-radius: 10px;
+      margin-left: 10px;
+      background: #43A31D;
+      color: white;
+
+    }
+  }
+}

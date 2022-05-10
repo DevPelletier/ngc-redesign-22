@@ -1,0 +1,47 @@
+@import '../core';
+
+section.dark-logostamp {
+  background-color: $green02;
+  background-image: url('../../../public/imgs/ngc_looseknot_lightgreen_600px.png'), url('../../../public/imgs/ngc_badge_nocopy_lightgreen_600px.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -350px bottom -350px, right -350px top -350px;
+
+  .inner-section {
+    grid-column: lineL3 / lineR3;
+    color: white;
+    @include flex-center-col;
+  }
+}
+
+.icon-item-container {
+  @include flex-center;
+  justify-content: space-between;
+  // width: 100%;
+}
+
+.item-container {
+  margin-top: 80px;
+  @include flex-center-col;
+  margin-right: 50px;
+  width: 15vw;
+  max-width: 300px;
+  min-width: 240px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .icon-item {
+    height: 100px;
+    width: 100px;
+    background: $green01;
+    border-radius: 120px;
+    @include centerAll;
+    margin: auto;
+    margin-bottom: 45px;
+
+    span {
+      font-size: 60px;
+    }
+  }
+}

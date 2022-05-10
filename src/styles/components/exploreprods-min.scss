@@ -1,0 +1,17 @@
+@import '../core';
+
+section.exploreprods-min {
+  padding: 140px 0;
+
+  .btn-container {
+    margin-bottom: 80px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a.btn {
+      margin-right: 12px;
+    }
+  }
+}

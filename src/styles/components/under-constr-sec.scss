@@ -1,0 +1,9 @@
+@import '../core';
+
+section.under-constr-sec {
+  @include section-padding-lg-sm;
+  background-color: $green04;
+  color: white;
+  min-height: 50vh;
+  @include flex-center-col;
+}
