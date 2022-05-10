@@ -37,7 +37,7 @@ function Navbar() {
 
 
     return (
-        <nav className="navbar">
+        <nav className="navbar test">
           <div className="inner-section navbar-container">
             <div className="img-container">
               <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
