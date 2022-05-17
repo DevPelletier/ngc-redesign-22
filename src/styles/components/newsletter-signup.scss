@@ -1,7 +1,7 @@
 @import '../core';
 
 section.newsletter {
-  background-color: $green04;
+  background-color: $green03;
   color: white;
   @include flex-center-col;
 
@@ -46,9 +46,27 @@ form.newsletter-signup {
     input {
       height: 40px;
       width: 100%;
-      color: white;
-      &::placeholder {
-        color: $greenMain01;
+      color: white !important;
+      background-color: none !important;
+
+      &#dark-input {
+        &::placeholder {
+          color: $greenMain01 !important;
+        }
+
+        &:autofill {
+          background-color: $green02 !important;
+        }
+        &:-webkit-autofill {
+          background-color: $green02 !important;
+
+          &:focus {
+            background-color: $green02 !important;
+          }
+        }
+        &:-internal-autofill-selected {
+          background-color: $green02 !important;
+        }
       }
       // @include center-onlyY;
     }
@@ -70,6 +88,52 @@ form.newsletter-signup {
       transition: all 0.2s ease;
 
       @include btn-hover-orange;
+    }
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  section.newsletter {
+
+    .newsletter-container {
+      width: 80vw;
+    }
+
+    .newsletter-signup {
+      width: 100%;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+    .newsletter-inputs {
+      background: none;
+      flex-direction: column;
+      margin-right: 0;
+      width: 100%;
+      max-width: unset;
+
+      & > div {
+        background-color: $green01;
+        padding: 10px 24px;
+        border-radius: 50px;
+        width: unset !important;
+        margin-bottom: 24px;
+      }
+    }
+
+    .btn-submit {
+      padding: 12px 40px !important;
+      border-radius: 32px !important;
+    }
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  section.newsletter {
+    .newsletter-inputs {
+      padding: 0;
     }
   }
 }

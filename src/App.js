@@ -8,12 +8,32 @@ import Footer from './components/footer';
 
 import Home from './components/pages/home';
 import Shop from './components/pages/shop';
+import ShopCBD from './components/pages/shop-cbd';
+
 import Register from './components/pages/register';
 import StartHere from './components/pages/start-here';
 import IsMedCannRightPage from './components/pages/page-is-medcann-right-for-me';
 import LearningHub from './components/pages/learning-hub';
 import Product from './components/pages/product';
 import Article from './components/pages/article';
+import SupportMain from './components/pages/ngc-support-main';
+import VetSupport from './components/pages/vet-support';
+import Seniors from './components/pages/seniors';
+import InsuranceCoverage from './components/pages/insurance-coverage';
+import CompassionatePricing from './components/pages/compassionate-pricing';
+import AboutUs from './components/pages/about-us';
+import MedicalDisclaimer from './components/pages/medical-disclaimer';
+import PrivacyPolicy from './components/pages/privacy-policy';
+import TermsConditions from './components/pages/terms-conditions';
+import HCPClinicsMain from './components/pages/hcp-clinics-main';
+import FindAClinic from './components/pages/find-a-clinic';
+import Careers from './components/pages/careers';
+import TransferYourRx from './components/pages/transfer-your-rx';
+import ClientForms from './components/pages/client-forms';
+import FAQs from './components/pages/faqs';
+
+import Page404 from './components/pages/404';
+
 
 import GoToTop from './components/go-to-top';
 
@@ -33,6 +53,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/shop' exact component={Shop} />
+          <Route path='/shop-cbd' exact component={ShopCBD} />
           <Route path='/register' exact component={Register} />
           <Route path='/start-here' exact component={StartHere} />
           <Route path='/is-medical-cannabis-right-for-me' exact component={IsMedCannRightPage} />
@@ -40,10 +61,23 @@ function App() {
           <Route path='/product' exact component={Product} />
           <Route path='/article' exact component={Article} />
           <Route path='/learning-hub/article' exact component={Article} />
+          <Route path='/support-programs' exact component={SupportMain} />
+          <Route path='/veterans' exact component={VetSupport} />
+          <Route path='/seniors-discount' exact component={Seniors} />
+          <Route path='/insurance-coverage' exact component={InsuranceCoverage} />
+          <Route path='/compassionate-pricing-low-income' exact component={CompassionatePricing} />
+          <Route path='/about-us' exact component={AboutUs} />
+          <Route path='/medical-disclaimer' exact component={MedicalDisclaimer} />
+          <Route path='/privacy-policy' exact component={PrivacyPolicy} />
+          <Route path='/terms-conditions' exact component={TermsConditions} />
+          <Route path='/healthcare-professionals-clinics' exact component={HCPClinicsMain} />
+          <Route path='/find-a-clinic' exact component={FindAClinic} />
+          <Route path='/careers' exact component={Careers} />
+          <Route path='/transfer-your-prescription' exact component={TransferYourRx} />
+          <Route path='/client-forms' exact component={ClientForms} />
+          <Route path='/faqs' exact component={FAQs} />
 
-
-          <Route path='/other' exact component={Other} />
-          <Route component={UnderConstrPage} />
+          <Route component={Page404} />
         </Switch>
         <NewsletterSignup />
         <Footer />

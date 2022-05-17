@@ -16,16 +16,24 @@ section.dark-logostamp {
 .icon-item-container {
   @include flex-center;
   justify-content: space-between;
+
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 32px;
+
+  margin-top: 50px;
   // width: 100%;
 }
 
 .item-container {
-  margin-top: 80px;
+  // margin-top: 80px;
   @include flex-center-col;
+  justify-content: flex-start;
   margin-right: 50px;
   width: 15vw;
   max-width: 300px;
   min-width: 240px;
+  height: 100%;
 
   &:last-child {
     margin-right: 0;
@@ -37,11 +45,31 @@ section.dark-logostamp {
     background: $green01;
     border-radius: 120px;
     @include centerAll;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 45px;
 
     span {
       font-size: 60px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  section.dark-logostamp {
+    .icon-item-container {
+      grid-template-columns: unset;
+      grid-gap: 80px 0;
+      width: 100%;
+      justify-content: center;
+
+      .item-container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60vw;
+        min-width: 200px;
+      }
     }
   }
 }

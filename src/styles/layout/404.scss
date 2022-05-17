@@ -1,0 +1,33 @@
+@import '../core';
+
+section.standard {
+  padding: 0;
+
+  .inner-section {
+    padding: 100px 0;
+    width: 70vw;
+    max-width: 800px;
+    min-width: 300px;
+    height: calc(100vh - 100px);
+    @include flex-center;
+    justify-content: flex-start;
+    text-align: left;
+    min-height: 600px;
+    max-height: 1200px;
+
+
+    // margin: 20vh auto 20vh 5vw;
+    // height: 60vh;
+
+    .text-container {
+      @include flex-center-col;
+      text-align: left;
+      & > h4,
+      & > a {
+        margin-right: auto;
+      }
+
+    }
+
+  }
+}

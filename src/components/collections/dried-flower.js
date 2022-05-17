@@ -6,10 +6,11 @@ import '../../styles/components/shop-collection.scss';
 
 const Collection = (props) => {
     return (
-      <div className="collection-container" ref={props.refProp}>
+      <div className="collection-container">
+      <div className="scrollAnchor" ref={props.refProp}></div>
         <div className="collection-header">
           <h3>Dried Flower</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quisquam ipsam consectetur nisi vitae fuga asperiores inventore, quos ad consequatur ullam cupiditate nihil ea maxime, autem rem deserunt. Nemo, deleniti.</p>
+          <p>Grown in NGC's highly controlled, pesticide-free, state-of-the-art hydroponic facility, where our expert grow team cultivates cannabis strains that are industry-leading in quality and consistency.</p>
         </div>
         <div className="collection-listings-container">
           <div className="listing-container border-radius">

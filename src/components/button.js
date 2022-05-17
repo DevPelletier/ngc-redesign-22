@@ -6,15 +6,17 @@ const STYLES = ['btn--primary', 'btn--secondary', 'btn--primary sub-menu-btn', '
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-const LINK = null;
+const LINKnull = null;
 
 
-export const Button = ({children, type, onClick, buttonStyle, buttonSize, url}) => {
+export const Button = ({children, type, onClick, buttonStyle, buttonSize, url, target}) => {
   const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-  const linkProps = url ? {to: url} : {LINK};
+  const link = url ? {to: url} : {LINKnull};
+  const windowTarget = target ? {target: "_blank"} : {LINKnull};
+
 
   // const checkButtonLink = LINK==(buttonLink) ? buttonLink : LINK;
 
@@ -22,7 +24,8 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize, url}) 
 
   return (
     <Link
-      {...linkProps}
+      {...link}
+      {...windowTarget}
       className='btn'
       >
 

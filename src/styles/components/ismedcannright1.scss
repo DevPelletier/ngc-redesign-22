@@ -3,8 +3,10 @@
 
 .ismedcannright_1 {
 
+  background-color: $white02;
+
   .inner-section {
-    grid-columns: lineL2 / lineR2;
+    grid-column: lineL2 / lineR2;
   }
 }
 
@@ -29,8 +31,8 @@
     width: 5vw;
     max-height: 75px;
     max-width: 75px;
-    min-height: 40px;
-    min-width: 40px;
+    min-height: 60px;
+    min-width: 60px;
 
     background: $green02;
     border-radius: 100%;
@@ -44,5 +46,31 @@
 
   a.primary-link {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section.ismedcannright_1 {
+    .inner-section {
+        grid-template-columns: unset;
+        grid-gap: 80px 0;
+    }
+
+    .issue-card {
+      margin-right: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .issue-card {
+    width: 100%;
+    grid-template-columns: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    grid-gap: 32px 0;
   }
 }

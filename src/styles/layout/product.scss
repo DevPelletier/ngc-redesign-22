@@ -149,3 +149,59 @@ section.suggested-prods {
   }
 }
 ///////////// END TAGS STANDARD STYLES
+
+@media screen and (max-width: 900px) {
+  section.product-hero {
+    grid-template-columns: unset;
+    height: unset;
+    grid-template-rows: [top] auto [center] auto [bottom];
+    grid-gap: 80px 0;
+    padding-bottom: 80px;
+
+    .prod-img-container {
+      min-height: 500px;
+      height: 70vh;
+      max-height: 700px;
+    }
+
+    .prod-info-container {
+      width: 85%;
+
+      a.btn {
+        margin-bottom: 32px !important;
+      }
+    }
+  }
+
+  section.suggested-prods {
+    .collection-container {
+      padding: 160px 0 0;
+
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+    .collection-listings-container {
+      grid-template-columns: unset;
+      grid-gap: 80px 0;
+
+      .listing-container {
+        padding: 0;
+      }
+
+
+
+      .img-container {
+        img {
+          height: 100%;
+          width: auto;
+          max-width: unset !important;
+        }
+      }
+
+      .tags-container {
+        margin: 24px auto;
+      }
+    }
+  }
+}

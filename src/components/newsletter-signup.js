@@ -11,15 +11,15 @@ function NewsletterSignup() {
     return (
       <section className='newsletter'>
         <div className="newsletter-container">
-          <h2>Sign Up for Medical Cannabis Updates</h2>
-          <p>Get the latest news and innovation on Medical Cannabis, as well as NGC news and products, straight to your inbox</p>
+          <h2>Join the Medicinal Cannabis Revolution</h2>
+          <p>Get the latest news and innovation on Medicinal Cannabis, as well as NGC news and products, straight to your inbox</p>
           <form className='newsletter-signup'>
             <div className="newsletter-inputs">
               <div>
-                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="name" placeholder="name" id="dark-input" />
               </div>
               <div>
-                <input type="email" name="email" placeholder="Email" />
+                <input type="email" name="email" placeholder="your@email.com" id="dark-input" />
               </div>
             </div>
             <button type="submit" value="Submit" class="btn-success" disabled>

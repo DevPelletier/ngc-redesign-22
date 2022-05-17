@@ -1,0 +1,50 @@
+@import '../core';
+
+section.faqs {
+
+  .accordion-container {
+    // background-color: $white02;
+    border: 1px solid $green01;
+    padding: 80px 60px;
+
+    .accordion {
+      border-radius: 5px;
+      border: 1px solid $blue01;
+      // background: $blue01;
+      // color: white;
+    }
+
+    .scrollAnchor {
+      position: relative;
+      top: calc(-100px - 5vh);
+    }
+    h3 {
+      margin: 50px 0 24px;
+
+      &#first {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .faqs-container {
+
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .faqs-container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .accordion-container {
+    padding: 50px 5vw !important;
+  }
+
+  .scrollAnchor {
+    position: relative;
+    top: calc(-50px - 5vh) !important;
+  }
+
+}

@@ -6,10 +6,11 @@ import '../../styles/components/shop-collection.scss';
 
 const Collection = (props) => {
     return (
-      <div className="collection-container" ref={props.refProp}>
+      <div className="collection-container">
+      <div className="scrollAnchor" ref={props.refProp}></div>
         <div className="collection-header">
           <h3>Cannabis Sprays</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quisquam ipsam consectetur nisi vitae fuga asperiores inventore, quos ad consequatur ullam cupiditate nihil ea maxime, autem rem deserunt. Nemo, deleniti.</p>
+          <p>Discover NGC's line of medicinal cannabis extracts in a convenient metered-spray bottle. Each extract is packaged in an opaque, child-resistant, pharmaceutical-grade 15ml spray bottle to keep your medical cannabis safe, as well as providing a consistent dose per spray for ease-of-use.</p>
         </div>
         <div className="collection-listings-container">
           <div className="listing-container border-radius">

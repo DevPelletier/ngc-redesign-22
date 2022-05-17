@@ -10,9 +10,10 @@ import '../styles/components/regular-hero.scss';
 const registerContent = {
   title: 'NGC Patient Registration',
   p1: 'Under Health Canada regulations, you must be registered with your chosen LP in order to purchase medicinal cannabis. Don’t worry, we’ve mad the process as simple as possible! Start by completing the registration form below:',
-  p2: 'If you have any questions, please call NGC’s Client Support team directly at:',
+  p2: "If you have any questions for us, please don't hesitate to contact NGC’s Client Support team directly at:",
   contactInfo: '1-866-233-3707 or ClientServices@NorthernGreenCanada.com',
-  p3: 'Our support team is available to answer calls Monday through Friday from 8:30AM to 5:00PM EST.'
+  p3: 'Our support team is available to answer calls Monday through Friday from 8:30AM to 5:00PM EST.',
+  p4: "If you are a Clinic or Prescriber, please visit our"
 }
 
 const ismedcannright = {
@@ -30,8 +31,13 @@ const otherContent = {
   p3: 'Our supasdfasdfport team is available to answer calls Monday through Friday from 8:30AM to 5:00PM EST.'
 }
 
+const scrollToForm = () => {
+  document.getElementById("reg-form-sec").scrollIntoView({behavior: "smooth"});
+}
 
 const regularHero = (props) => (
+
+
   <Switch>
     <Route path="/register">
       <section className="regular-hero bg-f7f8f9-bigknot-center">
@@ -41,11 +47,22 @@ const regularHero = (props) => (
             Registration is:
             <span>Open</span>
           </p>
-          <p>{registerContent.p1}<br /><br /><span class="material-symbols-rounded background">arrow_downward</span></p>
+          <p>{registerContent.p1}<br /><br />
+          <span
+            class="material-symbols-rounded background scrolltobtn"
+            onClick={scrollToForm}
+            >
+            arrow_downward
+            </span>
+          </p>
           <p>
             {registerContent.p2}
             <strong>{registerContent.contactInfo}</strong><br /><br />
             {registerContent.p3}
+          </p>
+          <p>
+            {registerContent.p4}&nbsp;
+            <a href="/">Practitioner and Clinic Resources</a> page
           </p>
         </div>
       </section>
@@ -59,8 +76,8 @@ const regularHero = (props) => (
         </div>
       </section>
     </Route>
-    <Route path="/other">
-      <section className="regular-hero">
+    <Route>
+      <section className="regular-hero bg-f7f8f9-bigknot-center">
         <div className="inner-section">
           <h2>{otherContent.title}</h2>
           <p>{otherContent.p1}</p>

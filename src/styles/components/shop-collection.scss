@@ -6,6 +6,12 @@ section.shop-collection {
 
   }
 
+  .scrollAnchor {
+    position: relative;
+    top: calc(-100px - 5vh);
+  }
+
+
   .collection-container {
     padding: 80px 0 40px;
 
@@ -129,4 +135,51 @@ section.shop-collection {
     }
   }
 
+}
+
+
+@media screen and (max-width: 900px) {
+  section.shop-collection {
+
+    .collection-container {
+      padding: 160px 0 0;
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+    .collection-listings-container {
+      grid-template-columns: unset;
+      @include flex-center-col;
+      grid-gap: 50px 0;
+      width: 100%;
+
+      .listing-container {
+        padding: 0;
+        width: 100%;
+      }
+
+
+
+      .img-container {
+        img {
+          height: 100%;
+          width: auto;
+          max-width: unset !important;
+        }
+      }
+
+      .tags-container {
+        margin: 24px auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.shop-collection {
+    .collection-header {
+      width: 100%;
+      min-width: unset;
+    }
+  }
 }

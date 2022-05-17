@@ -68,6 +68,7 @@ section.hub-latest {
   width: 25vw;
   max-width: 500px;
   min-width: 400px;
+  margin: auto;
 
   .img-container {
     width: 100%;
@@ -99,3 +100,21 @@ span.blog-link-date {
 }
 
 ///////////////// END
+
+@media screen and (max-width: 900px) {
+  section.hub-highlights {
+    .blog-link-container {
+      width: 100%;
+      max-width: 600px;
+      min-width: 280px;
+    }
+  }
+
+  section.hub-latest {
+    .blog-link-container {
+      width: 70vw;
+      min-width: 280px;
+      max-width: 500px;
+    }
+  }
+}

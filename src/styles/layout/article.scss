@@ -102,3 +102,51 @@ section.article {
 section.text-interject {
   @include section-padding-lg-sm;
 }
+
+@media screen and (max-width: 900px) {
+  section.article-hero {
+    height: unset;
+    max-height: unset;
+    min-height: unset;
+
+    .inner-section {
+      grid-template-columns: unset;
+    }
+
+    .img-container {
+      margin: auto;
+      height: 70vh;
+      min-height: 350px;
+      max-height: 500px;
+    }
+  }
+
+  section.article-info {
+    .article-author-tags-container {
+      position: initial;
+      text-align: center;
+      margin-top: 24px;
+    }
+  }
+
+  section.article {
+    .two-offset-imgs {
+      flex-direction: column;
+
+      .img-container {
+        &:first-child {
+          width: 100%;
+          height: 60vh;
+          min-height: 400px;
+          margin-bottom: 50px;
+        }
+
+        &:last-child {
+          width: 80%;
+          height: 50vh;
+          min-height: 280px;
+        }
+      }
+    }
+  }
+}

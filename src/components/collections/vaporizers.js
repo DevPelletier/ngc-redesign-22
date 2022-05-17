@@ -6,10 +6,11 @@ import '../../styles/components/shop-collection.scss';
 
 const Collection = (props) => {
     return (
-      <div className="collection-container" ref={props.refProp}>
+      <div className="collection-container">
+      <div className="scrollAnchor" ref={props.refProp}></div>
         <div className="collection-header">
           <h3>Vaporizers</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quisquam ipsam consectetur nisi vitae fuga asperiores inventore, quos ad consequatur ullam cupiditate nihil ea maxime, autem rem deserunt. Nemo, deleniti.</p>
+          <p>NGC has partnered with Kaiser Day Cannaceuticals to carry their line of custom-formulation, full-spectrum vaporizers. Each vaporizer formula has been specifically created to maximize the potential therapeutic effects of the cannabinoids they contain, for specific purposes.</p>
         </div>
         <div className="collection-listings-container">
           <div className="listing-container border-radius">

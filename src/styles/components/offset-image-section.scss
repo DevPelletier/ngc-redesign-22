@@ -43,3 +43,48 @@ section.offset-image {
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  section.offset-image {
+    width: 100vw;
+
+    .inner-section {
+      &.offset-text {
+        grid-column: left / right;
+        width: 100%;
+        padding-bottom: 150px;
+      }
+    }
+
+    .offset-text {
+      .text-container {
+        margin: auto !important;
+        width: 85vw  !important;
+        max-width: unset !important;
+      }
+    }
+
+    .offset-img {
+      position: relative;
+      right: unset;
+      width: 100vw;
+      min-height: 350px;
+      max-height: 700px;
+      overflow: visible;
+      padding-bottom: 50px;
+
+      .img-container {
+        position: relative;
+        top: -80px;
+        width: 70vw;
+        margin: auto;
+        border-radius: 5px;
+
+        img {
+          height: unset;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

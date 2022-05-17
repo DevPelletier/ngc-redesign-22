@@ -23,10 +23,11 @@ import '../../styles/components/shop-collection.scss';
 const Collection = (props) => {
 
     return (
-      <div className="collection-container" ref={props.refProp}>
+      <div className="collection-container">
+      <div className="scrollAnchor" ref={props.refProp}></div>
         <div className="collection-header">
-          <h3>Most Popular</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quisquam ipsam consectetur nisi vitae fuga asperiores inventore, quos ad consequatur ullam cupiditate nihil ea maxime, autem rem deserunt. Nemo, deleniti.</p>
+          <h3>Best Sellers</h3>
+          <p>Discover the most popular medicinal cannabis products in NGC's collection - featuring NGC's hydroponically-grown dried flower, CBD and THC oils, full-spectrum vaporizers, and more.</p>
         </div>
         <div className="collection-listings-container">
           <div className="listing-container border-radius">

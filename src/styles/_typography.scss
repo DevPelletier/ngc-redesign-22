@@ -2,8 +2,12 @@
 
 p, a, input, input::placeholder {
   @include standard-p-styles;
-
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+  width: inherit;
+}
+
 p {
   margin-bottom: 32px;
 
@@ -15,6 +19,14 @@ p {
     font-size: 0.75rem;
     line-height: 1.25rem;
     letter-spacing: 0.013rem;
+  }
+
+  &.h1-style {
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    letter-spacing: 0.031rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
   }
 
   &.h4-style {
@@ -76,8 +88,12 @@ a.h6-style {
 a {
   color: inherit;
   text-decoration: inherit;
+  font-weight: bold;
+  width: auto;
+
 
   &.primary-link {
+    font-weight: 400;
     display: inline-flex;
     text-transform: uppercase;
     padding-bottom: 6px;
@@ -132,7 +148,13 @@ span {
   }
 }
 
-ul {
+ul, ol {
+  margin: 24px 0;
+
+  li {
+    margin-bottom: 16px;
+  }
+
   &.list-styled {
     margin-left: 2rem;
     margin-bottom: 2rem;
@@ -153,10 +175,10 @@ ul {
   }
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 900px) {
   p {
-    font-size: 0.938rem;
-    line-height: 1.563rem;
+    font-size: 1rem;
+    line-height: 1.85rem;
   }
 
   h1, h2 {
@@ -172,5 +194,16 @@ ul {
   h4 {
     font-size: 1.5rem;
     line-height: 2.125rem;
+    margin-bottom: 24px;
+  }
+
+  a {
+    &.primary-link {
+      font-size: 13px;
+    }
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    width: unset;
   }
 }

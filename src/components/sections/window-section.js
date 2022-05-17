@@ -17,27 +17,31 @@ function WindowSection() {
             <div className="window-right text-container">
               <h3>Northern Green Cares</h3>
               <h2>We Support Our Patients</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis perferendis explicabo consequuntur iusto provident consectetur doloribus atque quis odio eaque alias laborum ullam, ducimus sit accusamus mollitia officiis ratione.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis perferendis explicabo consequuntur iusto provident consectetur doloribus atque quis odio eaque alias laborum ullam, ducimus sit accusamus mollitia officiis ratione.</p>
+              <p>You can be assured at NGC we develop cannabis products backed by research contributed by scientists, doctors, and a network of cultivation experts, both domestic and international. Our team fosters a client-centered care approach - what you value is what we care about.</p>
+              <p>We are available to answer any questions you have, and assist you along the path to improving your quality of life. We believe in reaching beyond common service standards, and as such, we have a dedicated team of in-house medical staff to protect your safety. Our cultivation experts produce premium products using state of the art technology and equipment to ensure safe, tested, and consistent cannabis products.</p>
+
               <div className="btn-container">
                 <Button
-                >
-                  Our Patient Support Programs
-                </Button>
-                <Button
+                url="/why-ngc"
                 >
                   Learn More About NGC
+                </Button>
+                <Button
+                  url="/patient-support"
+                >
+                  Our Patient Support Programs
                 </Button>
               </div>
             </div>
           </div>
-          <div className="window-row height-sm">
+          <div className="window-row height-sm mobile-bg-green02">
             <div className="window-left text-container">
               <h3>For Our Healthcare Partners</h3>
               <h2>Resources for HCPs & Clinics</h2>
               <p>We simplify the process for you and your patients while helping you make important decisions to ensure the best care. After being prescribed medical cannabis, it’s important that patients get registered to be able to place their orders. Access resources and information to help them with this process.</p>
               <div className="btn-container">
                 <Button
+                  url="/healthcare-professionals-clinics"
                 >
                   Learn More
                 </Button>

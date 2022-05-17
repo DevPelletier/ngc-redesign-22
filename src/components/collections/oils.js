@@ -6,10 +6,11 @@ import '../../styles/components/shop-collection.scss';
 
 const Collection = (props) => {
     return (
-      <div className="collection-container" ref={props.refProp}>
+      <div className="collection-container">
+      <div className="scrollAnchor" ref={props.refProp}></div>
         <div className="collection-header">
           <h3>Cannabis Oils</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quisquam ipsam consectetur nisi vitae fuga asperiores inventore, quos ad consequatur ullam cupiditate nihil ea maxime, autem rem deserunt. Nemo, deleniti.</p>
+          <p>Discover NGC's line of medicinal cannabis extracts. Each extract is packaged in an opaque, child-resistant, pharmaceutical-grade 30ml bottle to keep your medical cannabis safe, as well as a graduated 1.0ml dropper for ease-of-use.</p>
         </div>
         <div className="collection-listings-container">
           <div className="listing-container border-radius">

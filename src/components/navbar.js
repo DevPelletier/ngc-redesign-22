@@ -12,7 +12,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  // Hide Button if window size is <=960px
+  // Hide Button if window size is <=?px
   const showButton = () => {
     if(window.innerWidth <= 1300) {
       setButton(false)

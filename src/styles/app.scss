@@ -36,10 +36,19 @@ html {
 html, body {
   font-family: $font-stack;
   color: $green04;
+  min-width: 360px;
 }
 
-ol, ul {
+ul {
   list-style: none;
+}
+
+ol {
+  margin-left: 24px;
+
+  li::marker {
+    font-size: 1rem;
+  }
 }
 
 form,
@@ -53,6 +62,7 @@ img {
   height: auto;
   display: block;
 }
+
 .img-container {
   @include flex-center;
   overflow: hidden;
@@ -60,6 +70,7 @@ img {
 
   img {
     max-width: 120%;
+    max-height: 120%;
   }
 
   &.exact-size {
@@ -105,6 +116,11 @@ section, nav {
   }
 
   &.text-and-image {
+
+    .text-container {
+      height: fit-content;
+      margin-top: 10%;
+    }
   }
 
   &.text-interject {
@@ -113,7 +129,10 @@ section, nav {
       font-style: italic;
     }
   }
+}
 
+.section-padding-lg-lg {
+  @include section-padding-lg-lg;
 }
 
 footer {
@@ -124,6 +143,12 @@ footer {
 //////////////////////////////// UNIVERSAL STYLES ////////////////////////////////
 .text-centered {
   text-align: center;
+}
+
+span.scrolltobtn {
+  cursor: pointer;
+  padding: 10px !important;
+  background-color: $orange01 !important;
 }
 
 .border-radius {
@@ -138,6 +163,10 @@ footer {
   content: "";
   clear: both;
   display: table;
+}
+
+.bg-color-white02 {
+  background-color: $white02;
 }
 
 .flex-center-col {
@@ -215,8 +244,25 @@ footer {
   background-size: 80%;
 }
 
+.bg-f7f8f9-bigknot-right {
+  background-color: $white01;
+  background-image: url('../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
+  background-repeat: no-repeat;
+  background-position: right -400px top 50%;
+  background-size: 80%;
+}
+
+
 .bg-f7f8f9-bigknot-center {
   // background-color: $white01;
+  background-image: url('../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.bg-green01-bigknot-right {
+  background-color: $green02;
   background-image: url('../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -231,6 +277,10 @@ footer {
 .col-width-full {
   width: 100%;
 }
+.col-width-lg {
+  width: 90%;
+}
+
 .col-width-md {
   width: 80%;
 }
@@ -249,20 +299,33 @@ footer {
 }
 
 .section-spacer {
-  grid-column: left / right;
-  height: 240px;
+  // grid-column: left / right;
+  padding: 0;
+  height: 25vh;
+  min-height: 120px;
+  max-height: 200px;
 }
 
 .material-symbols-rounded {
   &.background {
     border-radius: 100%;
-    background-color: $green02 !important;
+    background-color: $green02;
     padding: 2px;
     color: white;
   }
 
   &.blue01 {
     color: $blue01 !important;
+  }
+}
+
+.get-your-rx {
+  background-color: $green02;
+  color: white;
+
+  .img-container {
+    height: unset;
+    width: 90%;
   }
 }
 
@@ -287,8 +350,100 @@ footer {
 
 }
 
+@media screen and (max-width: 900px) {
+  section {
+    grid-template-columns: [left] 5% [lineL1 lineL2] 1fr [lineL3] 1fr 1fr [lineL4] 1fr [lineL5] 1fr [lineL6] 1fr [center] 1fr [lineR6] 1fr [lineR5] 1fr [lineR4] 1fr 1fr [lineR3] 1fr [lineR2 lineR1] 5% [right];
+    grid-gap: 0 10px;
 
-@media screen and (max-width: 1250px) {
+    padding: 80px 0;
+
+    // max-width: calc(100vw - 12px);
+    .inner-section {
+
+    }
+  }
+
+  .bg-f7f8f9-bigknot-right,
+  .bg-grey-bigknot,
+  .bg-green01-bigknot-right {
+    background-size: 200%;
+    background-position: left -33% top 50%;
+  }
+
+  .mobile-bg-green02 {
+    background-color: $green02;
+  }
+
+  section.text-and-image {
+    .inner-section {
+      grid-template-columns: unset;
+      grid-template-rows: [top] auto [center] auto [bottom];
+      grid-gap: 80px;
+
+      .top {
+        grid-row: top / center;
+      }
+      .bottom {
+        grid-row: center / bottom;
+      }
+
+      .text-container {
+        margin-top: 0;
+      }
+
+      .img-container {
+        margin: 0;
+        height: 60vh;
+        max-height: 650px;
+        min-height: 350px;
+      }
+    }
+  }
+
+  .flexcont-space-between {
+    flex-direction: column;
+  }
+
+  .two-col-40-60,
+  .two-col-60-40,
+  .two-col-70-30,
+  .two-col-30-70,
+  .two-col-even {
+    grid-template-columns: unset;
+    grid-gap: 50px 0;
+
+    .img-container {
+      height: 60vh;
+      min-height: 350px;
+      max-height: 600px;
+    }
+  }
+
+  .col-width-lg,
+  .col-width-md,
+  .col-width-sm,
+  .col-width-xsm {
+    min-width: unset !important;
+    width: inherit !important;
+    max-width: 80vw;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  body #root {
+    width: 100vw;
+  }
+
+  section {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
   .under-construction-responsive {
     position: fixed;
     width: 100%;

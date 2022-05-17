@@ -173,7 +173,7 @@ function Footer() {
           </div>
           <div className="link-grid">
             <a
-              href="/terms-conditons"
+              href="/terms-conditions"
               className="h6-style">
               Terms & Conditions
             </a>
@@ -185,7 +185,7 @@ function Footer() {
             </a>
             <span class="link-separator">|</span>
             <a
-              href="/medical-dislcaimer"
+              href="/medical-disclaimer"
               className="h6-style">
               Medical Disclaimer
             </a>

@@ -11,25 +11,26 @@ function DarkLogoStampSection() {
           <div className="icon-item-container">
             <div className="item-container">
               <div className="icon-item">
-                <span className="material-symbols-rounded blue01">bolt</span>
+                <span className="material-symbols-rounded blue01">support_agent</span>
               </div>
-              <h4>Pillar One</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h4>Dedicated Client Support</h4>
+              <p>We support our patients, always. Our Client Services team is committed to premium, holistic care medical support for our registered clients.</p>
             </div>
             <div className="item-container">
               <div className="icon-item">
                 <span className="material-symbols-rounded blue01">gfit_health</span>
               </div>
-              <h4>Pillar Two</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h4>We Put Patients First</h4>
+              <p>Everything our team does is done with the patient in mind first and foremost - to bring Canadians expertly crafted medicinal cannabis products they can trust.</p>
             </div>
             <div className="item-container">
               <div className="icon-item">
-                <span className="material-symbols-rounded blue01">health_and_safety</span>
+                <span className="material-symbols-rounded blue01">done_all</span>
               </div>
-              <h4>Pillar Three</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h4>NGC Quality Promise</h4>
+              <p>Our grow teams and partners are dedicated to cultivating pharma grade medical cannabis products of exceptional quality.</p>
             </div>
+
           </div>
         </div>
       </section>

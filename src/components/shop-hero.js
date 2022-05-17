@@ -29,27 +29,27 @@ function ShopHero() {
                     buttonStyle="btn--primary sub-menu-btn"
                     >
                     Most Popular
-                    <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Dried Flower
-                    <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container  exact-size"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Cannabis Oils
-                    <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Cannabis Sprays
-                    <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Vaporizers
-                    <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Accessories
-                    <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
                 </div>
               </div>
@@ -90,31 +90,31 @@ function ShopHero() {
                   <div className="sub-menu btn-container">
                     <Button buttonStyle="btn--primary sub-menu-btn">
                       Medicinal Cannabis 101
-                      <span className="img-container"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
+                      <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
                     <Button buttonStyle="btn--primary sub-menu-btn">
                       Is medicinal cannabis right for me?
-                      <span className="img-container"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
+                      <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
                     <Button buttonStyle="btn--primary sub-menu-btn">
                       learn dried flower
-                      <span className="img-container"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
+                      <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
                     <Button buttonStyle="btn--primary sub-menu-btn">
                       Learn extracts
-                      <span className="img-container"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
+                      <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
                     <Button buttonStyle="btn--primary sub-menu-btn">
                       learn the science
-                      <span className="img-container"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
+                      <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
                     <Button buttonStyle="btn--primary sub-menu-btn">
                       Learn vaporizers
-                      <span className="img-container"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
+                      <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
                     <Button buttonStyle="btn--primary sub-menu-btn">
                       learn cannabinoids & terpenes
-                      <span className="img-container"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
+                      <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
 
                   </div>

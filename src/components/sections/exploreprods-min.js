@@ -8,107 +8,107 @@ import ButtonList from '../button-list';
 const conditionArray_painSleep = [
   {
     condition: 'Acute / Chronic Pain',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Arthritis',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Inflammation',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Fibromyalgia',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Insomnia',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Post-Op Pain',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   }
 ];
 const conditionArray_gastro = [
   {
     condition: 'Appetite Loss',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Irritable Bowel Syndrome',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: "Crohn's Disease",
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Nausea & Vomiting',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   }
 ];
 const conditionArray_mental = [
   {
     condition: 'Stress / Anxiety',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'PTSD',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Depression',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'ADD / ADHD',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   }
 ];
 const conditionArray_neurological = [
   {
     condition: 'Epilepsy / Seizures',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Multiple Sclerosis',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Spasticity',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: "Parkinson's",
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'ALS',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   }
 ];
 const conditionArray_specific = [
   {
     condition: 'Opioid Withdrawal',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Cancer',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Glaucoma',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Hypertension',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   },
   {
     condition: 'Muscular Dystrophy',
-    url: '/shop/cbd'
+    url: '/shop-cbd'
   }
 ];
 

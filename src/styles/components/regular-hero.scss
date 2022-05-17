@@ -30,3 +30,11 @@ section.regular-hero {
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  section.regular-hero {
+    .inner-section {
+      grid-column: lineL3 / lineR3;
+    }
+  }
+}

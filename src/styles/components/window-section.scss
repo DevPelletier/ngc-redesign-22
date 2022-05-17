@@ -92,3 +92,49 @@ section.window {
     margin-right: auto;
   }
 }
+
+@media screen and (max-width: 900px) {
+  section.window {
+
+    .window-row {
+      grid-template-columns: unset;
+      grid-template-rows: [top] auto [center] auto [bottom];
+
+      .window-left,
+      .window-right {
+        grid-column: unset !important;
+      }
+    }
+
+    .img-window {
+      background-color: $white02 !important;
+      grid-column: unset !important;
+      height: 250px !important;
+      grid-row: top / center !important;
+
+
+      .img-container {
+        position: relative !important;
+        width: 80vw !important;
+        margin: auto !important;
+        top: 125px !important;
+        border-radius: 5px !important;
+        height: 400px !important;
+      }
+    }
+
+    .text-container {
+      margin-top: 200px !important;
+      width: 80vw !important;
+      min-width: 280px !important;
+      grid-row: center / bottom !important;
+      padding: 100px 0 !important;
+    }
+
+    .mobile-bg-green02 {
+      .img-window {
+        background-color: $green04 !important;
+      }
+    }
+  }
+}

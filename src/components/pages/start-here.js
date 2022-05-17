@@ -51,7 +51,7 @@ function StartHere() {
       </section>
       <section className="text-and-image">
         <div className="inner-section width-01 two-col-even">
-          <div className="text-container col-width-md float-left center-selfY">
+          <div className="text-container col-width-md float-left center-selfY bottom">
             <h2>What Does Medicinal Cannabis Look Like?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error, unde consectetur dolor reiciendis sint nobis, ut inventore in laboriosam reprehenderit eius laborum perferendis. Sed necessitatibus autem asperiores impedit esse.</p>
             <Link to="/learning-hub" className="primary-link"
@@ -71,7 +71,7 @@ function StartHere() {
             Learn About Capsules
             </Link>
           </div>
-          <div className="img-container border-radius">
+          <div className="img-container border-radius top">
             <img src="imgs/3-2-vert-01.jpg" alt=""/>
           </div>
         </div>
@@ -79,7 +79,7 @@ function StartHere() {
 
       <IsMedCannRight_1 />
 
-      <section className="text-and-image">
+      <section className="text-and-image get-your-rx">
         <div className="inner-section width-01 two-col-even">
         <div className="img-container border-radius">
           <img src="imgs/square01.jpg" alt=""/>
@@ -89,7 +89,7 @@ function StartHere() {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error, unde consectetur dolor reiciendis sint nobis, ut inventore in laboriosam reprehenderit eius laborum perferendis. Sed necessitatibus autem asperiores impedit esse.</p>
             <div className="btn-container">
               <Button
-                buttonStyle="btn--secondary"
+                buttonStyle="btn--primary"
                 url="/register"
               >
               Sign Up for Medical Cannabis

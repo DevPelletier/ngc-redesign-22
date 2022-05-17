@@ -22,6 +22,7 @@ section.shop-hero {
     max-width: 1500px;
     min-width: 80vw;
     overflow-x: scroll;
+    background-color: white;
 
     a.btn {
       margin: 0;
@@ -73,6 +74,52 @@ section.learning-hub-hero {
   .img-container.hub-hero-img {
     padding-top: 3vw;
     align-content: flex-start;
+    margin-bottom: auto;
   }
 
+}
+
+@media screen and (max-width: 900px) {
+  section.shop-hero {
+    .sub-menu {
+      width: 90vw;
+      min-width: unset;
+      max-width: 100%;
+    }
+
+    .sticky-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 50;
+      padding: calc(100px + 20px) 5vw 20px;
+      background: white;
+      @include shadow-01;
+      .sub-menu {
+        margin: 0;
+      }
+    }
+
+
+  }
+
+  section.learning-hub-hero {
+    .inner-section {
+      grid-template-columns: unset;
+
+      .hub-hero-img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.shop-hero {
+    .text-container {
+      width: 100%;
+      min-width: unset;
+    }
+  }
 }

@@ -61,39 +61,40 @@ function Article() {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
         </div>
-        <div className="two-col-even">
+        <div className="two-col-even text-and-image">
           <div className="text-container">
             <h2>How Does Medicinal Cannabis Work?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
           </div>
-          <div className="img-container">
+          <div className="img-container border-radius">
             <img src="imgs/test.jpg" alt=""/>
           </div>
         </div>
-
-        <div className="two-col-even how-can-i-try-medcann">
-          <div className="text-container">
-            <h2>How Can I Try Medicinal Cannabis?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-            <Link to="/" className="primary-link">
-              Sign Up Today
-            </Link>
-            <Link to="/" className="primary-link">
-              Browse Products
-            </Link>
-
-          </div>
-          <div className="img-container">
-            <img src="imgs/test.jpg" alt=""/>
-          </div>
-        </div>
-
-
 
       </div>
     </section>
+
+    <section className="text-and-image get-your-rx">
+      <div className="inner-section width-01 two-col-even">
+      <div className="img-container border-radius">
+        <img src="imgs/square01.jpg" alt=""/>
+      </div>
+        <div className="text-container col-width-md center-selfXY">
+          <h2>How Can I Try Medicinal Cannabis?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error, unde consectetur dolor reiciendis sint nobis, ut inventore in laboriosam reprehenderit eius laborum perferendis. Sed necessitatibus autem asperiores impedit esse.</p>
+          <div className="btn-container">
+            <Button
+              buttonStyle="btn--primary"
+              url="/register"
+            >
+            Sign Up for Medical Cannabis
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     </>
   );
 }

@@ -13,7 +13,7 @@ footer {
     flex-wrap: wrap;
     max-width: 2000px;
 
-    gap: 48px 16px;
+    gap: 48px 24px;
   }
 
   .footer-link-list {
@@ -40,6 +40,7 @@ footer {
 
     a {
       color: white;
+      font-weight: 400;
     }
   }
 
@@ -69,5 +70,14 @@ footer {
         svg { color: $orange01; }
       }
     }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    padding: 60px 5vw;
+    width: 100vw;
+
+    word-break: break-word;
   }
 }

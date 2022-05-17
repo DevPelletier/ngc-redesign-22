@@ -9,9 +9,9 @@ function OffsetImageSection() {
       <section className="offset-image">
         <div className="inner-section offset-text border-radius">
           <div className="text-container">
-            <h3>Northern Green Cares</h3>
-            <h2>We Support Our Patients</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis perferendis explicabo consequuntur iusto provident consectetur doloribus atque quis odio eaque alias laborum ullam, ducimus sit accusamus mollitia officiis ratione.</p>
+            <h3>NGC patient support programs</h3>
+            <h2>Veteran’s Coverage & Compassionate Pricing</h2>
+            <p>At NGC, everything we do is in support of our patients. We believe that the therapeutic potential and power of medicinal cannabis should be available to all patients who require it. That's why we are proud to offer discount and pricing programs that improve affordability and access to medicinal cannabis.</p>
             <div className="btn-container">
               <Button
               >

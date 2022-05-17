@@ -133,6 +133,7 @@ $font-stack: 'Lato', Helvetica, sans-serif;
   line-height: 1.875rem;
   letter-spacing: 0.013rem;
   font-weight: 400;
+  width: inherit;
 }
 
 @mixin shadow-01 {

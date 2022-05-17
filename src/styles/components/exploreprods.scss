@@ -32,21 +32,40 @@ section.exploreprods {
     @include shadow-01;
     @include border-radius;
     background-color: $white01;
-    background-image: url('../../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
+    // background-image: url('../../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
     background-repeat: no-repeat;
     background-position: right 50% top 30%;
     background-size: 80%;
     width: 250px;
+    transition: all 0.2s ease;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $blue01;
+      background-image: none;
       @include shadow-02;
     }
+
+    h3 {
+      color: $green04;
+      font-size: 0.82rem;
+    }
+
 
     .img-container {
       margin-bottom: 30px;
       // height: 75%;
       // need to just do square images...?
       width: 75%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section.exploreprods {
+    .text-container {
+      width: 80vw;
     }
   }
 }

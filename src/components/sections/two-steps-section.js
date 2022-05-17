@@ -87,14 +87,8 @@ const TwoStepsSection = (props) => (
                 <h4>{register.card1_Title}</h4>
                 <h2>{register.card1_P1}</h2>
                 <p>{register.card1_P2}</p>
-                <p>{register.card1_P3}</p>
+                <p><strong>ClientServices@NorthernGreenCanada.com<br />1-866-233-3707<br />M-F 8:30AM to 4:30PM</strong></p>
               </div>
-              <Button
-              buttonStyle="btn--secondary"
-              // url="/"
-              >
-                {register.card1_btn}
-              </Button>
             </div>
             <div className="step-2">
               <div>

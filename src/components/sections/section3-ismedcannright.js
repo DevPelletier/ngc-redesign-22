@@ -116,7 +116,7 @@ const conditionArray_specific = [
 
 function Section3_IsMedCannRight() {
     return (
-      <section className="ismedcannright_3">
+      <section className="ismedcannright_3 section-padding-lg-lg bg-green01-bigknot-right">
         <div className="inner-section">
           <div className="text-container col-width-xsm">
             <h2>Every Patient Is Unique</h2>

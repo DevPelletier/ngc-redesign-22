@@ -18,6 +18,16 @@ section.registration-form {
     margin: auto;
     @include flex-center-col;
     @include shadow-01;
+
+    .form-header {
+      @include flex-center-col;
+
+      .img-container {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 16px;
+      }
+    }
   }
 
   form {
@@ -26,23 +36,12 @@ section.registration-form {
     grid-template-columns: [left] 1fr [center] 1fr [right];
     grid-gap: 32px 24px;
 
+
     label.mainLabel {
       @include flex-center-col;
       align-items: flex-start;
       justify-content: flex-start;
       text-align: left;
-
-      &.left {
-        grid-column: left / center;
-      }
-
-      &.right {
-        grid-column: center / right;
-      }
-
-      &.full {
-        grid-column: left / right;
-      }
 
       .non-text-input {
         margin-left: 10px;
@@ -50,13 +49,33 @@ section.registration-form {
 
       p {
         margin-bottom: 10px;
+        font-weight: 600;
 
         &.sm {
-          margin: 10px auto 20px;
+          // margin: 10px auto 20px 0;
+          text-align: left;
         }
       }
 
+      ol li::marker {
+        font-size: 0.75rem;
+      }
+
+
     }
+
+    .left {
+      grid-column: left / center;
+    }
+
+    .right {
+      grid-column: center / right;
+    }
+
+    .full {
+      grid-column: left / right;
+    }
+
 
     input {
       padding: 20px 24px;
@@ -145,8 +164,45 @@ section.registration-form {
     // }
     /////////// END OF CUSTOM SELECT STYLES
 
-    a.btn {
+    a.btn,
+    button.btn {
       margin-left: 0;
+      margin-bottom: 16px;
+    }
+  }
+
+  .submitted-alert {
+    height: 300px;
+    @include flex-center-col;
+
+    h4 {margin:none;}
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section.registration-form {
+    .reg-form-container {
+      width: 100%;
+      padding: 50px 5vw;
+    }
+
+    form {
+      grid-template-columns: unset;
+      grid-gap: 24px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.registration-form {
+    .inner-section {
+      grid-column: left / right !important;
+    }
+
+    form {
+      input {
+        padding: 18px 10px;
+      }
     }
   }
 }

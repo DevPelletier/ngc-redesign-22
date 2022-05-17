@@ -1,0 +1,14 @@
+@import '../core';
+
+section.section-spacer {
+
+}
+
+@media screen and (max-width: 900px) {
+  section.section-spacer {
+    height: 80px;
+    max-height: unset;
+    min-height: unset;
+  }
+
+}
