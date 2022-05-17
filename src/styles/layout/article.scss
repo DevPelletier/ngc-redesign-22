@@ -103,7 +103,7 @@ section.text-interject {
   @include section-padding-lg-sm;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.article-hero {
     height: unset;
     max-height: unset;

@@ -33,7 +33,7 @@ function Footer() {
               <a href="/compassionate-pricing">Compassionate Pricing</a>
             </li>
             <li>
-              <a href="/patients/why-ngc">Why NGC?</a>
+              <a href="/patients/about-us">About NGC</a>
             </li>
             <li>
               <a href="/faqs">FAQ</a>

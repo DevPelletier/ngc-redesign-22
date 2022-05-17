@@ -8,7 +8,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   .maps-container {
     margin: auto;
     height: 80vh;

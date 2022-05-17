@@ -73,7 +73,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   footer {
     padding: 60px 5vw;
     width: 100vw;

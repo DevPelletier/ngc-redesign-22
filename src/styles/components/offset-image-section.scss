@@ -44,7 +44,7 @@ section.offset-image {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.offset-image {
     width: 100vw;
 

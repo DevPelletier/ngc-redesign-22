@@ -150,7 +150,7 @@ section.suggested-prods {
 }
 ///////////// END TAGS STANDARD STYLES
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.product-hero {
     grid-template-columns: unset;
     height: unset;

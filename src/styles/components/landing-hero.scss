@@ -33,7 +33,7 @@
   height: inherit;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   .hero-container {
     grid-template-columns: 1fr;
     // grid-template-rows: auto 250px;

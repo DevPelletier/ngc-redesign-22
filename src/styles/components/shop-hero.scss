@@ -79,7 +79,7 @@ section.learning-hub-hero {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.shop-hero {
     .sub-menu {
       width: 90vw;

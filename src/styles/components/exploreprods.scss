@@ -62,7 +62,7 @@ section.exploreprods {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.exploreprods {
     .text-container {
       width: 80vw;

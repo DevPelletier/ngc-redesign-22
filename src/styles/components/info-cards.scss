@@ -91,7 +91,7 @@ section.info-cards {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.info-cards {
     .inner-section.info-card-container {
       grid-template-columns: unset !important;

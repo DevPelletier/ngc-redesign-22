@@ -4,7 +4,7 @@ section.section-spacer {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.section-spacer {
     height: 80px;
     max-height: unset;

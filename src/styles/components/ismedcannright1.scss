@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.ismedcannright_1 {
     .inner-section {
         grid-template-columns: unset;

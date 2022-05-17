@@ -302,7 +302,7 @@ nav {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   .navbar {
     background: none;
     .navbar-container {

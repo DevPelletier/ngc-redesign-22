@@ -59,6 +59,7 @@ label {
 
 img {
   max-width: 100%;
+  // width: 100%;
   height: auto;
   display: block;
 }
@@ -70,7 +71,7 @@ img {
 
   img {
     max-width: 120%;
-    max-height: 120%;
+    // max-height: 120%;
   }
 
   &.exact-size {
@@ -350,7 +351,7 @@ span.scrolltobtn {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section {
     grid-template-columns: [left] 5% [lineL1 lineL2] 1fr [lineL3] 1fr 1fr [lineL4] 1fr [lineL5] 1fr [lineL6] 1fr [center] 1fr [lineR6] 1fr [lineR5] 1fr [lineR4] 1fr 1fr [lineR3] 1fr [lineR2 lineR1] 5% [right];
     grid-gap: 0 10px;
@@ -413,6 +414,7 @@ span.scrolltobtn {
     grid-gap: 50px 0;
 
     .img-container {
+      margin: auto;
       height: 60vh;
       min-height: 350px;
       max-height: 600px;

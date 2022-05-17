@@ -101,7 +101,7 @@ span.blog-link-date {
 
 ///////////////// END
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.hub-highlights {
     .blog-link-container {
       width: 100%;

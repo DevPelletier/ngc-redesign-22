@@ -56,7 +56,7 @@ section.dark-logostamp {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.dark-logostamp {
     .icon-item-container {
       grid-template-columns: unset;

@@ -179,7 +179,7 @@ section.registration-form {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint1) {
   section.registration-form {
     .reg-form-container {
       width: 100%;

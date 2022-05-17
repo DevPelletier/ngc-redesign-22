@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import { Helmet, HelmetProvider } from "react-helmet-async";
+
 import './styles/app.scss';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/navbar';
@@ -43,6 +45,17 @@ import UnderConstrPage from './components/pages/under-constr-pg';
 
 
 function App() {
+
+  // const [title, setTitle] = useState("");
+  // useEffect(() => {
+  //   // This will run when the page first loads and whenever the title changes
+  //   document.title = title;
+  // }, [title]);
+  //
+  // const changeTitle = (event) => {
+  //   setTitle(event.target.value);
+  // };
+
   return (
     <>
       <div className="under-construction-responsive">

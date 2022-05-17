@@ -25,7 +25,7 @@ function OffsetImageSection() {
             <img src="imgs/3-2-vert-01.jpg" alt=""/>
           </div>
         </div>
-        <div className="section-spacer"></div>
+        <div className="inner-section section-spacer"></div>
 
       </section>
     )
