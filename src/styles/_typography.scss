@@ -197,6 +197,28 @@ ul, ol {
       }
     }
   }
+
+  &.major-list {
+    span.title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 180%;
+    }
+
+    p {
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 24px;
+    }
+
+    li {
+      margin-bottom: 32px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 

@@ -50,14 +50,6 @@ function StartHere() {
             <p>For decades, cannabis has been known as an illegal drug with a subculture of its own, far from the mainstream. In recent years though, scientists have found more and more evidence of its therapeutic potential. Cannabis has become a trusted, daily medication for millions of people across the world, treating conditions ranging from anxiety to arthritis to the nausea caused by chemotherapy, without the dangerous and harmful side effects of many popular pharmaceuticals.</p>
 
             <p>The world of cannabis also has an entire language all of its own. In this introduction to medical cannabis, we’ll break down how cannabis works, what types of cannabis products exist today, how patients can use cannabis, what to look for when deciding which cannabis product to use, and cannabis safety.</p>
-            <Link to="/" className="primary-link"
-            >
-            Read Our Cannabis 101
-            </Link>
-            <Link to="/" className="primary-link"
-            >
-            Learn How Medical Cannabis Works
-            </Link>
           </div>
         </div>
       </section>
@@ -69,13 +61,9 @@ function StartHere() {
             <p>In the early 1990s, researchers discovered a previously unknown communication system involved in the regulation of nearly every essential function in the body. They named it the endocannabinoid system (ECS) after the plant elements that led researchers to its discovery — cannabinoids.</p>
             <p>This system is made up of cannabinoid receptors (called CB1 and CB2), endocannabinoids (natural chemicals in the human body which activate or modulate CB1 and CB2 activity), and enzymes which metabolize the endocannabinoids.</p>
             <p>The ECS modulates many of the body’s most important functions, including sleep, hunger, pain, anxiety, nausea and energy metabolism, among others. In fact, the endocannabinoid system is so vital to maintaining homeostasis — a state of balance in the body — that some researchers believe many health conditions can be explained by endocannabinoid deficiencies. These conditions include migraines, irritable bowel syndrome, and fibromyalgia, among others. </p>
-            <Link to="/" className="primary-link"
+            <Link to="/learning-hub-medical-cannabis-101" className="primary-link"
             >
             Read Our Cannabis 101
-            </Link>
-            <Link to="/" className="primary-link"
-            >
-            Learn How Medical Cannabis Works
             </Link>
           </div>
           <div className="img-container col-width-md push-right border-radius">
@@ -98,14 +86,6 @@ function StartHere() {
             <h4>Terpenes</h4>
             <p>Terpenes are natural compounds that produce the aroma and taste of cannabis (and a variety of other plants). Terpenes are the reason one “strain” of cannabis might smell and tastes like lemon, while another gives off a pine-y aroma.</p>
             <p>Scientists also believe that the varying sedating, uplifting, and other distinguishing effects of cannabis strains are a result of their terpenoid profile and that terpenes play a role in the medical therapeutic effects of cannabis. The terpene levels are often presented on the packaging of medical marijuana products, next to the THC:CBD ratio and sativa-indica origins of the strain.</p>
-            <Link to="/" className="primary-link"
-            >
-            Read Our Cannabis 101
-            </Link>
-            <Link to="/" className="primary-link"
-            >
-            Learn How Medical Cannabis Works
-            </Link>
           </div>
           <div className="img-container border-radius col-width-sm push-right">
             <img src="imgs/16-9-vert-01.jpg" alt=""/>
@@ -120,22 +100,22 @@ function StartHere() {
           </div>
           <div className="text-container col-width-md push-right center-selfY bottom">
             <h2>What Does Medicinal Cannabis Look Like?</h2>
-            <p>Today, there are a large number of product types and formats for medical cannabis. From the most basic - the organically grown, dried, and cured flower of the cannabis plant - to extracts that can be vaporized, baked into foods, taken in pill or liquid form, and more. Each product type differs in terms of their general effects and side-effects, dosing, and more.</p>
-            <Link to="/learning-hub" className="primary-link"
+            <p>Today, there are a large number of product types and formats for medical cannabis. From the most basic - the organically grown, dried, and cured flower of the cannabis plant - to extracts that can be vaporized, baked into foods, taken in pill or liquid form, and more. Each product type differs in terms of their general effects and side-effects, and dosing.</p>
+            <Link to="/learning-hub-cannabis-extracts" className="primary-link"
             >
             Learn About Cannabis Extracts
             </Link>
-            <Link to="/learning-hub" className="primary-link"
+            <Link to="/learning-hub-dried-flower" className="primary-link"
             >
             Learn About Dried Flower
             </Link>
-            <Link to="/learning-hub" className="primary-link"
+            <Link to="/learning-hub-cannabis-vaporizers" className="primary-link"
             >
             Learn About Vaporizers
             </Link>
-            <Link to="/learning-hub" className="primary-link"
+            <Link to="/learning-hub-cannabis-edibles" className="primary-link"
             >
-            Learn About Capsules
+            Learn About Edibles
             </Link>
           </div>
         </div>
@@ -149,14 +129,6 @@ function StartHere() {
             <p>With most medications, dosing is pretty simple — there are clinical trials, FDA approval, and recommendations handed down to doctors and pharmacists based on specific chemical calculations.</p>
             <p>For cannabis, however, dosing is not yet an exact science and a much more individualized approach is required. A doctor prescribing cannabis must consider the best delivery methods for their patient as well as the right CBD-to-THC ratio, terpenes, or which strain of marijuana is best for the patient.</p>
             <p>Today’s cannabis products can be quite potent, and the effects may be something a patient has not experienced before, so patients are advised to “start low and go slow”. This means taking a low dose and then increasing it slowly, as needed, after gauging the effects. The first time using cannabis should also be done in a comfortable place and with a trusted confidant.</p>
-            <Link to="/" className="primary-link"
-            >
-            Read Our Cannabis 101
-            </Link>
-            <Link to="/" className="primary-link"
-            >
-            Learn How Medical Cannabis Works
-            </Link>
           </div>
           <div className="img-container border-radius col-width-lg">
             <img src="imgs/square01.jpg" alt=""/>
@@ -174,32 +146,24 @@ function StartHere() {
             <p>Now that you know a little bit about cannabis, you may be asking yourself:</p> <p><strong>"Cannabis is legal for recreational-use in Canada, too. Why do I need a prescription?"</strong></p>
             <p>Fair question, and one that we get a lot! There are many significant benefits to getting a medical cannabis prescription - especially for patients using cannabis for medical purposes, of course! As with all medical products, always consult your chosen healthcare professional first and foremost for guidance.</p>
             <p>See our Top 4 Reasons to Choose Medical Cannabis below:</p>
-            <ol>
+            <ol className="major-list">
               <li>
-                Cut Your Costs - You can claim your medical cannabis (and related expenses) on your tax return.
+                <span className="title">Cut Your Costs - You can claim your medical cannabis (and related expenses) on your tax return.</span>
                 <p>Cannabis is an eligible medical expense under Revenue Canada’s Medical Expense Tax Credit. This means, with receipts from a Health Canada-licensed producer and medical authorization, you can claim expenses related to medical cannabis on your tax return.</p>
               </li>
               <li>
-                Potential Insurance Coverage - Your medical cannabis costs may be covered by medical insurance
+                <span className="title">Potential Insurance Coverage - Your medical cannabis costs may be covered by medical insurance</span>
                 <p>Several Canadian insurance companies have begun to add the option for medical cannabis coverage. If any of your insurance plans include this coverage, your medical cannabis could be partially or fully paid for by your insurance provider.</p>
               </li>
               <li>
-                Medical Guidance & Safety in Treatment - You will receive medical guidance on products specific to your needs.
+                <span className="title">Medical Guidance & Safety in Treatment - You will receive medical guidance on products specific to your needs.</span>
                 <p>NGC and Healthcare Practitioners at our Affiliate Clinics will always be available to offer Product Guidance, Prescription Management, Medical Advice, and more for our medical clients. </p>
               </li>
               <li>
-                Access Specialized Products, and Never Lose Access - NGC has a dedicated product inventory for medical clients.
+                <span className="title">Access Specialized Products, and Never Lose Access - NGC has a dedicated product inventory for medical clients.</span>
                 <p>At NGC, we have a dedicated product inventory for medical clients. In all aspects of our business, our medical clients always come first. NGC is also creating prorprietary medical cannabis products to target specific medical issues - taking the guesswork out of your treatment.</p>
               </li>
             </ol>
-            <Link to="/" className="primary-link"
-            >
-            Read Our Cannabis 101
-            </Link>
-            <Link to="/" className="primary-link"
-            >
-            Learn How Medical Cannabis Works
-            </Link>
           </div>
         </div>
       </section>

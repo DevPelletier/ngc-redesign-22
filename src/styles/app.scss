@@ -63,7 +63,7 @@ label {
 
 img {
   max-width: 100%;
-  // width: 100%;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -366,14 +366,14 @@ span.scrolltobtn {
 }
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: $breakpoint0) {
   section {
-    grid-template-columns: [left] 5% [lineL1] 1fr [lineL2] 1fr [lineL3] 1fr [lineL4] 1fr [lineL5] 1fr [lineL6] 1fr [center] 1fr [lineR6] 1fr [lineR5] 1fr [lineR4] 1fr [lineR3] 1fr [lineR2] 1fr [lineR1] 5% [right];
+    grid-template-columns: [left] 5% [lineL1 lineL2] 1fr [lineL3] 1fr 1fr [lineL4] 1fr [lineL5] 1fr [lineL6] 1fr [center] 1fr [lineR6] 1fr [lineR5] 1fr [lineR4] 1fr 1fr [lineR3] 1fr [lineR2 lineR1] 5% [right];
     grid-gap: 0 10px;
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: $breakpoint1) {
   section {
     grid-template-columns: [left] 5% [lineL1 lineL2] 1fr [lineL3] 1fr 1fr [lineL4] 1fr [lineL5] 1fr [lineL6] 1fr [center] 1fr [lineR6] 1fr [lineR5] 1fr [lineR4] 1fr 1fr [lineR3] 1fr [lineR2 lineR1] 5% [right];
     grid-gap: 0 10px;
