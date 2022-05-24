@@ -4,140 +4,38 @@ import { Link } from 'react-router-dom';
 import { Button } from '../button';
 import '../../styles/components/shop-collection.scss';
 
+import ProductListingProps from '../product-listing-props';
+
+import {
+  driedflower_washingmachine,
+  sprays_cbd20,
+  sprays_cbd50,
+  oils_cbd20,
+  sprays_12thc20cbd,
+  oils_12thc20cbd,
+  vaporizer_bliss,
+  vaporizer_relief,
+  vaporizer_relax
+} from '../products/all-products';
+
+
 const Collection = (props) => {
     return (
       <div className="collection-container" ref={props.refProp}>
         <div className="collection-header">
-          <h3>High cbd Extracts</h3>
-          <p>Discover NGC's medicinal cannabis extracts with High CBD content</p>
+          <h3>High cbd Products</h3>
+          <p>Discover NGC's medicinal cannabis extracts with High CBD content.</p>
         </div>
         <div className="collection-listings-container">
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-
+          <ProductListingProps numbers={driedflower_washingmachine} />
+          <ProductListingProps numbers={sprays_cbd20} />
+          <ProductListingProps numbers={sprays_cbd50} />
+          <ProductListingProps numbers={oils_cbd20} />
+          <ProductListingProps numbers={sprays_12thc20cbd} />
+          <ProductListingProps numbers={oils_12thc20cbd} />
+          <ProductListingProps numbers={vaporizer_bliss} />
+          <ProductListingProps numbers={vaporizer_relief} />
+          <ProductListingProps numbers={vaporizer_relax} />
         </div>
       </div>
 

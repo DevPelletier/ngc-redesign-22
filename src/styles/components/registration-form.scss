@@ -9,6 +9,11 @@ section.registration-form {
     }
   }
 
+  span.required {
+    color: red;
+    font-weight: 600;
+  }
+
   .reg-form-container {
     background: $white02;
     padding: 80px 100px;
@@ -49,7 +54,7 @@ section.registration-form {
 
       p {
         margin-bottom: 10px;
-        font-weight: 600;
+        // font-weight: 600;
 
         &.sm {
           // margin: 10px auto 20px 0;
@@ -100,7 +105,12 @@ section.registration-form {
 
       input {
         width: 16px;
-        margin-right: 10px;
+        height: 16px;
+        min-width: 16px;
+        min-height: 16px;
+        max-width: 16px;
+        max-height: 16px;
+        margin: 12px 10px auto 0;
       }
     }
 

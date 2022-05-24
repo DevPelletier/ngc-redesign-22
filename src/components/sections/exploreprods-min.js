@@ -8,107 +8,107 @@ import ButtonList from '../button-list';
 const conditionArray_painSleep = [
   {
     condition: 'Acute / Chronic Pain',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Arthritis',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Inflammation',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Fibromyalgia',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Insomnia',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-thc'
   },
   {
     condition: 'Post-Op Pain',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   }
 ];
 const conditionArray_gastro = [
   {
     condition: 'Appetite Loss',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-thc'
   },
   {
     condition: 'Irritable Bowel Syndrome',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: "Crohn's Disease",
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Nausea & Vomiting',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-1-to-1-thc-cbd'
   }
 ];
 const conditionArray_mental = [
   {
     condition: 'Stress / Anxiety',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-1-to-1-thc-cbd'
   },
   {
     condition: 'PTSD',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-1-to-1-thc-cbd'
   },
   {
     condition: 'Depression',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-1-to-1-thc-cbd'
   },
   {
     condition: 'ADD / ADHD',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-thc'
   }
 ];
 const conditionArray_neurological = [
   {
     condition: 'Epilepsy / Seizures',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Multiple Sclerosis',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Spasticity',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: "Parkinson's",
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'ALS',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   }
 ];
 const conditionArray_specific = [
   {
     condition: 'Opioid Withdrawal',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-thc'
   },
   {
     condition: 'Cancer',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   },
   {
     condition: 'Glaucoma',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-thc'
   },
   {
     condition: 'Hypertension',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-1-to-1-thc-cbd'
   },
   {
     condition: 'Muscular Dystrophy',
-    url: '/shop-cbd'
+    url: '/shop-subcategory-high-cbd'
   }
 ];
 
@@ -150,3 +150,9 @@ function ExploreProdsMin() {
 }
 
 export default ExploreProdsMin;
+
+export {conditionArray_painSleep};
+export {conditionArray_gastro};
+export {conditionArray_mental};
+export {conditionArray_neurological};
+export {conditionArray_specific};

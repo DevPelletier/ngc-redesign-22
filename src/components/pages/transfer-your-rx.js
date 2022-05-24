@@ -3,6 +3,9 @@ import '../../styles/app.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../button';
 import RegistrationForm from '../registration-form';
+import { Helmet } from 'react-helmet';
+
+const pageTitle = 'Transfer Your Prescription | Northern Green Canada';
 
 
 function Page() {
@@ -13,6 +16,10 @@ function Page() {
 
   return (
     <>
+    <Helmet>
+      <title>{pageTitle}</title>
+    </Helmet>
+
     <section className="text-and-image text-centered">
       <div className="inner-section width-02 two-col-even">
         <div className="text-container">

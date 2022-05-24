@@ -10,7 +10,7 @@ a.btn {
 }
 
 button.btn {
-  padding: 20px 35px;
+  padding: 20px 32px;
   border-radius: 5px;
   font-family: $font-stack;
   font-size: 15px;
@@ -98,8 +98,8 @@ button.btn {
 }
 
 .btn--medium {
-  padding: 20px 35px;
-  min-width: 180px;
+  padding: 20px 32px;
+  min-width: 160px;
   // max-width: 260px;
 }
 
@@ -124,7 +124,7 @@ button.btn {
   @include btn-hover-white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
   button.btn {
     word-wrap: break-word;
     padding: 18px 24px;

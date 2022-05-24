@@ -6,7 +6,15 @@ import { Switch, Route, useRouteMatch } from 'react-router-dom';
 // import ShowHideComponent from './show-hide-component';
 import '../styles/components/shop-hero.scss';
 
+const learningHubSubCategoryPaths = ["/learning-hub", "/learning-hub-subcategory-all", "/learning-hub-subcategory-beginners-guide", "/learning-hub-subcategory-ngc-news", "/learning-hub-subcategory-cannabis-science", "/learning-hub-subcategory-using-medicinal-cannabis"];
 
+const shopSubCategoryPaths = ["/shop", "/shop-subcategory-high-cbd", "/shop-subcategory-high-thc", "/shop-subcategory-1-to-1-thc-cbd", "/shop-subcategory-no-thc"];
+
+////////// THIS IS DEPRECATED FOR SHOP - SEE SHOP-ALL
+////////// THIS IS DEPRECATED FOR SHOP - SEE SHOP-ALL
+////////// THIS IS DEPRECATED FOR SHOP - SEE SHOP-ALL
+////////// THIS IS DEPRECATED FOR SHOP - SEE SHOP-ALL
+////////// THIS IS DEPRECATED FOR SHOP - SEE SHOP-ALL
 
 function ShopHero() {
 
@@ -14,7 +22,7 @@ function ShopHero() {
     return (
       <>
       <Switch>
-        <Route path="/shop" exact>
+        <Route path={shopSubCategoryPaths} exact>
           <section class="shop-hero">
             <div className="inner-section">
               <div className="text-container">
@@ -56,19 +64,31 @@ function ShopHero() {
               <div className="shop-sub-menu-container">
                 <h4>By Cannabinoid Content:</h4>
                 <div className="sub-menu border-radius">
-                  <Button buttonStyle="btn--primary sub-menu-btn">
+                  <Button
+                    buttonStyle="btn--primary sub-menu-btn"
+                    url="/shop-subcategory-high-cbd"
+                    >
                     High CBD
                     <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
-                  <Button buttonStyle="btn--primary sub-menu-btn">
+                  <Button
+                    buttonStyle="btn--primary sub-menu-btn"
+                    url="/shop-subcategory-high-thc"
+                    >
                     High THC
                     <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
-                  <Button buttonStyle="btn--primary sub-menu-btn">
+                  <Button
+                    buttonStyle="btn--primary sub-menu-btn"
+                    url="/shop-subcategory-1-to-1-thc-cbd"
+                    >
                     1:1 (THC:CBD)
                     <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
-                  <Button buttonStyle="btn--primary sub-menu-btn">
+                  <Button
+                    buttonStyle="btn--primary sub-menu-btn"
+                    url="/shop-subcategory-no-thc"
+                    >
                     No THC
                     <span className="img-container"><img src="imgs/test.jpg" alt=""/></span>
                   </Button>
@@ -77,8 +97,8 @@ function ShopHero() {
             </div>
           </section>
         </Route>
-        <Route path="/learning-hub" exact>
-          <section class="shop-hero learning-hub-hero">
+        <Route path={learningHubSubCategoryPaths}>
+          <section class="shop-hero learning-hub-hero section-padding-lg-sm">
             <div className="inner-section width-02 two-col-70-30">
               <div className="text-container-2">
                 <div className="text-container">
@@ -88,32 +108,53 @@ function ShopHero() {
                 <div className="shop-sub-menu-container">
                   <h4>Popular Articles:</h4>
                   <div className="sub-menu btn-container">
-                    <Button buttonStyle="btn--primary sub-menu-btn">
+                    <Button
+                      buttonStyle="btn--primary sub-menu-btn"
+                      url="/learning-hub-medical-cannabis-101"
+                      >
                       Medicinal Cannabis 101
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
-                    <Button buttonStyle="btn--primary sub-menu-btn">
+                    <Button
+                      buttonStyle="btn--primary sub-menu-btn"
+                      url="/is-medical-cannabis-right-for-me"
+                      >
                       Is medicinal cannabis right for me?
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
-                    <Button buttonStyle="btn--primary sub-menu-btn">
+                    <Button
+                      buttonStyle="btn--primary sub-menu-btn"
+                      url="/learning-hub-dried-flower"
+                      >
                       learn dried flower
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
-                    <Button buttonStyle="btn--primary sub-menu-btn">
+                    <Button
+                      buttonStyle="btn--primary sub-menu-btn"
+                      url="/learning-hub-cannabis-extracts"
+                      >
                       Learn extracts
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
-                    <Button buttonStyle="btn--primary sub-menu-btn">
+                    <Button
+                      buttonStyle="btn--primary sub-menu-btn"
+                      url="/learning-hub-the-science-of-medicinal-cannabis"
+                      >
                       learn the science
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
-                    <Button buttonStyle="btn--primary sub-menu-btn">
+                    <Button
+                      buttonStyle="btn--primary sub-menu-btn"
+                      url="/learning-hub-cannabis-vaporizers"
+                      >
                       Learn vaporizers
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
-                    <Button buttonStyle="btn--primary sub-menu-btn">
-                      learn cannabinoids & terpenes
+                    <Button
+                      buttonStyle="btn--primary sub-menu-btn"
+                      url="/learning-hub-cannabinoids"
+                      >
+                      learn cannabinoids
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
                     </Button>
 
@@ -123,42 +164,35 @@ function ShopHero() {
                   <h4>Topics:</h4>
                   <div className="btn-container border-radius">
                     <Link
-                      // to="/"
+                      to="/learning-hub-subcategory-all"
                       className="primary-link"
                     >
                       All Articles
                     </Link>
                     <Link
-                      // to="/"
+                      to="/learning-hub-subcategory-beginners-guide"
                       className="primary-link"
                     >
-                      Beginners Guide to Cannabis
+                      Beginners Guides to Cannabis
                     </Link>
                     <Link
-                      // to="/"
+                      to="/learning-hub-subcategory-ngc-news"
                       className="primary-link"
                     >
                       NGC News
                     </Link>
                     <Link
-                      // to="/"
+                      to="/learning-hub-subcategory-cannabis-science"
                       className="primary-link"
                     >
                       Cannabis Science
                     </Link>
                     <Link
-                      // to="/"
+                      to="/learning-hub-subcategory-using-medicinal-cannabis"
                       className="primary-link"
                     >
-                      How To Use Cannabis
+                      Using Medicinal Cannabis
                     </Link>
-                    <Link
-                      // to="/"
-                      className="primary-link"
-                    >
-                      Healthy Living
-                    </Link>
-
                   </div>
                 </div>
               </div>

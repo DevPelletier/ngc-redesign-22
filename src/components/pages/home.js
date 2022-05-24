@@ -6,10 +6,17 @@ import DarkLogoStampSection from '../sections/dark-logostamp-section';
 import IsMedCannRight_1 from '../sections/section1-ismedcannright';
 import WindowSection from '../sections/window-section';
 import OffsetImageSection from '../sections/offset-image-section';
+import { Helmet } from 'react-helmet';
+
+const pageTitle = 'Medical Cannabis | Northern Green Canada';
 
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>{pageTitle}</title>
+      </Helmet>
+
       <LandingHero />
       <TwoStepsSection />
       <DarkLogoStampSection />

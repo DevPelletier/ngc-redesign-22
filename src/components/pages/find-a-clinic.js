@@ -4,11 +4,18 @@ import '../../styles/components/find-a-clinic.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../button';
 import InfoCards from '../sections/info-cards';
+import { Helmet } from 'react-helmet';
+
+const pageTitle = 'Find A Clinic | Northern Green Canada';
 
 
 function Page() {
   return (
     <>
+    <Helmet>
+      <title>{pageTitle}</title>
+    </Helmet>
+
     <section className="text-and-image bg-f7f8f9-bigknot-right">
       <div className="inner-section width-01 two-col-40-60">
         <div className="text-container">

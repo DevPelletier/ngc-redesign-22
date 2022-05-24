@@ -69,7 +69,7 @@ function Navbar() {
                     onClick={closeMobileMenu}
                     >
                     <div class="dropdown-btn">
-                      How to Register
+                      Sign Up for<br/>Medical Cannabis
                     </div>
                   </Link>
                   <Link
@@ -78,16 +78,16 @@ function Navbar() {
                     onClick={closeMobileMenu}
                     >
                     <div class="dropdown-btn">
-                      Transfer Your Rx
+                      Transfer Your Prescription
                     </div>
                   </Link>
                   <Link
-                    to="/find-a-clinic"
+                    to="/about-us"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
                     <div class="dropdown-btn">
-                      Find A Clinic
+                      About NGC
                     </div>
                   </Link>
                   <Link
@@ -96,7 +96,16 @@ function Navbar() {
                     onClick={closeMobileMenu}
                     >
                     <div class="dropdown-btn">
-                      NGC Support Programs
+                      Support Programs
+                    </div>
+                  </Link>
+                  <Link
+                    to="/insurance-coverage"
+                    className='dropdown-link'
+                    onClick={closeMobileMenu}
+                    >
+                    <div class="dropdown-btn">
+                      Insurance Coverage
                     </div>
                   </Link>
                   <Link to="/patient-faqs"
@@ -111,12 +120,21 @@ function Navbar() {
               </li>
               <li className="nav-item dropdown">
                 <button class="nav-links dropdown_btn">
-                  HCPs &<br />Clinics
+                  HCP &<br />Clinics
                   <span className="material-symbols-rounded">arrow_drop_down</span>
                 </button>
                 <div class="dropdown_container">
                   <Link
-                    to="/professionals-clinics/resources-hub"
+                    to="/find-a-clinic"
+                    className='dropdown-link'
+                    onClick={closeMobileMenu}
+                    >
+                    <div class="dropdown-btn">
+                      Find A Clinic
+                    </div>
+                  </Link>
+                  <Link
+                    to="/healthcare-professionals-clinics"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -125,7 +143,16 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/professionals-clinics/working-with-ngc"
+                    to="/client-forms"
+                    className='dropdown-link'
+                    onClick={closeMobileMenu}
+                    >
+                    <div class="dropdown-btn">
+                      Client Forms
+                    </div>
+                  </Link>
+                  <Link
+                    to="/healthcare-professionals-clinics"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -133,6 +160,7 @@ function Navbar() {
                       Working with NGC
                     </div>
                   </Link>
+
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -148,7 +176,7 @@ function Navbar() {
                 </button>
                 <div class="dropdown_container">
                   <Link
-                    to="/learning-hub/article"
+                    to="/learning-hub-medical-cannabis-101"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -166,7 +194,7 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/learning-hub/article"
+                    to="/learning-hub-dried-flower"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -175,7 +203,7 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/learning-hub/article"
+                    to="/learning-hub-cannabis-extracts"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -184,7 +212,7 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/learning-hub/article"
+                    to="/learning-hub-cannabis-vaporizers"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -193,7 +221,7 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/learning-hub/article"
+                    to="/learning-hub-cannabis-edibles"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -202,7 +230,7 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/learning-hub/article"
+                    to="/learning-hub-cannabinoids"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -211,7 +239,7 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/learning-hub/article"
+                    to="/learning-hub-the-science-of-medicinal-cannabis"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -238,7 +266,16 @@ function Navbar() {
                     onClick={closeMobileMenu}
                     >
                     <div class="dropdown-btn">
-                      Most Popular
+                      Best Sellers
+                    </div>
+                  </Link>
+                  <Link
+                    to="/shop#vaporizers"
+                    className='dropdown-link'
+                    onClick={closeMobileMenu}
+                    >
+                    <div class="dropdown-btn">
+                      Vaporizers
                     </div>
                   </Link>
                   <Link
@@ -268,16 +305,6 @@ function Navbar() {
                       Cannabis Sprays
                     </div>
                   </Link>
-
-                  <Link
-                    to="/shop#vaporizers"
-                    className='dropdown-link'
-                    onClick={closeMobileMenu}
-                    >
-                    <div class="dropdown-btn">
-                      Vaporizers
-                    </div>
-                  </Link>
                   <Link
                     to="/shop#accessories"
                     className='dropdown-link'
@@ -288,6 +315,14 @@ function Navbar() {
                     </div>
                   </Link>
                 </div>
+              </li>
+              <li className="only-mobile solo-nav-link">
+                <Link
+                  onClick={closeMobileMenu}
+                  to="/"
+                  >
+                  Back to Homepage
+                </Link>
               </li>
               <li>
                 <Button

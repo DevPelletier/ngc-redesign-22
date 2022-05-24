@@ -57,30 +57,31 @@ function RegistrationForm() {
                 <img src="imgs/ngc_logobadge_green.jpg" alt=""/>
               </div>
               <h2>Registration Form</h2>
+              <p><span className="required">*</span> - required field</p>
             </div>
             <form onSubmit={handleSubmit} id="formID">
               <label className="mainLabel left">
-                <p>First Name</p>
+                <p>First Name <span className="required">*</span></p>
                 <input name="firstname" type="text" className="border-radius" />
               </label>
               <label className="mainLabel right">
-                <p>Last Name</p>
+                <p>Last Name <span className="required">*</span></p>
                 <input name="lastname" type="text" className="border-radius"  />
               </label>
               <label className="mainLabel full">
-                <p>Email</p>
+                <p>Email <span className="required">*</span></p>
                 <input name="email" type="email" className="border-radius"  />
               </label>
               <label className="mainLabel left">
-                <p>Date of Birth</p>
+                <p>Date of Birth <span className="required">*</span></p>
                 <input name="dateofbirth" type="date" className="border-radius"  />
               </label>
               <label className="mainLabel right">
-                <p>Phone Number</p>
+                <p>Phone Number <span className="required">*</span></p>
                 <input name="phone" type="tel" className="border-radius"  />
               </label>
               <label className="mainLabel full">
-                <p>Address</p>
+                <p>Address <span className="required">*</span></p>
                 <input name="address-1" type="text" className="border-radius"  />
               </label>
               <label className="mainLabel left">
@@ -88,11 +89,11 @@ function RegistrationForm() {
                 <input name="address-2" type="text" className="border-radius"  />
               </label>
               <label className="mainLabel right">
-                <p>City</p>
+                <p>City <span className="required">*</span></p>
                 <input name="city" type="text" className="border-radius"  />
               </label>
               <label className="mainLabel left">
-                <p>Province</p>
+                <p>Province <span className="required">*</span></p>
                 <span className="dropdown-container">
                   <select name="province" id="province">
                     <option value="quebec">AB</option>
@@ -112,7 +113,7 @@ function RegistrationForm() {
                 </span>
               </label>
               <label className="mainLabel right">
-                <p>Postal Code</p>
+                <p>Postal Code <span className="required">*</span></p>
                 <input name="postalcode" type="text" className="border-radius"  />
               </label>
               <label className="mainLabel left">
@@ -120,7 +121,7 @@ function RegistrationForm() {
                 <Button>
                   Upload Medical Document
                 </Button>
-                <p className="sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam expedita reprehenderit voluptatem illo mollitia laborum repellendus ea saepe hic, voluptatibus officia perferendis possimus, veniam incidunt, fugit vero in cumque ullam.</p>
+                <p className="sm">NOTE: A Medical Document is not required for initial registration - please skip this step if you do not have a valid Medical Document.</p>
               </label>
               <label className="mainLabel right">
                 <p>Medical Cannabis Newsletter</p>
@@ -128,7 +129,6 @@ function RegistrationForm() {
                   <input type="checkbox" id="newsletter" name="newsletter" value="Newsletter Opt-In"  />
                   <label for="newsletter">I Opt-In to receiving updates on medicinal cannabis and NGC products</label>
                 </span>
-                <p className="sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum semper nibh eu auctor. </p>
               </label>
               <label className="mainLabel left">
                 <p>Veterans Affairs Canada - K Number</p>
@@ -155,7 +155,7 @@ function RegistrationForm() {
                 </span>
               </label>
               <label className="mainLabel full">
-                <p>Patient Authorization</p>
+                <p>Patient Authorization <span className="required">*</span></p>
                 <p className="sm">Northern Green Canada (NGC) is required to collect the following personal information from applicants to comply with Health Canada regulations to Access to Cannabis for Medical Purposes Regulation (ACMPR). This information may be amended from time to time. The information collected by NGC stays confidential. NGC uses and discloses personal information in accordance with the provisions of the Personal Information Protection and Electronic Documents Act (PIPEDA), the Ontario Personal Information Protection Act, ACMPR, and NGC’s privacy policy. Personal information collected in these forms is only for the purposes of providing medical cannabis and related services to applicants.</p>
                 <p>Signee Acknowledgements</p>
                 <p className="sm">The signee hereby confirms the information set out in the application is correct and complete and that Northern Green Canada is relying on this information.</p>

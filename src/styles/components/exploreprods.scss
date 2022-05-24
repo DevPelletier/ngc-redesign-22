@@ -10,7 +10,7 @@ section.exploreprods {
 
   .text-container {
     width: 40vw;
-    max-width: 600px;
+    max-width: 800px;
     min-width: 300px;
   }
 
@@ -32,24 +32,25 @@ section.exploreprods {
     @include shadow-01;
     @include border-radius;
     background-color: $white01;
-    // background-image: url('../../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
+    background-image: url('../../../public/imgs/ngc_looseknot_f7f8f9_2000px.png');
     background-repeat: no-repeat;
     background-position: right 50% top 30%;
     background-size: 80%;
     width: 250px;
-    transition: all 0.2s ease;
+    transition: all 250ms ease;
 
     &:hover,
     &:focus,
     &:active {
-      background-color: $blue01;
-      background-image: none;
+      // background-color: $blue01;
+      // background-image: none;
       @include shadow-02;
     }
 
     h3 {
-      color: $green04;
-      font-size: 0.82rem;
+      transition: all 250ms ease;
+      // color: $green04;
+      // font-size: 0.82rem;
     }
 
 

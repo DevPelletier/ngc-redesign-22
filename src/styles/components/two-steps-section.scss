@@ -4,6 +4,10 @@ section.two-steps {
   .inner-section {
     grid-column: lineL2 / lineR2;
   }
+
+  p {
+    max-width: 800px;
+  }
 }
 
 .two-steps-container {

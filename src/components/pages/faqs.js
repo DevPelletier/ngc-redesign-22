@@ -11,7 +11,9 @@ import Shipping from '../faq-groups/shipping';
 import AboutNGC from '../faq-groups/aboutngc';
 import UsingCannabis from '../faq-groups/usingcannabis';
 import SafetyLegal from '../faq-groups/safety';
+import { Helmet } from 'react-helmet';
 
+const pageTitle = 'Patient FAQs | Northern Green Canada';
 
 function Page() {
 
@@ -42,6 +44,10 @@ function Page() {
 
   return (
     <>
+    <Helmet>
+      <title>{pageTitle}</title>
+    </Helmet>
+
     <section className="text-and-image faqs">
       <div className="inner-section width-01 two-col-30-70">
         <div className="text-container">

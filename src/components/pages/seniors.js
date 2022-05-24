@@ -3,10 +3,17 @@ import '../../styles/app.scss';
 import { Button } from '../button';
 import { Link } from 'react-router-dom';
 import InfoCards from '../sections/info-cards';
+import { Helmet } from 'react-helmet';
+
+const pageTitle = 'Seniors Program | Northern Green Canada';
 
 function Page() {
   return (
     <>
+    <Helmet>
+      <title>{pageTitle}</title>
+    </Helmet>
+
     <section className="text-and-image">
       <div className="inner-section width-02 two-col-even">
         <div className="text-container">

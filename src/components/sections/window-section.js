@@ -11,45 +11,42 @@ function WindowSection() {
           <div className="window-row height-md">
             <div className="window-left img-window">
               <div className="img-container">
-                <img src="imgs/3-2-vert-01.jpg" alt=""/>
+                <img src="imgs/16-9-vert-01.jpg" alt=""/>
               </div>
             </div>
             <div className="window-right text-container">
               <h3>Northern Green Cares</h3>
               <h2>We Support Our Patients</h2>
-              <p>You can be assured at NGC we develop cannabis products backed by research contributed by scientists, doctors, and a network of cultivation experts, both domestic and international. Our team fosters a client-centered care approach - what you value is what we care about.</p>
-              <p>We are available to answer any questions you have, and assist you along the path to improving your quality of life. We believe in reaching beyond common service standards, and as such, we have a dedicated team of in-house medical staff to protect your safety. Our cultivation experts produce premium products using state of the art technology and equipment to ensure safe, tested, and consistent cannabis products.</p>
-
+              <p>You can rest assured - at NGC we develop medicinal cannabis products backed by research from a wide range of scientists, doctors, and a network of cultivation experts, both domestic and international. Our team fosters a client-centered care approach - what you value is what we care about.</p>
+              <p>NGC's Client Services Team is available to answer any questions you have, and assist you along the path to improving your quality of life. We believe in reaching beyond common service standards, and as such, we have a dedicated team committed to premium, holistic support for our registered clients.</p>
               <div className="btn-container">
                 <Button
-                url="/why-ngc"
+                  buttonStyle="btn--secondary"
+                  url="/about-us"
                 >
                   Learn More About NGC
-                </Button>
-                <Button
-                  url="/patient-support"
-                >
-                  Our Patient Support Programs
                 </Button>
               </div>
             </div>
           </div>
-          <div className="window-row height-sm mobile-bg-green02">
+          <div className="window-row height-md mobile-bg-green02">
             <div className="window-left text-container">
               <h3>For Our Healthcare Partners</h3>
-              <h2>Resources for HCPs & Clinics</h2>
-              <p>We simplify the process for you and your patients while helping you make important decisions to ensure the best care. After being prescribed medical cannabis, it’s important that patients get registered to be able to place their orders. Access resources and information to help them with this process.</p>
+              <h2>Resources for Healthcare Partners</h2>
+              <p>We simplify the process for you and your patients, while helping you make important decisions to ensure the best care.</p>
+              <p>Once a patient is prescribed medical cannabis, it’s essential that patients can quickly and efficiently get access to their treatment. NGC is dedicated to working closely with our Healthcare Partners to ensure that this process is as smooth and effortless as possible for every single patient.</p>
+              <p>Access resources and information to help them with this process below:</p>
               <div className="btn-container">
                 <Button
                   url="/healthcare-professionals-clinics"
                 >
-                  Learn More
+                  HCP & Clinic Resources
                 </Button>
               </div>
             </div>
             <div className="window-right img-window">
               <div className="img-container">
-                <img src="imgs/square01.jpg" alt=""/>
+                <img src="imgs/3-2-vert-01.jpg" alt=""/>
               </div>
             </div>
           </div>

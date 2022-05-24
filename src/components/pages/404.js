@@ -4,10 +4,17 @@ import '../../styles/layout/standard-page.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../button';
 import '../../styles/layout/404.scss';
+import { Helmet } from 'react-helmet';
+
+const pageTitle = 'Page Not Found (404) | Northern Green Canada';
 
 function Page404() {
   return (
     <>
+    <Helmet>
+      <title>{pageTitle}</title>
+    </Helmet>
+
       <section className="standard">
         <div className="inner-section">
           <div className="text-container">

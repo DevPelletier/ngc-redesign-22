@@ -246,6 +246,142 @@ function InfoCards() {
                   Find On Maps
                 </Button>
               </div>
+              <div className="info-card clinic border-radius">
+                <div>
+                  <h4>Apollo Cannabis Clinics - Etobicoke</h4>
+                  <p>295 The West Mall, Unit #100<br />Etobicoke, ON</p>
+                  <div className="link-container">
+                    <h3 className="left">Website:</h3>
+                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                      ApolloCannabis.ca
+                    </Link>
+                    <h3 className="left">Email:</h3>
+                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                      booking@apolloresearch.com
+                    </Link>
+                    <h3 className="left">Phone:</h3>
+                    <Link to="" className="primary-link sm-primary-link right">
+                      (877) 560-9195
+                    </Link>
+                  </div>
+                </div>
+                <Button
+                  url="https://goo.gl/maps/buv1PV8kNQ5f4kUL6"
+                  buttonStyle="btn--secondary"
+                  target="_blank"
+                  >
+                  Find On Maps
+                </Button>
+              </div>
+              <div className="info-card clinic border-radius">
+                <div>
+                  <h4>Apollo Cannabis Clinics - Yonge & Eglinton</h4>
+                  <p>2352 Yonge St, Second Floor<br />Toronto, ON</p>
+                  <div className="link-container">
+                    <h3 className="left">Website:</h3>
+                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                      ApolloCannabis.ca
+                    </Link>
+                    <h3 className="left">Email:</h3>
+                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                      booking@apolloresearch.com
+                    </Link>
+                    <h3 className="left">Phone:</h3>
+                    <Link to="" className="primary-link sm-primary-link right">
+                      (877) 560-9195
+                    </Link>
+                  </div>
+                </div>
+                <Button
+                  url="https://goo.gl/maps/buv1PV8kNQ5f4kUL6"
+                  buttonStyle="btn--secondary"
+                  target="_blank"
+                  >
+                  Find On Maps
+                </Button>
+              </div>
+              <div className="info-card clinic border-radius">
+                <div>
+                  <h4>Apollo Cannabis Clinics - Yorkville</h4>
+                  <p>1255 Bay St Unit #702<br />Toronto, ON</p>
+                  <div className="link-container">
+                    <h3 className="left">Website:</h3>
+                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                      ApolloCannabis.ca
+                    </Link>
+                    <h3 className="left">Email:</h3>
+                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                      booking@apolloresearch.com
+                    </Link>
+                    <h3 className="left">Phone:</h3>
+                    <Link to="" className="primary-link sm-primary-link right">
+                      (877) 560-9195
+                    </Link>
+                  </div>
+                </div>
+                <Button
+                  url="https://goo.gl/maps/buv1PV8kNQ5f4kUL6"
+                  buttonStyle="btn--secondary"
+                  target="_blank"
+                  >
+                  Find On Maps
+                </Button>
+              </div>
+              <div className="info-card clinic border-radius">
+                <div>
+                  <h4>Apollo Cannabis Clinics - Aurora</h4>
+                  <p>372 Hollandview Trail Unit #201<br />Aurora, ON</p>
+                  <div className="link-container">
+                    <h3 className="left">Website:</h3>
+                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                      ApolloCannabis.ca
+                    </Link>
+                    <h3 className="left">Email:</h3>
+                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                      booking@apolloresearch.com
+                    </Link>
+                    <h3 className="left">Phone:</h3>
+                    <Link to="" className="primary-link sm-primary-link right">
+                      (877) 560-9195
+                    </Link>
+                  </div>
+                </div>
+                <Button
+                  url="https://goo.gl/maps/buv1PV8kNQ5f4kUL6"
+                  buttonStyle="btn--secondary"
+                  target="_blank"
+                  >
+                  Find On Maps
+                </Button>
+              </div>
+              <div className="info-card clinic border-radius">
+                <div>
+                  <h4>Apollo Cannabis Clinics - North York</h4>
+                  <p>240 Duncan Mill Rd, Suite #201<br />Toronto, ON</p>
+                  <div className="link-container">
+                    <h3 className="left">Website:</h3>
+                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                      ApolloCannabis.ca
+                    </Link>
+                    <h3 className="left">Email:</h3>
+                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                      booking@apolloresearch.com
+                    </Link>
+                    <h3 className="left">Phone:</h3>
+                    <Link to="" className="primary-link sm-primary-link right">
+                      (877) 560-9195
+                    </Link>
+                  </div>
+                </div>
+                <Button
+                  url="https://goo.gl/maps/buv1PV8kNQ5f4kUL6"
+                  buttonStyle="btn--secondary"
+                  target="_blank"
+                  >
+                  Find On Maps
+                </Button>
+              </div>
+
 
             </div>
           </Route>

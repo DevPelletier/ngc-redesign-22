@@ -3,242 +3,59 @@ import '../../styles/app.scss';
 import '../../styles/layout/learning-hub.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../button';
+import { Switch, Route, useRouteMatch } from 'react-router-dom';
+
 import ShopHero from '../shop-hero';
 
+import SubCat_HubHighlights from '../articles/subcat-hubhighlights';
+import SubCat_HubLatest from '../articles/subcat-hublatestposts';
+
+import SubCat_BeginnersGuides from '../articles/subcat-beginnersguides';
+import SubCat_NGCNews from '../articles/subcat-ngc-news';
+import SubCat_UsingMedCann from '../articles/subcat-using-medcann';
+import SubCat_CannabisScience from '../articles/subcat-cannabis-science';
+import { Helmet } from 'react-helmet';
+
+const pageTitle = 'Medicinal Cannabis Learning Hub | Northern Green Canada';
 
 
 function LearningHub() {
   return (
     <>
+    <Helmet>
+      <title>{pageTitle}</title>
+    </Helmet>
+
       <ShopHero />
 
-      <section className="hub-highlights">
-        <div className="inner-section width-02">
-          <h4>Hub Highlights</h4>
-          <div className="blog-highlights-container">
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
+      <Switch>
+        <Route path="/learning-hub" exact>
+          <SubCat_HubHighlights />
+          <SubCat_HubLatest />
+        </Route>
+        <Route path="/learning-hub-subcategory-all" exact>
+          <SubCat_HubHighlights />
+          <SubCat_HubLatest />
+        </Route>
 
-          </div>
-        </div>
-      </section>
+        <Route path="/learning-hub-subcategory-beginners-guide" exact>
+          <SubCat_BeginnersGuides />
+        </Route>
 
-      <section className="hub-latest">
-        <div className="inner-section width-01">
-          <h4>Latest Posts</h4>
-          <div className="blog-latest-container">
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
-            <div className="blog-link-container">
-              <div className="blog-tag-container">
-                <Link to="/" className="blog-tag">
-                  <span>All Articles
-                  </span>
-                </Link>
-                <span className="blog-tag blog-tag-sep">&bull;
-                </span>
-                <Link to="/" className="blog-tag">
-                  <span>Beginners Guide to Cannabis
-                  </span>
-                </Link>
-              </div>
-              <Link to="/">
-                <div className="img-container border-radius">
-                  <img src="imgs/test.jpg" alt=""/>
-                </div>
-              </Link>
-              <span className="blog-link-date">May 24, 2022</span>
-              <h4>Medicinal Cannabis 101</h4>
-            </div>
+        <Route path="/learning-hub-subcategory-ngc-news" exact>
+          <SubCat_NGCNews />
+        </Route>
 
-          </div>
-        </div>
-      </section>
+        <Route path="/learning-hub-subcategory-cannabis-science" exact>
+          <SubCat_CannabisScience />
+        </Route>
+
+        <Route path="/learning-hub-subcategory-using-medicinal-cannabis" exact>
+          <SubCat_UsingMedCann />
+        </Route>
+      </Switch>
+
+
     </>
   );
 }

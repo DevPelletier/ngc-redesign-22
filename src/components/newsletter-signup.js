@@ -12,7 +12,7 @@ function NewsletterSignup() {
       <section className='newsletter'>
         <div className="newsletter-container">
           <h2>Join the Medicinal Cannabis Revolution</h2>
-          <p>Get the latest news and innovation on Medicinal Cannabis, as well as NGC news and products, straight to your inbox</p>
+          <p>Get the latest news and innovation in the Medical Cannabis industry, as well as NGC news and products - straight to your inbox</p>
           <form className='newsletter-signup'>
             <div className="newsletter-inputs">
               <div>

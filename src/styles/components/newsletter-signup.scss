@@ -7,6 +7,7 @@ section.newsletter {
 
   .newsletter-container {
     @include centerAll;
+    max-width: 1000px;
   }
 
 }

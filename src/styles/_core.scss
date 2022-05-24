@@ -35,6 +35,7 @@ $font-stack: 'Lato', Helvetica, sans-serif;
 
 ///////////////////// BREAK POINTS /////////////////////
 
+$breakpoint0: 1400px;
 $breakpoint1: 1080px;
 
  ///////////////////// MIXINS /////////////////////
@@ -105,19 +106,19 @@ $breakpoint1: 1080px;
 }
 
 @mixin section-padding-lg-lg {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 
 @mixin section-padding-lg-md {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 @mixin section-padding-lg-sm {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @mixin section-padding-sm-lg {
@@ -132,9 +133,9 @@ $breakpoint1: 1080px;
 
 ////////////// TYPOGRAPHY
 @mixin standard-p-styles {
-  font-size: 1.125rem;
-  line-height: 1.875rem;
-  letter-spacing: 0.013rem;
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.015rem;
   font-weight: 400;
 }
 

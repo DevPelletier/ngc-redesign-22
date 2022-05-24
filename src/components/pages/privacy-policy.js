@@ -2,10 +2,17 @@ import React from 'react';
 import '../../styles/app.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../button';
+import { Helmet } from 'react-helmet';
+
+const pageTitle = 'Privacy Policy | Northern Green Canada';
 
 function Page() {
   return (
     <>
+    <Helmet>
+      <title>{pageTitle}</title>
+    </Helmet>
+
     <section class="legal-page">
       <div className="inner-section width-03 text-centered bg-f7f8f9-bigknot-center">
         <div className="text-container">

@@ -16,6 +16,7 @@ section.shop-hero {
     justify-content: flex-start;
     border: 1px solid $green04;
     padding: 10px;
+    padding-bottom: 0;
     margin-bottom: 50px;
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.20);
     width: 80vw;
@@ -72,7 +73,7 @@ section.learning-hub-hero {
   }
 
   .img-container.hub-hero-img {
-    padding-top: 3vw;
+    margin-top: 3vw;
     align-content: flex-start;
     margin-bottom: auto;
   }
@@ -100,8 +101,6 @@ section.learning-hub-hero {
         margin: 0;
       }
     }
-
-
   }
 
   section.learning-hub-hero {

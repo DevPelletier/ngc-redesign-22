@@ -5,28 +5,25 @@ import { Button } from '../button';
 import DarkLogoStampSection from '../sections/dark-logostamp-section';
 import WindowSection from '../sections/window-section';
 import OffsetImageSection from '../sections/offset-image-section';
+import ExploreProds from '../sections/exploreprods';
 
 
 function AboutUs() {
   return (
     <>
-    <section className="text-and-image">
+    <section className="text-and-image bg-f7f8f9-bigknot-right section-padding-lg-lg ">
       <div className="inner-section width-02 two-col-even">
         <div className="img-container col-width-md push-left border-radius">
-          <img src="imgs/square01.jpg" alt=""/>
+          <img src="imgs/3-2-vert-01.jpg" alt=""/>
         </div>
         <div className="text-container">
           <h3>Our Story</h3>
           <h2>We are a company founded in friendship</h2>
           <p>Her name was Ann. And it was the debilitating impact of chemotherapy in her fight against small cell lung cancer that led friends and Northern Green Canada founders, Lisa and Mary, to help Ann investigate alternative treatments. Their search led them to discover cannabis oils as a remedy for the profound nausea afflicting their best friend.</p>
+          <br /><br />
           <h4>...and inspired by discovery</h4>
           <p>This discovery changed the way Lisa and Mary thought about cannabis. It sparked their impassioned drive to create a company dedicated to helping others through the use and innovation of medical cannabis; to start Northern Green Canada, a company founded on compassion and friendship. </p>
         </div>
-      </div>
-    </section>
-
-    <section className="section-spacer">
-      <div className="inner-section ">
       </div>
     </section>
 
@@ -43,8 +40,9 @@ function AboutUs() {
         </div>
       </div>
     </section>
-
+    
     <DarkLogoStampSection />
+    <ExploreProds />
     <WindowSection />
     <OffsetImageSection />
 

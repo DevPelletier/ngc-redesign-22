@@ -14,6 +14,7 @@ function OffsetImageSection() {
             <p>At NGC, everything we do is in support of our patients. We believe that the therapeutic potential and power of medicinal cannabis should be available to all patients who require it. That's why we are proud to offer discount and pricing programs that improve affordability and access to medicinal cannabis.</p>
             <div className="btn-container">
               <Button
+                url="/support-programs"
               >
                 Our Patient Support Programs
               </Button>

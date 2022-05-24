@@ -3,6 +3,15 @@ import '../../styles/app.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../button';
 import '../../styles/components/shop-collection.scss';
+import ProductListingProps from '../product-listing-props';
+
+import {
+  vaporizer_bliss,
+  vaporizer_relief,
+  vaporizer_relax,
+  vaporizer_ascend,
+  vaporizer_sleep
+} from '../products/all-products';
 
 const Collection = (props) => {
     return (
@@ -10,135 +19,14 @@ const Collection = (props) => {
       <div className="scrollAnchor" ref={props.refProp}></div>
         <div className="collection-header">
           <h3>Vaporizers</h3>
-          <p>NGC has partnered with Kaiser Day Cannaceuticals to carry their line of custom-formulation, full-spectrum vaporizers. Each vaporizer formula has been specifically created to maximize the potential therapeutic effects of the cannabinoids they contain, for specific purposes.</p>
+          <p>NGC has partnered with <a href="https://kaiserday.com/" target="_blank">Kaiser Day Cannaceuticals</a> to carry their line of custom-formulation, full-spectrum vaporizers. Each vaporizer formula has been specifically created to maximize the potential therapeutic effects of the cannabinoids they contain, for specific purposes.</p>
         </div>
         <div className="collection-listings-container">
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-          <div className="listing-container border-radius">
-            <Link to="/product" className="listing-img-link">
-              <div className="img-container exact-size border-radius">
-                <img src="imgs/prod-square.png" alt=""/>
-              </div>
-              <div className="tags-container">
-                <div><span className="tag highlight border-radius">High CBD</span></div>
-                <div><span className="tag border-radius">CBD: 20mg/g</span></div>
-                <div><span className="tag border-radius">THC: 0mg/g</span></div>
-              </div>
-              <h4>Product Title</h4>
-              <h6>Product Category</h6>
-            </Link>
-            <div className="flex-center-col">
-              <p className="prod-price">From $8.00/g</p>
-              <Button
-                buttonStyle="btn--secondary"
-              >
-              Sign In To Buy
-              </Button>
-              <Link to="/register" className="primary-link">
-                Register Now
-              </Link>
-            </div>
-          </div>
-
+          <ProductListingProps numbers={vaporizer_bliss} />
+          <ProductListingProps numbers={vaporizer_relief} />
+          <ProductListingProps numbers={vaporizer_relax} />
+          <ProductListingProps numbers={vaporizer_ascend} />
+          <ProductListingProps numbers={vaporizer_sleep} />
         </div>
       </div>
 

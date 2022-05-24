@@ -21,22 +21,28 @@ function Footer() {
               <h3>Patients</h3>
             </li>
             <li>
-              <a href="/register">How to Sign Up</a>
+              <a href="/start-here">New? Start Here</a>
             </li>
             <li>
-              <a href="/find-a-clinic">Find a Clinic</a>
+              <a href="/register">Sign Up for Medical Cannabis</a>
             </li>
             <li>
-              <a href="/veterans-coverage">Veteran's Coverage</a>
+              <a href="/transfer-your-prescription">Transfer Your Prescription</a>
             </li>
             <li>
-              <a href="/compassionate-pricing">Compassionate Pricing</a>
+              <a href="/about-us">About NGC</a>
             </li>
             <li>
-              <a href="/patients/about-us">About NGC</a>
+              <a href="/support-programs">Support Programs</a>
+            </li>
+            <li>
+              <a href="/insurance-coverage">Insurance Coverage</a>
             </li>
             <li>
               <a href="/faqs">FAQ</a>
+            </li>
+            <li>
+              <a href="/careers">Careers</a>
             </li>
           </ul>
           <ul className="footer-link-list">
@@ -44,10 +50,16 @@ function Footer() {
               <h3>HCP & Clinics</h3>
             </li>
             <li>
-              <a href="/professionals-clinics/resources-hub">Resources Hub</a>
+              <a href="/find-a-clinic">Find a Clinic</a>
             </li>
             <li>
-              <a href="/professionals-clinics/working-with-ngc">Working with NGC</a>
+              <a href="/healthcare-professionals-clinics">Resources Hub</a>
+            </li>
+            <li>
+              <a href="/healthcare-professionals-clinics">Working with NGC</a>
+            </li>
+            <li>
+              <a href="/client-forms">Client Forms</a>
             </li>
           </ul>
           <ul className="footer-link-list">
@@ -78,22 +90,25 @@ function Footer() {
               <h3>Learn</h3>
             </li>
             <li>
-              <a href="/learning-hub">Medical Cannabis Learning Hub</a>
+              <a href="/learning-hub">Cannabis Learning Hub</a>
             </li>
             <li>
-              <a href="/article">Medical Cannabis 101</a>
+              <a href="/learning-hub-medical-cannabis-101">Medical Cannabis 101</a>
             </li>
             <li>
-              <a href="/learning-hub/learn-dried-flower">Learn Dried Flower</a>
+              <a href="/learning-hub-dried-flower">Learn Dried Flower</a>
             </li>
             <li>
-              <a href="/learning-hub/learn-vaporizers">Learn Vaporizers</a>
+              <a href="/learning-hub-cannabis-vaporizers">Learn Vaporizers</a>
             </li>
             <li>
-              <a href="/learning-hub/learn-extracts">Learn Extracts</a>
+              <a href="/learning-hub-cannabis-extracts">Learn Extracts</a>
             </li>
             <li>
-              <a href="/learning-hub/learn-cannabinoids">Learn Cannabinoids</a>
+              <a href="/learning-hub-cannabinoids">Learn Cannabinoids</a>
+            </li>
+            <li>
+              <a href="/learning-hub-the-science-of-medicinal-cannabis">Learn The Science</a>
             </li>
           </ul>
           <ul className="footer-link-list contact">

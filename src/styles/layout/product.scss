@@ -5,7 +5,7 @@ section.product-hero {
   grid-template-columns: [left] 1fr [center] 1fr [right];
   grid-gap: 0;
   padding: 0;
-  height: 950px;
+  min-height: 100vh;
 
   .prod-main {
     grid-column: center / right;
@@ -17,10 +17,12 @@ section.product-hero {
 
   .prod-info-container {
     width: 70%;
+    padding: 80px 0;
 
     h4 {
       text-align: right;
       font-weight: 300;
+      font-style: italic;
     }
 
     .flexcont-space-between {
@@ -36,116 +38,121 @@ section.product-hero {
   .prod-img-container {
     grid-column: left / center;
     height: 100%;
-    background-color: $blue02;
+    background-color: $white02;
 
     img {
-      @include img-full-height;
+      width: 100%;
+      height: auto;
     }
   }
 
 }
 
-section.suggested-prods {
-  .inner-section {
-
-  }
-
-  .collection-listings-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 16px;
-
-    .listing-container {
-      // border: 1px solid red;
-      // background-color: $blue02;
-      padding: 50px 32px;
-      @include flex-center-col;
-      justify-content: space-between;
-    }
-
-    p.prod-price {
-      font-size: 22px;
-      font-weight: 400;
-      letter-spacing: 0.5px;
-      margin: 32px auto;
-    }
-
-    .primary-link {
-      margin: 10px auto;
-      font-size: 14px;
-      padding-bottom: 0;
-    }
-  }
-
-  a.listing-img-link {
-    @include flex-center-col;
-
-    .img-container {
-      width: 80%;
-      height: 20vw;
-      min-height: 370px;
-      max-height: 400px;
-    }
-
-    .tags-container {
-      margin: 32px auto;
-      @include flex-center;
-      flex-wrap: wrap;
-
-      & > div {
-        margin-left: 16px;
-        margin-bottom: 10px;
-
-        &:first-child {
-          margin-left: 0;
-        }
-      }
-
-      .tag {
-        font-size: 15px;
-        letter-spacing: 0.25px;
-        height: 30px;
-        padding: 6px 10px;
-        border: 1px solid $green04;
-        white-space: nowrap;
-
-        &.highlight {
-          border: 1px solid $blue02;
-          background-color: $blue02;
-        }
-      }
-    }
-
-    h4 {
-      margin-bottom: 10px
-    }
-
-    h3 {
-      margin-bottom: 0;
-    }
-  }
-}
-
+// section.suggested-prods {
+//   .inner-section {
+//
+//   }
+//
+//   .collection-listings-container {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-gap: 16px;
+//
+//     .listing-container {
+//       // border: 1px solid red;
+//       // background-color: $blue02;
+//       padding: 50px 32px;
+//       @include flex-center-col;
+//       justify-content: space-between;
+//     }
+//
+//     // p.prod-price {
+//     //   font-size: 22px;
+//     //   font-weight: 400;
+//     //   letter-spacing: 0.5px;
+//     //   margin: 32px auto;
+//     // }
+//
+//     .primary-link {
+//       margin: 10px auto;
+//       font-size: 14px;
+//       padding-bottom: 0;
+//     }
+//   }
+//
+//   a.listing-img-link {
+//     @include flex-center-col;
+//
+//     .img-container {
+//       width: 80%;
+//       height: 20vw;
+//       min-height: 370px;
+//       max-height: 400px;
+//     }
+//
+//     .tags-container {
+//       margin: 32px auto;
+//       justify-content: center;
+//
+//       & > div {
+//         margin-left: 16px;
+//         margin-bottom: 10px;
+//
+//         &:first-child {
+//           margin-left: 0;
+//           border: 1px solid $blue02;
+//           background-color: $blue02;
+//         }
+//       }
+//
+//
+//       .tag {
+//         font-size: 15px;
+//         letter-spacing: 0.25px;
+//         height: 30px;
+//         padding: 6px 10px;
+//         border: 1px solid $green04;
+//         white-space: nowrap;
+//       }
+//     }
+//
+//     h4 {
+//       margin-bottom: 10px
+//     }
+//
+//     h3 {
+//       margin-bottom: 0;
+//     }
+//   }
+// }
+//
 ////////// TAGS STANDARD STYLES
 .tags-container {
   margin: 32px auto;
+  @include flex-center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 
   .tag {
-    margin-left: 16px;
+    margin: 0 8px 12px;
     font-size: 15px;
+    font-weight: 400;
     letter-spacing: 0.25px;
     height: 30px;
     padding: 6px 10px;
     border: 1px solid $green04;
+    @include flex-center;
+    width: fit-content;
 
     &:first-child {
-      margin-left: 0;
-    }
-
-    &.highlight {
-      border: 1px solid $blue02;
+      // margin-left: 0;
+      border: 1px solid $blue02 !important;
       background-color: $blue02;
     }
+    // &.highlight {
+    //   border: 1px solid $blue02;
+    //   background-color: $blue02;
+    // }
   }
 }
 ///////////// END TAGS STANDARD STYLES
