@@ -1,11 +1,81 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../styles/app.scss';
 import { Button } from './button';
 import { Link } from 'react-router-dom';
 import '../styles/components/landing-hero.scss';
 
 
-function LandingHero() {
+// function LandingHero() {
+class LandingHero extends React.Component {
+  constructor(props) {
+    super(props);
+    const images = [
+      "imgs/000-4to3-V.jpg",
+      "imgs/030-4to3-V.jpg",
+      "imgs/032-4to3-V.jpg"
+    ];
+    this.state = {
+      images,
+      currentImg: 0
+    }
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => this.changeBackgroundImage(), 7000);
+  }
+
+  componentWillUnmount() {
+    if (this.interval) {
+      clearInterval(this.interval);
+    }
+  }
+
+  // fadeImage = () => {
+  //   this.setState({
+  //     fadeOut: true
+  //   });
+  //   setTimeout(() => {
+  //     this.setState({
+  //       fadeOut: false
+  //     });
+  //   }, 500);
+  // }
+  // className={`${fadeOut ? 'fadeOutOpacity' : ''}`}
+
+  changeBackgroundImage(ref) {
+    let newCurrentImg = 0;
+    const {images, currentImg} = this.state;
+    const noOfImages = images.length;
+
+    if (currentImg !== noOfImages - 1) {
+      newCurrentImg = currentImg + 1;
+    }
+
+    this.setState({
+      fadeOut: true
+    });
+    // console.log('fadeout');
+
+    setTimeout(() => {
+      this.setState({currentImg: newCurrentImg});
+      // console.log('imagechanged');
+
+      setTimeout(() => {
+        this.setState({
+          fadeOut: false
+        });
+        // console.log('fadein');
+      }, 250);
+
+    }, 250);
+
+  }
+
+
+  render() {
+    const {images, currentImg} = this.state;
+    const imgString = `${images[currentImg]}`;
+
     return (
       <section className='hero-container'>
         <div className="hero-text">
@@ -18,10 +88,12 @@ function LandingHero() {
           </div>
         </div>
         <div className="hero-img-container img-container">
-          <img src="imgs/square01.jpg" alt=""/>
+          <img className={`fading ${this.state.fadeOut ? 'fadeOutOpacity' : ''}`}src={imgString} alt=""/>
         </div>
       </section>
-    )
+    );
+  }
+
 }
 
 export default LandingHero;

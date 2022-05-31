@@ -23,7 +23,7 @@ function OffsetImageSection() {
         </div>
         <div className="offset-img border-radius">
           <div className="img-container">
-            <img src="imgs/3-2-vert-01.jpg" alt=""/>
+            <img src="imgs/026-4to3-V.jpg" alt=""/>
           </div>
         </div>
         <div className="inner-section section-spacer"></div>

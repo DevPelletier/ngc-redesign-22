@@ -212,3 +212,19 @@ section.product-hero {
     }
   }
 }
+
+@media screen and (max-width: $breakpoint2) {
+  section.product-hero {
+    grid-gap: 32px 0;
+    padding-bottom: 40px;
+
+    .prod-img-container {
+      height: 50vh;
+      min-height: 300px;
+    }
+
+    .prod-info-container {
+      padding: 32px 0;
+    }
+  }
+}

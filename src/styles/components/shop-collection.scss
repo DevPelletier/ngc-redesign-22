@@ -132,24 +132,51 @@ section.suggested-prods {
 
 }
 
-@media screen and (max-width: 1300px) {
-  section.shop-collection {
+@media screen and (max-width: $breakpoint0) {
+  section.shop-collection,
+  section.suggested-prods {
 
     .collection-listings-container {
       grid-template-columns: 1fr 1fr;
+
+      .img-container {
+        height: 30vh !important;
+        min-height: 250px !important;
+
+        img {
+          height: 97%;
+          width: auto;
+          max-width: unset !important;
+        }
+      }
+
+      .tags-container {
+        margin: 24px auto 16px;
+
+        .tag {
+          font-size: 12px;
+          padding: 4px 5px;
+          height: 24px;
+          margin: 0 8px 12px;
+        }
+      }
+
     }
   }
 
   a.listing-img-link {
-    .img-container {
-      width: 95% !important;
+    &:hover {
+      img {
+        height: 100% !important;
+      }
     }
   }
 }
 
 
 @media screen and (max-width: $breakpoint1) {
-  section.shop-collection {
+  section.shop-collection,
+  section.suggested-prods {
 
     .collection-container {
       padding: 160px 0 0;
@@ -168,28 +195,46 @@ section.suggested-prods {
         width: 100%;
       }
 
-
-
-      .img-container {
-        img {
-          height: 100%;
-          width: auto;
-          max-width: unset !important;
-        }
-      }
-
       .tags-container {
-        margin: 24px auto;
+        margin: 24px auto 18px;
+
+        .tag {
+          font-size: 12px;
+          padding: 4px 5px;
+          height: 22px;
+          margin: 0 6px 10px;
+        }
+
       }
+
     }
   }
 }
 
-@media screen and (max-width: 600px) {
-  section.shop-collection {
+@media screen and (max-width: $breakpoint2) {
+  section.shop-collection,
+  section.suggested-prods {
     .collection-header {
       width: 100%;
       min-width: unset;
+    }
+
+    a.listing-img-link {
+      .img-container {
+        min-height: 200px;
+        height: 25vh;
+      }
+    }
+
+    .scrollAnchor {
+      position: relative;
+      top: calc(-70px - 20vh) !important;
+    }
+
+
+    a.primary-link {
+      font-size: 12px !important;
+
     }
   }
 }

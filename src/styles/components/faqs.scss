@@ -12,6 +12,17 @@ section.faqs {
       border: 1px solid $blue01;
       // background: $blue01;
       // color: white;
+
+      .MuiAccordionSummary-root {
+        background-color: $green02;
+        color: white;
+        border-radius: 5px;
+        border-bottom: 2px solid $green01;
+      }
+
+      svg {
+        color: white;
+      }
     }
 
     .scrollAnchor {
@@ -32,6 +43,29 @@ section.faqs {
   }
 }
 
+.scrollToTop {
+  position: fixed;
+  bottom: 32px;
+  right: 23px;
+  padding: 0;
+  z-index: 99;
+  background: none;
+  a.btn {
+    button.btn {
+      padding: 0;
+      margin: 0;
+      min-width: unset;
+      border-radius: 100%;
+      border: none;
+
+      span.material-symbols-rounded {
+        font-size: 32px;
+        margin: 0;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $breakpoint1) {
   .faqs-container {
     margin: auto;
@@ -47,4 +81,11 @@ section.faqs {
     top: calc(-50px - 5vh) !important;
   }
 
+}
+
+@media screen and (max-width: $breakpoint2) {
+  .accordion-container {
+    border: none !important;
+    padding: 0 !important;
+  }
 }

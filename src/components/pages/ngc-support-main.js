@@ -27,7 +27,7 @@ function SupportMain() {
             </Link>
           </div>
           <div className="img-container col-width-md push-right border-radius">
-            <img src="imgs/square01.jpg" alt=""/>
+            <img src="imgs/026-4to3-V.jpg" alt=""/>
           </div>
         </div>
       </section>

@@ -14,7 +14,7 @@ function AboutUs() {
     <section className="text-and-image bg-f7f8f9-bigknot-right section-padding-lg-lg ">
       <div className="inner-section width-02 two-col-even">
         <div className="img-container col-width-md push-left border-radius">
-          <img src="imgs/3-2-vert-01.jpg" alt=""/>
+          <img src="imgs/056-4to3-V.jpg" alt=""/>
         </div>
         <div className="text-container">
           <h3>Our Story</h3>
@@ -36,11 +36,11 @@ function AboutUs() {
           <p>We support our patients, always. Led by our Medical Health Director, our patient support and customer service personnel provide knowledgeable and friendly advice and guidance. Our focus is on you and your well-being.</p>
         </div>
         <div className="img-container col-width-md push-right border-radius">
-          <img src="imgs/3-2-vert-01.jpg" alt=""/>
+          <img src="imgs/002-4to3-V.jpg" alt=""/>
         </div>
       </div>
     </section>
-    
+
     <DarkLogoStampSection />
     <ExploreProds />
     <WindowSection />

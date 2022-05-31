@@ -96,7 +96,6 @@ a {
   font-weight: bold;
   width: auto;
 
-
   &.primary-link {
     font-weight: 400;
     display: inline-flex;
@@ -223,7 +222,7 @@ ul, ol {
 
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: $breakpoint0) {
   p, a, input, input::placeholder {
     font-size: 1rem;
     line-height: 1.85rem;
@@ -253,6 +252,12 @@ ul, ol {
   }
 
   p, h1, h2, h3, h4, h5, h6 {
-    width: unset;
+    word-break: break-word;
+  }
+}
+
+@media screen and (max-width: $breakpoint2) {
+  a {
+    word-wrap: break-word;
   }
 }

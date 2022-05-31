@@ -159,7 +159,7 @@ function ShopAll() {
                     // url="#most-popular"
                     >
                     Best Sellers
-                    <span className="img-container exact-size exact-size"><img src="imgs/prod-square.png" alt=""/></span>
+                    <span className="img-container exact-size exact-size"><img src="imgs/prod-oil.png" alt=""/></span>
                   </Button>
                   <Button
                     buttonStyle="btn--primary sub-menu-btn"
@@ -168,35 +168,35 @@ function ShopAll() {
                     // url="#dried-flower"
                     >
                     Dried Flower
-                    <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-driedflower.png" alt=""/></span>
                   </Button>
                   <Button
                     buttonStyle="btn--primary sub-menu-btn"
                     onClick={executeScrollOilRef}
                     >
                     Cannabis Oils
-                    <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-oil.png" alt=""/></span>
                   </Button>
                   <Button
                     buttonStyle="btn--primary sub-menu-btn"
                     onClick={executeScrollSprayRef}
                     >
                     Cannabis Sprays
-                    <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-spray.png" alt=""/></span>
                   </Button>
                   <Button
                     buttonStyle="btn--primary sub-menu-btn"
                     onClick={executeScrollVapesRef}
                     >
                     Vaporizers
-                    <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-vaporizer_ascend.png" alt=""/></span>
                   </Button>
                   <Button
                     buttonStyle="btn--primary sub-menu-btn"
                     onClick={executeScrollAccessRef}
                     >
                     Accessories
-                    <span className="img-container exact-size"><img src="imgs/prod-square.png" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-accessory.png" alt=""/></span>
                   </Button>
                 </div>
               </div>

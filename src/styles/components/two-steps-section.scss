@@ -11,20 +11,21 @@ section.two-steps {
 }
 
 .two-steps-container {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
+  @include flex-center;
+  grid-gap: 0 50px;
 }
 
 .step-1,
 .step-2 {
+  align-self: stretch;
   @include flex-center-col;
   justify-content: space-between;
-  // min-width: 400px;
+  min-width: 480px;
   width: 32vw;
   max-width: 620px;
   padding: 40px 50px;
   transition: all 0.2s ease;
+  @include border-radius;
 
   &:hover {
     // @include shadow-01;
@@ -53,6 +54,7 @@ section.two-steps {
     .step-1, .step-2 {
       width: 100%;
       margin-bottom: 50px;
+      min-width: unset;
 
       &:last-child {
         margin-bottom: 0;

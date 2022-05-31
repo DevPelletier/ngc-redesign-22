@@ -13,7 +13,7 @@ button.btn {
   padding: 20px 32px;
   border-radius: 5px;
   font-family: $font-stack;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -31,12 +31,13 @@ button.btn {
   &.sub-menu-btn {
     @include flex-center;
     justify-content: space-around;
-    padding: 10px 20px !important;
+    padding: 12px 20px !important;
 
     .img-container {
-      height: 40px;
-      width: 40px;
+      height: 32px;
+      width: 32px;
       margin-left: 20px;
+      min-height: unset !important;
     }
   }
 
@@ -47,16 +48,17 @@ button.btn {
 
 
 .btn--primary {
-  background-color: white;
+  background-color: $white01;
   color: $green04;
-  border: 2px solid $green01;
-
+  border: 2px solid white;
+  @include shadow-01;
   @include btn-hover-orange;
 
-  &:focus {
-    background-color: white;
-    border: 2px solid $green01;
-  }
+  // &:focus {
+  //   background-color: white;
+  //   border: 2px solid $green01;
+  //   @include shadow-02;
+  // }
 }
 
 .btn--secondary {
@@ -64,18 +66,7 @@ button.btn {
   color: white;
   border: 2px solid $green02;
 
-  &:hover {
-    background-color: white;
-    color: $green02;
-    border-color: $green02;
-  }
-
-  &:focus {
-    background-color: $green02;
-    color: white;
-    // border: 2px solid $green02;
-  }
-
+  @include btn-hover-white;
 }
 
 .btn-container {
@@ -124,10 +115,11 @@ button.btn {
   @include btn-hover-white;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: $breakpoint0) {
   button.btn {
     word-wrap: break-word;
-    padding: 18px 24px;
-    font-size: 13px;
+    padding: 16px;
+    font-size: 12px;
+    min-width: 135px;
   }
 }

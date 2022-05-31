@@ -14,8 +14,8 @@ function VetSupport() {
       <title>{pageTitle}</title>
     </Helmet>
 
-    <section className="text-and-image">
-      <div className="inner-section width-02 two-col-even">
+    <section className="text-and-image bg-f7f8f9-bigknot-right">
+      <div className="inner-section width-03 text-centered">
         <div className="text-container">
           <h2>Insurance Coverage for Medical Cannabis</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aspernatur, eius incidunt enim numquam quibusdam dicta reprehenderit alias animi. Fugiat accusamus non eveniet ducimus eum laborum cupiditate aperiam earum, ipsa.</p>
@@ -23,9 +23,6 @@ function VetSupport() {
           <Link to="/" className="primary-link">
             Test Link
           </Link>
-        </div>
-        <div className="img-container col-width-md push-right border-radius">
-          <img src="../imgs/square01.jpg" alt=""/>
         </div>
       </div>
     </section>

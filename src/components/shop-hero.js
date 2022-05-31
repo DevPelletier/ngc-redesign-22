@@ -37,27 +37,27 @@ function ShopHero() {
                     buttonStyle="btn--primary sub-menu-btn"
                     >
                     Most Popular
-                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-oil.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Dried Flower
-                    <span className="img-container  exact-size"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container  exact-size"><img src="imgs/prod-driedflower.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Cannabis Oils
-                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-oil.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Cannabis Sprays
-                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-sprays.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Vaporizers
-                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-vaporizers.jpg" alt=""/></span>
                   </Button>
                   <Button buttonStyle="btn--primary sub-menu-btn">
                     Accessories
-                    <span className="img-container exact-size"><img src="imgs/test.jpg" alt=""/></span>
+                    <span className="img-container exact-size"><img src="imgs/prod-accessory.jpg" alt=""/></span>
                   </Button>
                 </div>
               </div>
@@ -197,7 +197,7 @@ function ShopHero() {
                 </div>
               </div>
               <div className="img-container hub-hero-img border-radius">
-                <img src="imgs/16-9-vert-01.jpg" alt=""/>
+                <img src="imgs/036-4to3-V" alt=""/>
               </div>
             </div>
           </section>

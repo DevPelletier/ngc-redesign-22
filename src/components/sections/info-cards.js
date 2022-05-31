@@ -193,20 +193,26 @@ function InfoCards() {
           <Route path="/find-a-clinic">
             <div className="inner-section width-01 info-card-container grid-3-col">
               <div className="info-card clinic border-radius">
-                <div>
+                <div className="container">
                   <h4>Toronto Poly Clinic - North York</h4>
                   <p>5460 Yonge St, Unit #204<br />Toronto, ON</p>
                   <div className="link-container">
-                    <h3 className="left">Website:</h3>
-                    <Link to="http://www.torontopolyclinic.com/" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">open_in_new</span>
+                    </h3>
+                    <Link to="http://www.torontopolyclinic.com/" className="right">
                       TorontoPolyClinic.com
                     </Link>
-                    <h3 className="left">Email:</h3>
-                    <Link to="mailto:mmp@torontopolyclinic.com" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">mail</span>
+                    </h3>
+                    <Link to="mailto:mmp@torontopolyclinic.com" className=" right">
                       mmp@torontopolyclinic.com
                     </Link>
-                    <h3 className="left">Phone:</h3>
-                    <Link to="" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">android_dialer</span>
+                    </h3>
+                    <Link to="" className=" right">
                       416-250-7171
                     </Link>
                   </div>
@@ -224,16 +230,22 @@ function InfoCards() {
                   <h4>Toronto Poly Clinic - Thornhill</h4>
                   <p>298 John St, Unit #CRU-3<br />Thornhill, ON</p>
                   <div className="link-container">
-                    <h3 className="left">Website:</h3>
-                    <Link to="http://www.torontopolyclinic.com/" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">open_in_new</span>
+                    </h3>
+                    <Link to="http://www.torontopolyclinic.com/" className=" right">
                       TorontoPolyClinic.com
                     </Link>
-                    <h3 className="left">Email:</h3>
-                    <Link to="mailto:mmp@torontopolyclinic.com" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">mail</span>
+                    </h3>
+                    <Link to="mailto:mmp@torontopolyclinic.com" className=" right">
                       mmp@torontopolyclinic.com
                     </Link>
-                    <h3 className="left">Phone:</h3>
-                    <Link to="" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">android_dialer</span>
+                    </h3>
+                    <Link to="" className=" right">
                       905-482-8648
                     </Link>
                   </div>
@@ -251,16 +263,22 @@ function InfoCards() {
                   <h4>Apollo Cannabis Clinics - Etobicoke</h4>
                   <p>295 The West Mall, Unit #100<br />Etobicoke, ON</p>
                   <div className="link-container">
-                    <h3 className="left">Website:</h3>
-                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">open_in_new</span>
+                    </h3>
+                    <Link to="http://www.apollocannabis.ca/" className=" right">
                       ApolloCannabis.ca
                     </Link>
-                    <h3 className="left">Email:</h3>
-                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">mail</span>
+                    </h3>
+                    <Link to="mailto:booking@apolloresearch.com" className=" right">
                       booking@apolloresearch.com
                     </Link>
-                    <h3 className="left">Phone:</h3>
-                    <Link to="" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">android_dialer</span>
+                    </h3>
+                    <Link to="" className=" right">
                       (877) 560-9195
                     </Link>
                   </div>
@@ -278,16 +296,22 @@ function InfoCards() {
                   <h4>Apollo Cannabis Clinics - Yonge & Eglinton</h4>
                   <p>2352 Yonge St, Second Floor<br />Toronto, ON</p>
                   <div className="link-container">
-                    <h3 className="left">Website:</h3>
-                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">open_in_new</span>
+                    </h3>
+                    <Link to="http://www.apollocannabis.ca/" className=" right">
                       ApolloCannabis.ca
                     </Link>
-                    <h3 className="left">Email:</h3>
-                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">mail</span>
+                    </h3>
+                    <Link to="mailto:booking@apolloresearch.com" className=" right">
                       booking@apolloresearch.com
                     </Link>
-                    <h3 className="left">Phone:</h3>
-                    <Link to="" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">android_dialer</span>
+                    </h3>
+                    <Link to="" className=" right">
                       (877) 560-9195
                     </Link>
                   </div>
@@ -305,16 +329,22 @@ function InfoCards() {
                   <h4>Apollo Cannabis Clinics - Yorkville</h4>
                   <p>1255 Bay St Unit #702<br />Toronto, ON</p>
                   <div className="link-container">
-                    <h3 className="left">Website:</h3>
-                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">open_in_new</span>
+                    </h3>
+                    <Link to="http://www.apollocannabis.ca/" className=" right">
                       ApolloCannabis.ca
                     </Link>
-                    <h3 className="left">Email:</h3>
-                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">mail</span>
+                    </h3>
+                    <Link to="mailto:booking@apolloresearch.com" className=" right">
                       booking@apolloresearch.com
                     </Link>
-                    <h3 className="left">Phone:</h3>
-                    <Link to="" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">android_dialer</span>
+                    </h3>
+                    <Link to="" className=" right">
                       (877) 560-9195
                     </Link>
                   </div>
@@ -332,16 +362,22 @@ function InfoCards() {
                   <h4>Apollo Cannabis Clinics - Aurora</h4>
                   <p>372 Hollandview Trail Unit #201<br />Aurora, ON</p>
                   <div className="link-container">
-                    <h3 className="left">Website:</h3>
-                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">open_in_new</span>
+                    </h3>
+                    <Link to="http://www.apollocannabis.ca/" className=" right">
                       ApolloCannabis.ca
                     </Link>
-                    <h3 className="left">Email:</h3>
-                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">mail</span>
+                    </h3>
+                    <Link to="mailto:booking@apolloresearch.com" className=" right">
                       booking@apolloresearch.com
                     </Link>
-                    <h3 className="left">Phone:</h3>
-                    <Link to="" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">android_dialer</span>
+                    </h3>
+                    <Link to="" className=" right">
                       (877) 560-9195
                     </Link>
                   </div>
@@ -359,16 +395,22 @@ function InfoCards() {
                   <h4>Apollo Cannabis Clinics - North York</h4>
                   <p>240 Duncan Mill Rd, Suite #201<br />Toronto, ON</p>
                   <div className="link-container">
-                    <h3 className="left">Website:</h3>
-                    <Link to="http://www.apollocannabis.ca/" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">open_in_new</span>
+                    </h3>
+                    <Link to="http://www.apollocannabis.ca/" className=" right">
                       ApolloCannabis.ca
                     </Link>
-                    <h3 className="left">Email:</h3>
-                    <Link to="mailto:booking@apolloresearch.com" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">mail</span>
+                    </h3>
+                    <Link to="mailto:booking@apolloresearch.com" className=" right">
                       booking@apolloresearch.com
                     </Link>
-                    <h3 className="left">Phone:</h3>
-                    <Link to="" className="primary-link sm-primary-link right">
+                    <h3 className="left">
+                      <span class="material-symbols-rounded">android_dialer</span>
+                    </h3>
+                    <Link to="" className=" right">
                       (877) 560-9195
                     </Link>
                   </div>

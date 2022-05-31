@@ -23,7 +23,7 @@ function Article() {
     <section className="article-info text-interject">
       <div className="inner-section two-col-even width-03">
         <div className="article-intro col-width-xsm">
-          <p className="h4-style">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam natus voluptates reprehenderit nam, provident recusandae labore optio obcaecati ex ea corporis.</p>
+          <p className="h4-style">When you think ‘cannabis edibles’, you’re probably thinking of those magical brownies a friend once told you about. But is that all there is to edibles? Far from it! Find out how far the world of edibles has come, and the potential of edibles to help medicinal cannabis users.</p>
         </div>
         <div className="article-author-tags-container">
           <h6>Written By:</h6>
@@ -43,32 +43,11 @@ function Article() {
       <div className="inner-section width-02">
 
         <div className="single-col-text">
-          <h2>Article Content Goes Here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-        </div>
-        <div className="two-offset-imgs">
-          <div className="img-container border-radius">
-            <img src="imgs/test.jpg" alt=""/>
-          </div>
-          <div className="img-container border-radius">
-            <img src="imgs/test.jpg" alt=""/>
-          </div>
-        </div>
-        <div className="single-col-text">
-          <h2>Article Content Goes Here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-        </div>
-        <div className="two-col-even text-and-image">
-          <div className="text-container">
-            <h2>Article Content Goes Here</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-          </div>
-          <div className="img-container border-radius">
-            <img src="imgs/test.jpg" alt=""/>
-          </div>
+          <h2>Edibles</h2>
+          <p>The days of only being able to use cannabis by smoking a joint or eating a brownie are long gone. Today, it is possible to vaporize, drink, or even absorb the substance transdermally. However, cannabis edibles continue to be a very popular and very effective method of consuming cannabis for both recreational and medicinal purposes - especially for those who want to avoid smoking or vaporizing. In this article, we outline all you need to know about cannabis edibles.</p>
+          <p>A cannabis edible is a food or drink product that contains a significant concentration of cannabinoids, such as THC - it’s as simple as that! Commonly sold edibles include baked goods, beverages, chocolates, candies, and so on.</p>
+          <p>Please note: Newcomers to cannabis edibles should proceed with caution! The dosages, onset, intensity, and timeline of effects from a cannabis edible are very different from smoking or vaporizing cannabis! In general, edibles take up to 90 minutes to affect, and the effects will last approximately 4-8 hours - much longer than the effects of smoking or vaporizing cannabis. Once you consume an edible, the cannabinoids are broken down and absorbed through the stomach and intestines, and metabolized by your liver.</p>
+          <p>As for dosage, a beginner should remain in the 1-5mg range and wait until the following day to evaluate the effects. If these effects are minimal, increase by a maximum of 2.5mg. An intermediate user could use 5-15mg, while an experienced cannabis user might have 20mg per dose.</p>
         </div>
 
       </div>
@@ -82,7 +61,7 @@ function Article() {
       </div>
         <div className="text-container col-width-md center-selfXY">
           <h2>How Can I Try Medicinal Cannabis?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error, unde consectetur dolor reiciendis sint nobis, ut inventore in laboriosam reprehenderit eius laborum perferendis. Sed necessitatibus autem asperiores impedit esse.</p>
+          <p>In order to access NGC medicinal cannabis, Health Canada requires patients to (1) Sign Up with NGC, and (2) have a valid prescription. The first step takes 1-2 minutes - once you are registered with us, we can assist you in booking a visit with your chosen Healthcare Professional to obtain a prescription for medical cannabis.</p>
           <div className="btn-container">
             <Button
               buttonStyle="btn--primary"

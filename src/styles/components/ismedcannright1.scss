@@ -58,11 +58,12 @@
 
     .issue-card {
       margin-right: auto;
+      padding: 32px 16px;
     }
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $breakpoint2) {
   .issue-card {
     width: 100%;
     grid-template-columns: unset;

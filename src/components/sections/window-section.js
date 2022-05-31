@@ -11,7 +11,7 @@ function WindowSection() {
           <div className="window-row height-md">
             <div className="window-left img-window">
               <div className="img-container">
-                <img src="imgs/16-9-vert-01.jpg" alt=""/>
+                <img src="imgs/028-4to3-V.jpg" alt=""/>
               </div>
             </div>
             <div className="window-right text-container">
@@ -46,7 +46,7 @@ function WindowSection() {
             </div>
             <div className="window-right img-window">
               <div className="img-container">
-                <img src="imgs/3-2-vert-01.jpg" alt=""/>
+                <img src="imgs/055-4to3-V.jpg" alt=""/>
               </div>
             </div>
           </div>

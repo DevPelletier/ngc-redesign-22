@@ -22,7 +22,7 @@ function Page() {
           <p>Northern Green is just such a place. Founded on a belief in creating a work environment that nurtures creativity, we strive empower our people to create something special. If you’re a self starter, a problem solver, someone seeking a challenge to help others, then we may be just the place for you.</p>
         </div>
         <div className="img-container col-width-md push-right border-radius">
-          <img src="imgs/3-2-vert-01.jpg" alt=""/>
+          <img src="imgs/test-imgs/E2C36A83-9363-4DA7-B02A-F74325652E8D.jpeg" alt=""/>
         </div>
       </div>
     </section>

@@ -25,7 +25,7 @@ function Page() {
           </Link>
         </div>
         <div className="img-container col-width-md push-right border-radius">
-          <img src="imgs/square01.jpg" alt=""/>
+          <img src="imgs/055-4to3-V.jpg" alt=""/>
         </div>
       </div>
     </section>
@@ -37,7 +37,7 @@ function Page() {
     <section className="text-and-image">
       <div className="inner-section width-02 two-col-even">
         <div className="img-container col-width-md push-left border-radius bottom">
-          <img src="imgs/square01.jpg" alt=""/>
+          <img src="imgs/027-4to3-V" alt=""/>
         </div>
         <div className="text-container top">
           <h2>We'd Love To Connect With You</h2>

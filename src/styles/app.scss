@@ -21,7 +21,7 @@
 }
 
 .only-mobile {
-  display: none;
+  display: none !important;
 }
 
 * {
@@ -61,11 +61,16 @@ label {
   border: none;
 }
 
-img {
+img,
+.div-as-img {
   max-width: 100%;
   width: 100%;
   height: auto;
   display: block;
+}
+
+div.container {
+  width: inherit;
 }
 
 .img-container {
@@ -73,13 +78,15 @@ img {
   overflow: hidden;
   // background-color: $blue01;
 
-  img {
+  img,
+  .div-as-img {
     max-width: 120%;
     // max-height: 120%;
   }
 
   &.exact-size {
-    img {
+    img,
+    .div-as-img {
       max-width: 100%;
     }
   }
@@ -168,6 +175,17 @@ footer {
   text-align: center;
 }
 
+.push-top {
+  margin-bottom: auto;
+}
+
+.fading {
+  transition: all 350ms ease;
+}
+.fadeOutOpacity {
+  opacity: 0;
+}
+
 span.scrolltobtn {
   cursor: pointer;
   padding: 10px !important;
@@ -177,7 +195,8 @@ span.scrolltobtn {
 .border-radius {
   border-radius: 5px;
 
-  img {
+  img,
+  .div-as-img {
     border-radius: 5px;
   }
 }
@@ -459,27 +478,44 @@ span.scrolltobtn {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $breakpoint2) {
   body #root {
     width: 100vw;
   }
 
   section {
+    grid-template-columns: [left] 5% [lineL1 lineL2 lineL3] 1fr 1fr 1fr [lineL4] 1fr [lineL5] 1fr [lineL6] 1fr [center] 1fr [lineR6] 1fr [lineR5] 1fr [lineR4] 1fr 1fr 1fr [lineR3 lineR2 lineR1] 5% [right];
     width: 100%;
+    padding: 40px 0 80px;
+
+    &.section-padding-lg-lg {
+      padding: 80px 0;
+    }
+    &.section-padding-lg-md {
+      padding: 60px 0;
+    }
+    &.section-padding-lg-sm {
+      padding: 50px 0;
+    }
+
+    &.newsletter {
+      padding: 60px 0;
+    }
+
   }
 
 }
 
 
-@media screen and (max-width: 600px) {
-  .under-construction-responsive {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: $green04;
-    color: white;
-    @include flex-center-col;
-    padding: 10%;
-    z-index: 999;
-  }
-}
+// @media screen and (max-width: 600px) {
+  // .under-construction-responsive {
+  //   position: fixed;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: $green04;
+  //   color: white;
+  //   @include flex-center-col;
+  //   padding: 10%;
+  //   z-index: 999;
+  // }
+// }

@@ -32,6 +32,7 @@
 .hero-img-container {
   grid-column: center / right;
   height: inherit;
+  background: $green04;
 }
 
 @media screen and (max-width: $breakpoint1) {
@@ -56,6 +57,17 @@
       height: 50vh;
       min-height: 280px;
       max-height: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint2) {
+  .hero-container {
+    .hero-text {
+      .text-container {
+        margin: 0 32px;
+        padding: 60px 0;
+      }
     }
   }
 }

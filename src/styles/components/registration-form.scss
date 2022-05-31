@@ -192,7 +192,7 @@ section.registration-form {
 @media screen and (max-width: $breakpoint1) {
   section.registration-form {
     .reg-form-container {
-      width: 100%;
+      width: 95vw;
       padding: 50px 5vw;
     }
 
@@ -203,7 +203,7 @@ section.registration-form {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $breakpoint2) {
   section.registration-form {
     .inner-section {
       grid-column: left / right !important;
@@ -212,6 +212,7 @@ section.registration-form {
     form {
       input {
         padding: 18px 10px;
+        font-size: 16px;
       }
     }
   }

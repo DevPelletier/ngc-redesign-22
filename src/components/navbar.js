@@ -37,11 +37,12 @@ function Navbar() {
 
 
     return (
+      <>
         <nav className="navbar test">
           <div className="inner-section navbar-container">
             <div className="img-container exact-size">
               <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                <img src="./imgs/ngc_logo_wordmark_green.png" alt="Northern Green Canada Logo Wordmark Green" />
+                <img src="./imgs/ngc_wordmark_noborder_green.svg" alt="Northern Green Canada Logo Wordmark Green" />
               </Link>
             </div>
             <div className="menu-icon" onClick={handleClick}>
@@ -53,7 +54,7 @@ function Navbar() {
                   Patients
                   <span className="material-symbols-rounded">arrow_drop_down</span>
                 </button>
-                <div class="dropdown_container">
+                <div class="dropdown_container top-down">
                   <Link
                     to="/start-here"
                     className='dropdown-link'
@@ -108,7 +109,7 @@ function Navbar() {
                       Insurance Coverage
                     </div>
                   </Link>
-                  <Link to="/patient-faqs"
+                  <Link to="/faqs"
                   className='dropdown-link'
                   onClick={closeMobileMenu}
                   >
@@ -120,7 +121,7 @@ function Navbar() {
               </li>
               <li className="nav-item dropdown">
                 <button class="nav-links dropdown_btn">
-                  HCP &<br />Clinics
+                  Healthcare
                   <span className="material-symbols-rounded">arrow_drop_down</span>
                 </button>
                 <div class="dropdown_container">
@@ -163,7 +164,7 @@ function Navbar() {
 
                 </div>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown mobileNoDropdown">
                 <button class="nav-links dropdown_btn">
                   <Link
                     to="/learning-hub"
@@ -172,11 +173,11 @@ function Navbar() {
                     >
                     Learn<br />Cannabis
                   </Link>
-                  <span className="material-symbols-rounded">arrow_drop_down</span>
+                  <span className="material-symbols-rounded mobileRotate">arrow_drop_down</span>
                 </button>
                 <div class="dropdown_container">
                   <Link
-                    to="/learning-hub-medical-cannabis-101"
+                    to="/start-here"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
                     >
@@ -230,15 +231,6 @@ function Navbar() {
                     </div>
                   </Link>
                   <Link
-                    to="/learning-hub-cannabinoids"
-                    className='dropdown-link'
-                    onClick={closeMobileMenu}
-                    >
-                    <div class="dropdown-btn">
-                      Learn Cannabinoids<br />& Terpenes
-                    </div>
-                  </Link>
-                  <Link
                     to="/learning-hub-the-science-of-medicinal-cannabis"
                     className='dropdown-link'
                     onClick={closeMobileMenu}
@@ -249,17 +241,17 @@ function Navbar() {
                   </Link>
                 </div>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown last-nav-item mobileNoDropdown">
                 <button class="nav-links dropdown_btn">
                   <Link
                     to="/shop"
                     onClick={closeMobileMenu}
                     >
-                    Shop<br />Products
+                    Shop
                   </Link>
-                  <span className="material-symbols-rounded">arrow_drop_down</span>
+                  <span className="material-symbols-rounded mobileRotate">arrow_drop_down</span>
                 </button>
-                <div class="dropdown_container">
+                <div class="dropdown_container bottom-up">
                   <Link
                     to="/shop#most-popular"
                     className='dropdown-link'
@@ -305,29 +297,19 @@ function Navbar() {
                       Cannabis Sprays
                     </div>
                   </Link>
-                  <Link
-                    to="/shop#accessories"
-                    className='dropdown-link'
-                    onClick={closeMobileMenu}
-                    >
-                    <div class="dropdown-btn">
-                      Accessories
-                    </div>
-                  </Link>
                 </div>
               </li>
-              <li className="only-mobile solo-nav-link">
+              <li className="solo-nav-row">
                 <Link
                   onClick={closeMobileMenu}
                   to="/"
+                  className="only-mobile"
                   >
-                  Back to Homepage
+                  <span class="material-symbols-rounded background home-btn">home</span>
                 </Link>
-              </li>
-              <li>
                 <Button
                   onClick={closeMobileMenu}
-                  url="/sign-in"
+                  url="https://shop.northerngreencanada.com/#/login"
                   >
                   Client Login
                 </Button>
@@ -335,6 +317,8 @@ function Navbar() {
             </ul>
           </div>
         </nav>
+        <div className="mobile-nav-bg"></div>
+      </>
     )
 }
 

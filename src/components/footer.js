@@ -134,7 +134,7 @@ function Footer() {
               <div className="social-container">
                 <Link
                   class="svg-icon"
-                  to='/'
+                  to='https://www.facebook.com/NorthernGreenCanada'
                   target='_blank'
                   aria-label="Facebook"
                 >
@@ -142,7 +142,7 @@ function Footer() {
                 </Link>
                 <Link
                   class="svg-icon"
-                  to='/'
+                  to='https://www.instagram.com/northerngreencanada/'
                   target='_blank'
                   aria-label="Instagram"
                 >
@@ -150,7 +150,7 @@ function Footer() {
                 </Link>
                 <Link
                   class="svg-icon"
-                  to='/'
+                  to='https://twitter.com/northerngreenca'
                   target='_blank'
                   aria-label="Twitter"
                 >
@@ -158,7 +158,7 @@ function Footer() {
                 </Link>
                 <Link
                   class="svg-icon"
-                  to='/'
+                  to='https://www.linkedin.com/company/northern-green-canada-co/'
                   target='_blank'
                   aria-label="LinkedIn"
                 >
@@ -166,7 +166,7 @@ function Footer() {
                 </Link>
                 <Link
                   class="svg-icon"
-                  to='/'
+                  to='https://www.pinterest.ca/northerngreencanada/_created/'
                   target='_blank'
                   aria-label="Pinterest"
                 >

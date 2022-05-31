@@ -3,6 +3,8 @@ import '../../styles/app.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../button';
 import RegistrationForm from '../registration-form';
+import ExploreProds from '../sections/exploreprods';
+
 import { Helmet } from 'react-helmet';
 
 const pageTitle = 'Transfer Your Prescription | Northern Green Canada';
@@ -20,7 +22,7 @@ function Page() {
       <title>{pageTitle}</title>
     </Helmet>
 
-    <section className="text-and-image text-centered">
+    <section className="text-and-image text-centered bg-f7f8f9-bigknot-right">
       <div className="inner-section width-02 two-col-even">
         <div className="text-container">
           <h2>Transfer Your Prescription to NGC</h2>
@@ -31,13 +33,14 @@ function Page() {
           <p>If you have any difficulty, please contact our Client Services team - we'd be happy to help!</p>
         </div>
         <div className="img-container col-width-md push-right border-radius">
-          <img src="imgs/square01.jpg" alt=""/>
+          <img src="imgs/025-4to3-V" alt=""/>
         </div>
       </div>
     </section>
 
     <RegistrationForm />
-
+    <ExploreProds />
+    
     </>
   );
 }

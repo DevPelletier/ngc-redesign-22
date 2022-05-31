@@ -31,7 +31,7 @@ function StartHere() {
             <p>Our <a href="mailto:ClientServices@NorthernGreenCanada.com">Client Services Team</a> is full of people that have had this exact same learning experience - and they're here to help. Reach out to them for anything and everything about cannabis - they'll be happy to help!</p>
           </div>
           <div className="img-container col-width-md push-right border-radius">
-            <img src="imgs/3-2-vert-01.jpg" alt=""/>
+            <img src="imgs/035-4to3-V.jpg" alt=""/>
           </div>
         </div>
       </section>
@@ -43,7 +43,7 @@ function StartHere() {
       <section className="text-and-image">
         <div className="inner-section width-01 two-col-even">
           <div className="img-container border-radius">
-            <img src="imgs/square01.jpg" alt=""/>
+            <img src="imgs/029-4to3-V.jpg" alt=""/>
           </div>
           <div className="text-container col-width-md center-selfXY">
             <h2>What Is Medicinal Cannabis?</h2>
@@ -67,7 +67,7 @@ function StartHere() {
             </Link>
           </div>
           <div className="img-container col-width-md push-right border-radius">
-            <img src="imgs/3-2-vert-01.jpg" alt=""/>
+            <img src="imgs/039-4to3-V.jpg" alt=""/>
           </div>
         </div>
       </section>
@@ -87,8 +87,8 @@ function StartHere() {
             <p>Terpenes are natural compounds that produce the aroma and taste of cannabis (and a variety of other plants). Terpenes are the reason one “strain” of cannabis might smell and tastes like lemon, while another gives off a pine-y aroma.</p>
             <p>Scientists also believe that the varying sedating, uplifting, and other distinguishing effects of cannabis strains are a result of their terpenoid profile and that terpenes play a role in the medical therapeutic effects of cannabis. The terpene levels are often presented on the packaging of medical marijuana products, next to the THC:CBD ratio and sativa-indica origins of the strain.</p>
           </div>
-          <div className="img-container border-radius col-width-sm push-right">
-            <img src="imgs/16-9-vert-01.jpg" alt=""/>
+          <div className="img-container border-radius col-width-md push-right">
+            <img src="imgs/008-4to3-V" alt=""/>
           </div>
         </div>
       </section>
@@ -96,7 +96,7 @@ function StartHere() {
       <section className="text-and-image">
         <div className="inner-section width-01 two-col-even">
           <div className="img-container border-radius top">
-            <img src="imgs/square01.jpg" alt=""/>
+            <img src="imgs/048-4to3-V.jpg" alt=""/>
           </div>
           <div className="text-container col-width-md push-right center-selfY bottom">
             <h2>What Does Medicinal Cannabis Look Like?</h2>
@@ -131,7 +131,7 @@ function StartHere() {
             <p>Today’s cannabis products can be quite potent, and the effects may be something a patient has not experienced before, so patients are advised to “start low and go slow”. This means taking a low dose and then increasing it slowly, as needed, after gauging the effects. The first time using cannabis should also be done in a comfortable place and with a trusted confidant.</p>
           </div>
           <div className="img-container border-radius col-width-lg">
-            <img src="imgs/square01.jpg" alt=""/>
+            <img src="imgs/006-4to3-V.jpg" alt=""/>
           </div>
         </div>
       </section>
@@ -139,7 +139,7 @@ function StartHere() {
       <section className="text-and-image">
         <div className="inner-section width-01 two-col-even">
         <div className="img-container border-radius col-width-md">
-          <img src="imgs/3-2-vert-01.jpg" alt=""/>
+          <img src="imgs/033-4to3-V.jpg" className="push-top" alt=""/>
         </div>
           <div className="text-container center-selfXY">
             <h2>Why Medical?</h2>
@@ -171,7 +171,7 @@ function StartHere() {
       <section className="text-and-image get-your-rx">
         <div className="inner-section width-01 two-col-even">
         <div className="img-container border-radius">
-          <img src="imgs/square01.jpg" alt=""/>
+          <img src="imgs/045-4to3-V.jpg" alt=""/>
         </div>
           <div className="text-container col-width-md center-selfXY">
             <h2>Getting Your Prescription for Medicinal Cannabis</h2>

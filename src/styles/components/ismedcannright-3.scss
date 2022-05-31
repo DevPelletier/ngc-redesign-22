@@ -12,7 +12,6 @@ section.ismedcannright_3 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 24px 16px;
     margin: 50px 0;
-
   }
 
   .explore-medcann-card {
@@ -34,7 +33,7 @@ section.ismedcannright_3 {
 
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: $breakpoint1) {
   section.ismedcannright_3 {
     .explore-medcann-card-container {
       grid-template-columns: 1fr;
@@ -45,4 +44,18 @@ section.ismedcannright_3 {
     }
   }
 
+}
+
+@media screen and (max-width: $breakpoint2) {
+  section.ismedcannright_3 {
+    .explore-medcann-card-container {
+      .explore-medcann-card {
+        padding: 32px 24px;
+
+        .btn-container {
+          justify-content: center;
+        }
+      }
+    }
+  }
 }

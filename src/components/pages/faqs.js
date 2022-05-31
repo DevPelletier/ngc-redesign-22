@@ -16,7 +16,11 @@ import { Helmet } from 'react-helmet';
 const pageTitle = 'Patient FAQs | Northern Green Canada';
 
 function Page() {
-
+// class Page extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.topRef = React.createRef();
+//   }
   const regrx_Ref = useRef(null);
   const accountsRef = useRef(null);
   const productsRef = useRef(null);
@@ -25,6 +29,7 @@ function Page() {
   const aboutngcRef = useRef(null);
   const usingcannRef = useRef(null);
   const safetyRef = useRef(null);
+
 
 
   const executeScroll_regrxRef = () => {
@@ -39,96 +44,107 @@ function Page() {
   const executeScroll_aboutngcRef = () => aboutngcRef.current.scrollIntoView({behavior: 'smooth'});
   const executeScroll_usingcannRef = () => usingcannRef.current.scrollIntoView({behavior: 'smooth'});
   const executeScroll_safetyRef = () => safetyRef.current.scrollIntoView({behavior: 'smooth'});
+  const executeScroll_topRef = () => window.scrollTo(0,0);
+  // onClick={executeScroll_topRef}
 
 
+  // render() {
+    return (
+      <>
+      <Helmet>
+        <title>{pageTitle}</title>
+      </Helmet>
 
-  return (
-    <>
-    <Helmet>
-      <title>{pageTitle}</title>
-    </Helmet>
+      <div className="scrollToTop">
+        <Button
+        onClick={executeScroll_topRef}
+          >
+          <span class="material-symbols-rounded background">arrow_drop_up</span>
+        </Button>
+      </div>
 
-    <section className="text-and-image faqs">
-      <div className="inner-section width-01 two-col-30-70">
-        <div className="text-container">
-          <h2>How Can We Help?</h2>
-          <div className="btn-container">
-            <Button
-              onClick={executeScroll_regrxRef}
-              >
-              Registrations & Rx
-            </Button>
-            <Button
-              onClick={executeScroll_accountsRef}
-              >
-              NGC Client Accounts
-            </Button>
-            <Button
-              onClick={executeScroll_productsRef}
-              >
-              NGC Products
-            </Button>
-            <Button
-              onClick={executeScroll_ordersRef}
-              >
-              Orders
-            </Button>
-            <Button
-              onClick={executeScroll_shippingRef}
-              >
-              Shipping
-            </Button>
-            <Button
-              onClick={executeScroll_aboutngcRef}
-              disabled
-              >
-              About NGC
-            </Button>
-            <Button
-              onClick={executeScroll_usingcannRef}
-              >
-              Using Cannabis Products
-            </Button>
-            <Button
-              onClick={executeScroll_safetyRef}
-              >
-              Medical Cannabis Safety & Legal
-            </Button>
+      <section className="text-and-image faqs">
+        <div className="inner-section width-01 two-col-30-70">
+          <div className="text-container">
+            <h2>How Can We Help?</h2>
+            <div className="btn-container">
+              <Button
+                onClick={executeScroll_regrxRef}
+                >
+                Registrations & Rx
+              </Button>
+              <Button
+                onClick={executeScroll_accountsRef}
+                >
+                NGC Client Accounts
+              </Button>
+              <Button
+                onClick={executeScroll_productsRef}
+                >
+                NGC Products
+              </Button>
+              <Button
+                onClick={executeScroll_ordersRef}
+                >
+                Orders
+              </Button>
+              <Button
+                onClick={executeScroll_shippingRef}
+                >
+                Shipping
+              </Button>
+              <Button
+                onClick={executeScroll_aboutngcRef}
+                disabled
+                >
+                About NGC
+              </Button>
+              <Button
+                onClick={executeScroll_usingcannRef}
+                >
+                Using Cannabis Products
+              </Button>
+              <Button
+                onClick={executeScroll_safetyRef}
+                >
+                Medical Cannabis Safety & Legal
+              </Button>
+
+            </div>
+            <br /><br />
+            <Link to="/" className="primary-link">
+              Still need help?&nbsp;&nbsp; Contact Us
+            </Link>
+          </div>
+          <div className="push-right faqs-container">
+            <div className="accordion-container border-radius">
+
+              <RegistrationAndRx refProp={regrx_Ref}/>
+              <Accounts refProp={accountsRef}/>
+              <Products refProp={productsRef}/>
+              <Orders refProp={ordersRef}/>
+              <Shipping refProp={shippingRef}/>
+              <AboutNGC refProp={aboutngcRef}/>
+              <UsingCannabis refProp={usingcannRef}/>
+              <SafetyLegal refProp={safetyRef}/>
+
+            </div>
 
           </div>
-          <br /><br />
-          <Link to="/" className="primary-link">
-            Still need help?&nbsp;&nbsp; Contact Us
-          </Link>
         </div>
-        <div className="col-width-md push-right faqs-container">
-          <div className="accordion-container border-radius">
+      </section>
 
-            <RegistrationAndRx refProp={regrx_Ref}/>
-            <Accounts refProp={accountsRef}/>
-            <Products refProp={productsRef}/>
-            <Orders refProp={ordersRef}/>
-            <Shipping refProp={shippingRef}/>
-            <AboutNGC refProp={aboutngcRef}/>
-            <UsingCannabis refProp={usingcannRef}/>
-            <SafetyLegal refProp={safetyRef}/>
+      <section className="faqs">
+        <div className="inner-section">
 
-          </div>
+
 
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="faqs">
-      <div className="inner-section">
-
-
-
-      </div>
-    </section>
-
-    </>
-  );
+      </>
+    );
+  // }
 }
 
 export default Page;

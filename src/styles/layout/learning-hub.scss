@@ -14,7 +14,7 @@ section.hub-highlights {
   .blog-highlights-container {
     width: 100%;
     @include flex-center;
-    justify-content: space-between;
+    // justify-content: space-between;
     flex-wrap: wrap;
     grid-gap: 80px 5vw;
     margin: 50px 0;
@@ -115,17 +115,49 @@ span.blog-link-date {
 @media screen and (max-width: $breakpoint1) {
   section.hub-highlights {
     .blog-link-container {
-      width: 100%;
+      width: 40vw;
       max-width: 600px;
       min-width: 280px;
+      margin: auto;
     }
   }
 
   section.hub-latest {
     .blog-link-container {
-      width: 70vw;
+      width: 35vw;
       min-width: 280px;
       max-width: 500px;
+      margin: auto;
     }
   }
+}
+
+@media screen and (max-width: $breakpoint2) {
+  section.hub-highlights,
+  section.hub-latest {
+    .blog-highlights-container {
+      margin: 32px 0;
+      grid-gap: 50px 5vw;
+
+      .img-container {
+        height: 30vh !important;
+        min-height: 220px !important;
+      }
+    }
+
+    .img-container {
+      height: 20vh !important;
+      min-height: 200px !important;
+    }
+
+    .blog-latest-container {
+      grid-gap: 32px 5vw;
+    }
+
+
+    h4 {
+      margin-top: 12px;
+    }
+  }
+
 }
