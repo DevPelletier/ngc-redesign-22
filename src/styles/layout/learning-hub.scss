@@ -14,6 +14,7 @@ section.hub-highlights {
   .blog-highlights-container {
     width: 100%;
     @include flex-center;
+    align-items: flex-start;
     // justify-content: space-between;
     flex-wrap: wrap;
     grid-gap: 80px 5vw;

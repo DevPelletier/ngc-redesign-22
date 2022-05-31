@@ -19,7 +19,6 @@ const Collection = (props) => {
         <div className="inner-section width-02">
           <h4>Hub Highlights</h4>
           <div className="blog-highlights-container">
-            <ArticleListingProps numbers={beginnersGuide} />
             <ArticleListingProps numbers={ngcEUGMP} />
             <ArticleListingProps numbers={learnTheScience} />
             <ArticleListingProps numbers={isMedCannRight} />

@@ -11,6 +11,7 @@ section.article-hero {
   .text-container {
     @include flex-center-col;
     align-items: flex-start;
+    text-align: left;
   }
 
   .img-container {

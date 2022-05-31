@@ -30,7 +30,6 @@ const Collection = (props) => {
             <ArticleListingProps numbers={learnTerpenes} />
             <ArticleListingProps numbers={learnTHCCBD} />
             <ArticleListingProps numbers={learnVaporizers} />
-            <ArticleListingProps numbers={medicalCannabis101} />
           </div>
         </div>
       </section>

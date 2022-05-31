@@ -23,7 +23,6 @@ function Article() {
     <section className="article-info text-interject">
       <div className="inner-section two-col-even width-03">
         <div className="article-intro col-width-xsm">
-          <p className="h4-style">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam natus voluptates reprehenderit nam, provident recusandae labore optio obcaecati ex ea corporis.</p>
         </div>
         <div className="article-author-tags-container">
           <h6>Written By:</h6>
@@ -44,31 +43,10 @@ function Article() {
 
         <div className="single-col-text">
           <h2>Article Content Goes Here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-        </div>
-        <div className="two-offset-imgs">
-          <div className="img-container border-radius">
-            <img src="imgs/test.jpg" alt=""/>
-          </div>
-          <div className="img-container border-radius">
-            <img src="imgs/test.jpg" alt=""/>
-          </div>
-        </div>
-        <div className="single-col-text">
-          <h2>Article Content Goes Here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-        </div>
-        <div className="two-col-even text-and-image">
-          <div className="text-container">
-            <h2>Article Content Goes Here</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, reiciendis quidem ipsam consequatur doloribus vero quam dolorem esse. Qui officia rem ad modi omnis sed dolorum, vel at accusamus nisi.</p>
-          </div>
-          <div className="img-container border-radius">
-            <img src="imgs/test.jpg" alt=""/>
-          </div>
+          <p>On March 6, 2020, Northern Green Canada Inc. became the first privately-owned Licensed Producer (LP) of cannabis in Canada to be certified with European Union Good Manufacturing Practices (EU GMP)! This certification allows NGC to provide our quality medical cannabis to EU patients.</p>
+          <p>"It is a privilege to serve the cannabis patients of the European Union. We are proud of our team for the steadfast commitment to Good Manufacturing Practices standards that they continue to display in realizing this responsibility to quality," stated Lisa McCormack, NGC's President and CEO.</p>
+          <p>"We will continue operations as a leading medical cannabis producer in Canada and now, with our EU GMP certification, we are prepared to serve the global market. Supply agreements are being finalized with top EU distributors and we are ready to begin to fulfill them."</p>
+          <p>Northern Green Canada Inc. is a federally licensed producer of cannabis, focused on providing cannabis medications for a better quality of life. We are an R&D-driven company committed to the health and well-being of our patients. Our experienced team of experts works from NGC's now EU GMP certified, 2,500m indoor growing and processing facility, with 4,275m of expansion capability. We are currently expanding our extraction capacity to produce oils, and are working with respected partners on treatment based cannabis medications. NGC is partnered with key global players to create distribution networks for patients worldwide.</p>
         </div>
 
       </div>
@@ -82,7 +60,7 @@ function Article() {
       </div>
         <div className="text-container col-width-md center-selfXY">
           <h2>How Can I Try Medicinal Cannabis?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error, unde consectetur dolor reiciendis sint nobis, ut inventore in laboriosam reprehenderit eius laborum perferendis. Sed necessitatibus autem asperiores impedit esse.</p>
+          <p>In order to access NGC medicinal cannabis, Health Canada requires patients to (1) Sign Up with NGC, and (2) have a valid prescription. The first step takes 1-2 minutes - once you are registered with us, we can assist you in booking a visit with your chosen Healthcare Professional to obtain a prescription for medical cannabis.</p>
           <div className="btn-container">
             <Button
               buttonStyle="btn--primary"

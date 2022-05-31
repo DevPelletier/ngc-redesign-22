@@ -22,7 +22,7 @@ const learnCannabinoids = [
       {id: 'a', content: 'Beginners Guide', link: '/learning-hub-subcategory-beginners-guide'},
       {id: 'b', content: 'Cannabis Science', link: '/learning-hub-subcategory-cannabis-science'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/013-Sq.jpg",
     title: "Learn Cannabinoids",
     date: "May 24, 2022",
     articleLink: "/learning-hub-cannabinoids"
@@ -33,7 +33,7 @@ const learnDriedFlower = [
     tagItems: [
       {id: 'a', content: 'Using Med-Cannabis', link: '/learning-hub-subcategory-using-medicinal-cannabis'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/005-Sq.jpg",
     title: "Learn Dried Flower",
     date: "May 24, 2022",
     articleLink: "/learning-hub-dried-flower"
@@ -44,7 +44,7 @@ const learnEdibles = [
     tagItems: [
       {id: 'a', content: 'Using Med-Cannabis', link: '/learning-hub-subcategory-using-medicinal-cannabis'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/058-Sq.jpg",
     title: "Learn Cannabis Edibles",
     date: "May 24, 2022",
     articleLink: "/learning-hub-cannabis-edibles"
@@ -56,7 +56,7 @@ const learnExtracts = [
       {id: 'a', content: 'Using Med-Cannabis', link: '/learning-hub-subcategory-using-medicinal-cannabis'},
       {id: 'b', content: 'Cannabis Science', link: '/learning-hub-subcategory-cannabis-science'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/053-Sq.jpg",
     title: "Learn Cannabis Extracts",
     date: "May 24, 2022",
     articleLink: "/learning-hub-cannabis-extracts"
@@ -68,7 +68,7 @@ const learnTerpenes = [
       {id: 'a', content: 'Beginners Guide', link: '/learning-hub-subcategory-beginners-guide'},
       {id: 'b', content: 'Cannabis Science', link: '/learning-hub-subcategory-cannabis-science'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/047-Sq.jpg",
     title: "Learn Terpenes",
     date: "May 24, 2022",
     articleLink: "/learning-hub-terpenes"
@@ -80,7 +80,7 @@ const learnTHCCBD = [
       {id: 'a', content: 'Beginners Guide', link: '/learning-hub-subcategory-beginners-guide'},
       {id: 'b', content: 'Cannabis Science', link: '/learning-hub-subcategory-cannabis-science'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/023-Sq.jpg",
     title: "Learn THC & CBD",
     date: "May 24, 2022",
     articleLink: "/learning-hub-thc-cbd"
@@ -92,7 +92,7 @@ const learnTheScience = [
       {id: 'a', content: 'Beginners Guide', link: '/learning-hub-subcategory-beginners-guide'},
       {id: 'b', content: 'Cannabis Science', link: '/learning-hub-subcategory-cannabis-science'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/039-Sq.jpg",
     title: "Learn The Science",
     date: "May 24, 2022",
     articleLink: "/learning-hub-the-science-of-medicinal-cannabis"
@@ -103,7 +103,7 @@ const learnVaporizers = [
     tagItems: [
       {id: 'a', content: 'Using Med-Cannabis', link: '/learning-hub-subcategory-using-medicinal-cannabis'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/prod-vaporizer.png",
     title: "Learn Vaporizers",
     date: "May 24, 2022",
     articleLink: "/learning-hub-cannabis-vaporizers"
@@ -136,7 +136,7 @@ const isMedCannRight = [
     tagItems: [
       {id: 'a', content: 'Beginners Guide', link: '/learning-hub-subcategory-beginners-guide'}
     ],
-    image: "imgs/test.jpg",
+    image: "imgs/035-4to3-V.jpg",
     title: "Is Medical Cannabis Right For Me?",
     date: "May 24, 2022",
     articleLink: "/is-medical-cannabis-right-for-me"

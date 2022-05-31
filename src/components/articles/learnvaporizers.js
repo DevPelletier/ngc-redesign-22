@@ -15,7 +15,7 @@ function Article() {
           <h2>Learn Cannabis Vaporizers</h2>
         </div>
         <div className="img-container col-width-md push-right border-radius">
-          <img src="imgs/square01.jpg" alt=""/>
+          <img src="imgs/prod-vaporizer.png" alt=""/>
         </div>
       </div>
     </section>
