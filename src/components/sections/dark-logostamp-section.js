@@ -18,7 +18,7 @@ function DarkLogoStampSection() {
             </div>
             <div className="item-container">
               <div className="icon-item">
-                <span className="material-symbols-rounded blue01">gfit_health</span>
+                <span className="material-symbols-rounded blue01">personal_injury</span>
               </div>
               <h4>We Put Patients First</h4>
               <p>Everything our team does is done with the patient in mind first and foremost - to bring Canadians expertly crafted medicinal cannabis products they can trust.</p>

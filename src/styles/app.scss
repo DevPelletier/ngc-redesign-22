@@ -372,6 +372,50 @@ span.scrolltobtn {
   }
 }
 
+// MODAL styles
+.MuiBox-root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #fff;
+  border-radius: 2px;
+  @include shadow-02;
+  min-width: 330px;
+  width: 50vw;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px 50px;
+  z-index: 1000;
+  @include border-radius;
+
+  .img-container {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+
+  .MuiButton-root, .MuiTouchRipple-root, .MuiButton-text, .MuiButton-root, .MuiButton-text, .MuiButton-textPrimary, .MuiButton-sizeMedium, .MuiButton-textSizeMedium, .MuiButtonBase-root, .css-1e6y48t-MuiButtonBase-root-MuiButton-root, .css-8je8zh-MuiTouchRipple-root
+  {
+    all: unset;
+  }
+
+  h2, p {
+    margin-bottom: 24px;
+  }
+
+  p, a {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 // SVG COLOURS
 // #E8E8E8
 .svg-filter-lightgrey {

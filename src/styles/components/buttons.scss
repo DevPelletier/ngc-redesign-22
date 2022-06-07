@@ -22,9 +22,11 @@ button.btn {
   transition: all 0.2s ease;
   @include flex-center;
   margin: auto;
+  max-width: 85vw;
+  @include shadow-01;
 
   &:hover {
-    @include shadow-01;
+    @include shadow-02;
   }
 
 
@@ -46,12 +48,54 @@ button.btn {
   }
 }
 
+.btn-override {
+  box-shadow: 0 3px 10px 2px rgb(0 0 0 / 15%) !important;
+  border-radius: 5px !important;
+  outline: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  z-index: 1 !important;
+  display: inline !important;
+  margin: 0 auto !important;
+  padding: 16px 20px !important;
+  min-width: 120px !important;
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+  font-family: $font-stack !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+  white-space: nowrap !important;
+  transition: all 0.2s ease !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  align-items: center !important;
+  margin: auto 1rem !important;
+
+  &.btn--secondary {
+    background-color: $green02 !important;
+    color: white !important;
+
+    &:hover {
+      background-color: $green03 !important;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 10px 16px 2px rgb(0 0 0 / 18%) !important;
+    color: white;
+    background-color: $orange02 !important;
+  }
+
+}
+
 
 .btn--primary {
   background-color: $white01;
   color: $green04;
   border: 2px solid white;
-  @include shadow-01;
   @include btn-hover-orange;
 
   // &:focus {
@@ -65,7 +109,6 @@ button.btn {
   background-color: $green02;
   color: white;
   border: 2px solid $green02;
-
   @include btn-hover-white;
 }
 
@@ -85,6 +128,15 @@ button.btn {
 
   button.btn {
     margin: 0;
+  }
+
+  &.centered-btn-container {
+    width: fit-content;
+    margin: 1.5rem auto;
+
+    a.btn {
+      margin: auto 1rem;
+    }
   }
 }
 

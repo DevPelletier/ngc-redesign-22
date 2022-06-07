@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import {Helmet} from "react-helmet";
+
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Box';
+// import { Button } from './components/button';
+import Button from '@mui/material/Button';
 // import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import './styles/app.scss';
@@ -92,15 +97,32 @@ const productPaths = [
 
 function App() {
 
-  // const [title, setTitle] = useState("");
-  // useEffect(() => {
-  //   // This will run when the page first loads and whenever the title changes
-  //   document.title = title;
-  // }, [title]);
-  //
-  // const changeTitle = (event) => {
-  //   setTitle(event.target.value);
-  // };
+  // const [ageGate, setAgeGate] = useState(() => {
+  //   // Getting stored value
+  //   const savedAgeGate = localStorage.getItem("ageGate");
+  //   const initialValueAgeGate = JSON.parse(savedAgeGate);
+  //   return initialValueAgeGate || "";
+  // });
+
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false)
+    localStorage.setItem("ageGate", "confirmed");
+  };
+
+  useEffect(() => {
+    // get ageGate value
+    const savedAgeGate = localStorage.getItem("ageGate");
+    if (savedAgeGate != "confirmed") {
+      handleOpen();
+    } else {
+      // don't open modal
+    }
+  });
 
   return (
     <>
@@ -157,6 +179,41 @@ function App() {
         <NewsletterSignup />
         <Footer />
         <GoToTop />
+        <Modal
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box>
+            <div className="img-container">
+              <img src="imgs/ngc_logobadge_green.jpg" className="exact-size" alt=""/>
+            </div>
+            <div className="text-container">
+              <h2>Can we see some ID, please?</h2>
+              <p>You must be of legal age to consume cannabis in your province of residence to enter our website. By clicking ‘Enter’, you confirm that you are of legal age to consume cannabis in your province of residence (19+, 18+ in AB or QC).</p>
+              <div className="btn-container centered-btn-container">
+                <Button
+                  className="btn btn--primary btn--medium btn-override"
+                  onClick={handleClose}
+                >
+                  Confirm
+                </Button>
+                <Button
+                  className="btn btn--secondary btn--medium btn-override"
+                  to="https://www.google.com"
+                >
+                  Exit
+                </Button>
+
+              </div>
+              <p>
+                By entering this site, you agree to our <a href="/terms-conditions">Terms and Conditions</a> & <a href="/privacy-policy">Privacy Policy</a>.
+              </p>
+            </div>
+          </Box>
+        </Modal>
+
       </Router>
     </>
   );
