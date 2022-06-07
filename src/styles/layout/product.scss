@@ -169,6 +169,11 @@ section.product-hero {
       min-height: 500px;
       height: 70vh;
       max-height: 700px;
+
+      img {
+        height: 95%;
+        width: auto;
+      }
     }
 
     .prod-info-container {

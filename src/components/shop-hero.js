@@ -110,7 +110,7 @@ function ShopHero() {
                   <div className="sub-menu btn-container">
                     <Button
                       buttonStyle="btn--primary sub-menu-btn"
-                      url="/learning-hub-medical-cannabis-101"
+                      url="/start-here"
                       >
                       Medicinal Cannabis 101
                       <span className="img-container exact-size"><img src="imgs/ngc_looseknot_lightgreen_600px.png" alt=""/></span>
@@ -197,7 +197,7 @@ function ShopHero() {
                 </div>
               </div>
               <div className="img-container hub-hero-img border-radius">
-                <img src="imgs/036-4to3-V" alt=""/>
+                <img src="imgs/036-4to3-V.jpg" alt=""/>
               </div>
             </div>
           </section>

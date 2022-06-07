@@ -158,6 +158,7 @@ $breakpoint2: 700px;
   &:active {
     background-color: $green02;
     color: white;
+    font-weight: 600;
     border-color: $green02;
     @include shadow-02;
   }
@@ -168,17 +169,19 @@ $breakpoint2: 700px;
   &:active {
     background-color: $orange02;
     color: white;
+    font-weight: 600;
     border-color: $orange02;
     @include shadow-02;
   }
 }
 
 @mixin btn-hover-white {
+  // This is now lighter green for contrast purposes
   &:hover,
   &:active {
-    background-color: white;
-    color: $green04;
-    border-color: white;
+    background-color: $green01;
+    color: white;
+    border-color: $green01;
     font-weight: 600;
     @include shadow-02;
   }

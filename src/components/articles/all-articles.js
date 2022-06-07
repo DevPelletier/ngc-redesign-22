@@ -117,7 +117,7 @@ const medicalCannabis101 = [
     image: "imgs/test.jpg",
     title: "Medical Cannabis 101",
     date: "May 24, 2022",
-    articleLink: "/learning-hub-medical-cannabis-101"
+    articleLink: "/start-here"
   }
 ];
 const ngcEUGMP = [

@@ -46,13 +46,14 @@ section.two-steps {
   color: white;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: $breakpoint1) {
   .two-steps-container {
     flex-direction: column;
     align-items: center;
 
     .step-1, .step-2 {
       width: 100%;
+      margin: auto;
       margin-bottom: 50px;
       min-width: unset;
 
@@ -63,7 +64,7 @@ section.two-steps {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $breakpoint2) {
   .two-steps-container {
     .step-1,
     .step-2 {
