@@ -25,7 +25,7 @@ const FAQGroup = (props) => {
         <AccordionDetails>
             <p>
             NGC is federally licensed under the Cannabis Act, issued by Health Canada, to cultivate, process, and sell cannabis for medical and non-medical purposes.</p>
-            <p>The common term ‘LP’ stands for ‘Licensed Producer’, which essentially means that NGC is licensed to produce cannabis in some capacity, along with other Canadian ‘LP’s.</p>
+            <p>The common term ‘LP’ stands for ‘Licensed Producer’, which essentially means that NGC is licensed to produce cannabis in some capacity, along with other Canadian LPs.</p>
             <p>However, not all LPs are equal - some are only licensed for some part of the process. For example, some LPs are only licensed to cultivate, and send their raw cannabis product to a different LP for processing, and then yet another to sell the finished cannabis products. NGC is licensed fully licensed under the Cannabis Act to cultivate, process, and sell our cannabis products.</p>
             <p>This way, we have full control over the entire process, so you can trust that NGC cannabis products are going to be of the highest quality without external interference.
             </p>
@@ -55,7 +55,7 @@ const FAQGroup = (props) => {
         </AccordionSummary>
         <AccordionDetails>
             <p>
-              The Northern Green team are actively procuring EU-GMP certification, and hope to obtain this certification in the very near future. For more information on GMP: See Health Canada's info-page on GMP.
+              The Northern Green team is EU-GMP certified, one of only a handful of LPs with this certification in Canada. For more information on GMP: See Health Canada's info-page on GMP.
             </p>
         </AccordionDetails>
       </Accordion>

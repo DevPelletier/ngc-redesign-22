@@ -178,7 +178,7 @@ function InfoCards() {
               <div className="info-card border-radius">
                 <div>
                   <h4>Medical Document</h4>
-                  <p>This document is required by Health Canada for NGC to fulfill a Medical Cannabis prescription. Please submit this form by Secure Fax or by Mail to the fax number and mailing address - this info is on the front page of the form.</p>
+                  <p>This document is required by Health Canada for NGC to fulfill a medicinal cannabis prescription. Please submit this form by secure fax or by mail to the fax number and mailing address - this info is on the front page of the form.</p>
                 </div>
 
                 <Button

@@ -73,7 +73,7 @@ function Section3_IsMedCannRight() {
             <div className="explore-medcann-card border-radius">
               <h3>Explore Medicinal Cannabis</h3>
               <h4>For Other Specific Conditions</h4>
-              <p>Cannabis has historical use in alleviating cancer symptoms and treatment of side-effects, such as nausea and vomiting, cancer-related pain, neuropathy, general inflammation, as well as appetite and weight-loss. <a href="https://cancer.ca/en/treatments/complementary-therapies/medical-cannabis-and-cannabinoids">Source</a></p>
+              <p>Cannabis has historical use in alleviating cancer symptoms and treatment of side effects, such as nausea and vomiting, cancer-related pain, neuropathy, general inflammation, as well as appetite and weight loss. <a href="https://cancer.ca/en/treatments/complementary-therapies/medical-cannabis-and-cannabinoids">Source</a></p>
               <div className="btn-container">
                 <ButtonList numbers={conditionArray_specific} />
               </div>

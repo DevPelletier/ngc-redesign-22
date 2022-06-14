@@ -38,10 +38,10 @@ const FAQGroup = (props) => {
         </AccordionSummary>
         <AccordionDetails>
             <p>
-            Northern Green currently offers delivery through Canada Post and Purolator. We currently are operating exclusively in Ontario, with plans to expand to other provinces soon.</p>
+            Northern Green currently offers delivery through Canada Post. We currently are operating exclusively in Ontario, with plans to expand to other provinces soon.</p>
             <p>Canada Post:
               <br />Xpresspost (1-2 business days)
-              <br />Xpresspost (1-2 business days)
+              <br />Regular Parcel (1-3 business days)
             </p>
         </AccordionDetails>
       </Accordion>

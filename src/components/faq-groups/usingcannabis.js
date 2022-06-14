@@ -24,7 +24,7 @@ const FAQGroup = (props) => {
         </AccordionSummary>
         <AccordionDetails>
             <p>
-              For questions related to the use of medical cannabis, please refer to the articles on our blog tagged as Cannabis 101. To read up on clinical research and industry news regarding medical cannabis, please refer to our Research & Development branch, Northern Green Sciences.
+              For questions related to the use of medical cannabis, please refer to the articles on our blog tagged as Cannabis 101.
             </p>
         </AccordionDetails>
       </Accordion>

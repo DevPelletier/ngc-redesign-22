@@ -54,10 +54,10 @@ function Article() {
             </ul>
           </p>
           <p>NOTE: Tinctures are the most commonly used products in the medicinal cannabis market, whereas the latter (Wax, etc) types of extracts are more popular in the recreational cannabis market</p>
-          <p>Cannabis extracts are usually the product of distilling down the most desirable parts of the plant - the cannabinoids and terpenes - and then transforming this concentrate into a usable format, such as an Oil, or a Spray. In some cases, even the specific cannabinoids and terpenes are isolated, and then re-constituted into a new, unique product with custom characteristics - such as Kaiser Day full-spectrum vaporizers.</p>
+          <p>Cannabis extracts are usually the product of distilling down the most desirable parts of the plant - the cannabinoids and terpenes - and then transforming this concentrate into a usable format, such as an Oil, or a Spray. In some cases, even the specific cannabinoids and terpenes are isolated, and then reconstituted into a new, unique product with custom characteristics - such as Kaiser Day full-spectrum vaporizers.</p>
           <p>Pre-filled vape pens, such as the Kaiser Day vaporizers available to NGC Clients, are a discreet, portable, and efficient way to consume cannabis extracts. The cartridge's battery activates a heating element that warms the cannabis concentrate. Most vape pens are operated by pressing a button or, in the case of a buttonless pen, by simply taking a drag from the mouthpiece. Pre-filled cartridges and pens aren't refillable and need to be discarded after the concentrate runs out, but detachable batteries can be saved and reused many times.</p>
           <p>To learn more about vaporizers read our article here:<br /><a href="" className="primary-link">Learn Vaporizers</a></p>
-          <p>Edibles are another form of cannabis extract that are rarely part of the ‘extract’ conversation - but they should be! Store-bought and homemade edibles alike are made possible by cannabis extracts. Much like vapes, they don't require special equipment and are easy for new consumers to try.</p>
+          <p>Edibles are another form of cannabis extract that is rarely a part of the ‘extract’ conversation - but they should be! Store-bought and homemade edibles alike are made possible by cannabis extracts. Much like vapes, they don't require special equipment and are easy for new consumers to try.</p>
           <p>To learn more about edibles, read our article here:<br /><a href="" className="primary-link">Learn Edibles</a></p>
         </div>
 
@@ -78,7 +78,7 @@ function Article() {
               buttonStyle="btn--primary"
               url="/register"
             >
-            Sign Up for Medical Cannabis
+            Sign Up for Medicinal Cannabis
             </Button>
           </div>
         </div>

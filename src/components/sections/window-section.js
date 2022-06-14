@@ -17,7 +17,7 @@ function WindowSection() {
             <div className="window-right text-container">
               <h3>Northern Green Cares</h3>
               <h2>We Support Our Patients</h2>
-              <p>You can rest assured - at NGC we develop medicinal cannabis products backed by research from a wide range of scientists, doctors, and a network of cultivation experts, both domestic and international. Our team fosters a client-centered care approach - what you value is what we care about.</p>
+              <p>You can rest assured - at NGC we develop medicinal cannabis products backed by research from a wide range of scientists, doctors, and a network of cultivation experts, both domestic and international. Our team fosters a client-centred care approach - what you value is what we care about.</p>
               <p>NGC's Client Services Team is available to answer any questions you have, and assist you along the path to improving your quality of life. We believe in reaching beyond common service standards, and as such, we have a dedicated team committed to premium, holistic support for our registered clients.</p>
               <div className="btn-container">
                 <Button

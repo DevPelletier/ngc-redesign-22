@@ -43,7 +43,7 @@ const FAQGroup = (props) => {
       <AccordionDetails>
           <p>
           Under the Cannabis Act, medical cannabis patients are allowed to possess a 30-day supply, up to 150 grams (or equivalent), at one time.</p>
-          <p>Medical cannabis patients must be prepared to show that they are legally allowed to possess more than the regular 30 grams (or equivalent) allowed to all legal-age Canadians if requested by law enforcement. This can be done by showing a Certificate of Registration issued by NGC upon your registration and/or prescription renewal. You can access this document at any time by contacting our Client Services team.
+          <p>Medicinal cannabis patients must be prepared to show that they are legally allowed to possess more than the regular 30 grams (or equivalent) allowed to all legal-age Canadians if requested by law enforcement. This can be done by showing a Certificate of Registration issued by NGC upon your registration and/or prescription renewal. You can access this document at any time by contacting our Client Services team.
           </p>
       </AccordionDetails>
     </Accordion>

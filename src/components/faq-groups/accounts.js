@@ -57,7 +57,7 @@ const FAQGroup = (props) => {
             <p>
             Yes you can!</p>
             <p>Anyone with a valid prescription to purchase medical cannabis from a licensed producer qualifies for this claim. The Canada Revenue Agency allows medical cannabis to be claimed as a ‘medical expense’ deduction on your federal income taxes. Please note that only cannabis products qualify for this claim - you cannot claim costs related to accessories or growing, such as vaporizers, storage, lights, and so forth.</p>
-            <p>Remember to keep all of your order receipts from your orders with us for your tax return. If you do lose your receipts, don’t worry! You will also have all of your order receipts available in your account on our Client Portal for access at any time.
+            <p>Remember to keep all of your order receipts for your tax return. If you do lose your receipts, don’t worry! You will also have all of your order receipts available in your account on our Client Portal for access at any time.
             </p>
         </AccordionDetails>
       </Accordion>

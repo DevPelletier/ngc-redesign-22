@@ -57,11 +57,11 @@ function Article() {
               <li>And many others,</li>
             </ul>
           </p>
-          <p>The main way in which the cannabinoids are differentiated is based on their degree of psychoactivity. For example, CBG, CBC and CBD are not known to be psycholgically active agents whereas THC, CBN and CBDL along with some other cannabinoids are known to have varying degrees of psychoactivity.</p>
+          <p>The main way in which the cannabinoids are differentiated is based on their degree of psychoactivity. For example, CBG, CBC and CBD are not known to be psychologically active agents whereas THC, CBN and CBDL along with some other cannabinoids are known to have varying degrees of psychoactivity.</p>
           <p><strong>Did You Know?</strong><br />
-          When THC is exposed to the air, it becomes oxidized and forms CBN which also interacts with THC to lessen its impact. This is why cannabis that has been left out unused will has less potent effects when smoked, due to the increased CBN to THC ratio.</p>
+          When THC is exposed to the air, it becomes oxidized and forms CBN which also interacts with THC to lessen its impact. This is why cannabis that has been left out unused will have less potent effects when smoked, due to the increased CBN to THC ratio.</p>
           <p>Cannabinoids exert their effects by interacting with specific cannabinoid receptors present on the surface of cells in the human body. Cannabinoids that serve both medicinal and recreational purposes change the way we feel, and they have regulatory effects on several body functions. These receptors are found in different parts of the central nervous system and the two main types of cannabinoid receptors in the body are CB1 and CB2.</p>
-          <p>In the early 1990s, a substance that naturally occurs in the human brain (called anandimide) was discovered to interact with these receptors, too. This and other cannabinoid-like compounds were henceforth referred to as endocannabinoids - meaning cannabinoids that are endogenous to (come from within) the human body. Further, the system in the human body that cannabinoids (and endocannabinoids) interact with is called the Endocannabinoid System.</p>
+          <p>In the early 1990s, a substance that naturally occurs in the human brain (called anandamide) was discovered to interact with these receptors, too. This and other cannabinoid-like compounds were henceforth referred to as endocannabinoids - meaning cannabinoids that are endogenous to (come from within) the human body. Further, the system in the human body that cannabinoids (and endocannabinoids) interact with is called the Endocannabinoid System.</p>
           <p>Learn more about the Endocannabinoid System here:<br /><a href="/" className="primary-link">Learn the Science</a></p>
         </div>
       </div>
@@ -81,7 +81,7 @@ function Article() {
               buttonStyle="btn--primary"
               url="/register"
             >
-            Sign Up for Medical Cannabis
+            Sign Up for Medicinal Cannabis
             </Button>
           </div>
         </div>

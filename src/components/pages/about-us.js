@@ -33,7 +33,7 @@ function AboutUs() {
           <h2>At Northern Green Canada, We Put You And Your Health First</h2>
           <p> Northern Green Canada has built a highly controlled, pesticide-free, state-of-the-art hydroponic facility, where our expert grow team cultivates cannabis strains that are industry-leading in quality and consistency.</p>
           <p>Anchored by our grow team’s 40 plus years of collective experience, our hydroponic process in which we control all aspects of the environmental conditions – temperature, humidity, nutrients – enables us to cultivate pharma grade medical cannabis of exceptional quality.</p>
-          <p>We support our patients, always. Led by our Medical Health Director, our patient support and customer service personnel provide knowledgeable and friendly advice and guidance. Our focus is on you and your well-being.</p>
+          <p>We support our patients, always. Our patient support and customer service personnel provide knowledgeable and friendly advice and guidance. Our focus is on you and your well-being.</p>
         </div>
         <div className="img-container col-width-md push-right border-radius">
           <img src="imgs/002-4to3-V.jpg" alt=""/>

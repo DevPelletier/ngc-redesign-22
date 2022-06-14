@@ -10,7 +10,7 @@ const homepage = {
   card1_Title1: 'Step 1:',
   card1_Title2: 'Sign Up With NGC',
   card1_P1: 'Quickly and easily register with us by clicking the button below. Our Registration Form takes about 1-2 minutes to complete.',
-  card1_P2: 'Once you’re submit your registration, you will receive instructions within minutes on your next steps to obtaining a prescription for medical cannabis.',
+  card1_P2: 'Once you’ve submitted your registration, you will receive instructions within minutes on your next steps to obtaining a prescription for medical cannabis.',
   card1_P3: "Registering with us doesn't lock you into anything. You can choose to complete your registration with us by submitting your Medical Document at any time.",
   card1_btn: 'Sign Up Today',
   card2_Title1: 'Step 2:',

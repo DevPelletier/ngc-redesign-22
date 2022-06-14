@@ -143,7 +143,7 @@ function ShopAll() {
             <div className="text-container">
               <h3>Quality Medicinal Cannabis</h3>
               <h2>The Northern Green<br />Cannabis Shop</h2>
-              <p>Discover NGC's collection of medicincal cannabis products - featuring hydroponically-grown dried flower, CBD and THC oils, full-spectrum vaporizers, and more -</p>
+              <p>Discover NGC's collection of medicinal cannabis products - featuring hydroponically-grown dried flower, CBD and THC oils, full-spectrum vaporizers, and more -</p>
               <p>Please note: Due to Health Canada regulations, you must be registered with us to purchase medical cannabis products.</p>
               <p>Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products 💚</p>
             </div>
@@ -256,10 +256,10 @@ function ShopAll() {
             <div className="text-container">
               <h3>High cbd products</h3>
               <h2>Take Advantage of CBD’s High Anti-Inflammatory Properties</h2>
-              <p>CBD - also known as Cannabidiol - is a non-psychoactive cannabinoid with anti-pain, anti-inflammatory, and anti-cancer properties while having zero psychoactive effect.</p>
+              <p>CBD - also known as Cannabidiol - is a non-psychoactive cannabinoid with anti-pain, anti-inflammatory, and potential anti-cancer properties while having zero psychoactive effect.</p>
               <p>While CBD is one of the more well-known cannabinoids, scientific research on its use to alleviate and treat illness is still relatively recent. However, of course, CBD has shown huge promise in medicinal use for the above properties, as well as an anticonvulsant, antipsychotic, and anxiolytic.*</p>
-              <p>Discover our collection of medicinal cannabis products with high CBD content below! <span class="material-symbols-rounded background">arrow_downward</span></p>
-              <p className="sm">* - As with all medical products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis. <br /><br />Please note: Due to Health Canada regulations, you must be registered with us to purchase medical cannabis products. Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products.</p>
+              <p>Discover our collection of medicinal cannabis products with high CBD content below <span class="material-symbols-rounded background">arrow_downward</span></p>
+              <p className="sm">* - As with all medicinal products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis. <br /><br />Please note: due to Health Canada regulations, you must be registered with us to purchase medical cannabis products. Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products.</p>
             </div>
             <div className="shop-sub-menu-container">
               <h4>Product Types:</h4>
@@ -377,8 +377,8 @@ function ShopAll() {
             <h2>High THC Medicinal Cannabis For Your Relief</h2>
             <p>THC - also known as Tetrahydrocannabinol - is the main psychoactive substance that produces the “high” associated with smoking cannabis.</p>
             <p>Although THC is one of the more widely recognized cannabinoids, scientific research on its use to alleviate and treat illness is still relatively recent. However, we do know that THC interacts with the human body’s endocannabinoid system to stimulate the release of dopamine in the brain, which is what causes feelings of euphoria, as well as relaxation, increased appetite, and heightened sensory perception.*</p>
-            <p>Discover our collection of medicinal cannabis products with high THC content below! <span class="material-symbols-rounded background">arrow_downward</span></p>
-            <p className="sm">* - As with all medical products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis.</p><p class="sm">Please note: Due to Health Canada regulations, you must be registered with us to purchase medical cannabis products. Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products.</p>
+            <p>Discover our collection of medicinal cannabis products with high THC content below <span class="material-symbols-rounded background">arrow_downward</span></p>
+            <p className="sm">* - As with all medical products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis.</p><p class="sm">Please note: due to Health Canada regulations, you must be registered with us to purchase medicinal cannabis products. Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products.</p>
             </div>
             <div className="shop-sub-menu-container">
               <h4>Product Types:</h4>
@@ -488,7 +488,7 @@ function ShopAll() {
               <p>THC & CBD are two of the more well-researched cannabinoids that can be taken by patients in a variety of ways, separately or together. However, some research suggests doses of both compounds may provide additional therapeutic benefits for specific treatments. This effect includes 'The Entourage Effect', among other mechanisms.</p>
               <p>However, the ideal ratio of THC to CBD, along with other cannabinoids and terpenes, is always specific to the patient and their unique situation.</p>
               <p>Discover our collection of medicinal cannabis products with balanced THC & CBD content below! <span class="material-symbols-rounded background">arrow_downward</span></p>
-              <p className="sm">* - As with all medical products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis. <br /><br />Please note: Due to Health Canada regulations, you must be registered with us to purchase medical cannabis products. <br />Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products 💚</p>
+              <p className="sm">* - As with all medical products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis. <br /><br />Please note: due to Health Canada regulations, you must be registered with us to purchase medicinal cannabis products. <br />Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products 💚</p>
             </div>
             <div className="shop-sub-menu-container">
               <h4>Product Types:</h4>
@@ -600,12 +600,12 @@ function ShopAll() {
         <section class="shop-hero bg-f7f8f9-bigknot-right">
           <div className="inner-section">
             <div className="text-container">
-              <h3>No THC products</h3>
-              <h2>Trust You Can Avoid Psychoactive Effects with Our Zero THC Products</h2>
+              <h3>Low / No THC products</h3>
+              <h2>Trust You Can Limit Or Avoid Psychoactive Effects With Our Low / No THC Products</h2>
               <p>THC is the cannabinoid that is mainly responsible for the psychoactive effects (or 'high') of cannabis. However, the effects of THC often are unnecessary or harmful for some medicinal cannabis patients.</p>
               <p>Therefore, zero THC products allow patients to reap the medicinal benefits of cannabis, without the interference of this specific compound.</p>
               <p>Discover our collection of medicinal cannabis products with zero THC content below! <span class="material-symbols-rounded background">arrow_downward</span></p>
-              <p className="sm">* - As with all medical products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis. <br /><br />Please note: Due to Health Canada regulations, you must be registered with us to purchase medical cannabis products. Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products.</p>
+              <p className="sm">* - As with all medical products, always consult your chosen healthcare professional first and foremost for guidance on the use of medical cannabis. <br /><br />Please note: due to Health Canada regulations, you must be registered with us to purchase medicinal cannabis products. Not registered with us yet? <a href="/register">Sign Up Today!</a> It takes about 1-2 minutes to register with us, and we'll guide you through the process of getting your medicinal cannabis prescription for full access to NGC products.</p>
             </div>
             <div className="shop-sub-menu-container">
               <h4>Product Types:</h4>

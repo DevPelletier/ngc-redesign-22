@@ -107,7 +107,7 @@ function Page() {
               <Button
                 onClick={executeScroll_safetyRef}
                 >
-                Medical Cannabis Safety & Legal
+                Medicinal Cannabis Safety & Legal
               </Button>
 
             </div>

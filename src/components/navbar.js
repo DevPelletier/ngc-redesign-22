@@ -70,7 +70,7 @@ function Navbar() {
                     onClick={closeMobileMenu}
                     >
                     <div class="dropdown-btn">
-                      Sign Up for<br/>Medical Cannabis
+                      Sign Up for<br/>Medicinal Cannabis
                     </div>
                   </Link>
                   <Link

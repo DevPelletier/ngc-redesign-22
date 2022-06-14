@@ -38,7 +38,7 @@ const ExploreProds = (props) => (
     <div className="inner-section">
       <div className="text-container">
         <h2>Explore NGC Medicinal Cannabis</h2>
-        <p>Discover NGC's collection of medicincal cannabis products - featuring NGC's hydroponically-grown dried flower, CBD and THC oils, full-spectrum vaporizers, and more.</p>
+        <p>Discover NGC's collection of medicinal cannabis products - featuring NGC's hydroponically-grown dried flower, CBD and THC oils, full-spectrum vaporizers, and more.</p>
       </div>
       <div className="explore-prod-container">
         <ExploreProdList numbers={productCategories} />

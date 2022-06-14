@@ -91,7 +91,7 @@ function Article() {
               buttonStyle="btn--primary"
               url="/register"
             >
-            Sign Up for Medical Cannabis
+            Sign Up for Medicinal Cannabis
             </Button>
           </div>
         </div>

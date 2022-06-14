@@ -51,7 +51,7 @@ function Article() {
           <p>To date, two types of cannabinoid receptors have been identified that constitute the ECS - the CB1 and CB2 receptors.</p>
           <p>The CB1 receptors are primarily located on nerve cells in the brain, spinal cord, but they are also found in some peripheral organs and tissues such as the spleen, white blood cells, endocrine gland and parts of the reproductive, gastrointestinal and urinary tracts. In the brain, the CB1 receptors are abundant in various areas that are responsible for memory processing, pain regulation and motor control. CB1 receptors also regulate the release of other neuro-chemicals, such as serotonin, dopamine, and glutamate. In the brain stem, however, the concentration of cannabinoids is low, which may be related to why cannabis use is not associated with sudden death due to depressed respiration, for example.</p>
           <p>The CB2 receptors are mainly found on white blood cells, in the tonsils and in the spleen. The immune cells also express CB1, although there are fewer of them than CB2. In the immune system, one important function of the cannabinoid receptors is the regulation of cytokine release. Stimulation of the CB1 receptor produces cannabis-like effects on the psyche and circulation, while no such effect is seen when the CB2 receptor is activated. This means that interaction with the CB2 receptors may have potential for anti-inflammatory and anti-cancer effects.</p>
-          <p>Study of the ECS was initially focused on attempts to understand (and demonize) an illegal drug, but new research has since flourished into a far more broad-based exploration into what is an astoundingly intricate and far-reaching system by which our bodies learn, feel, motivate, and keep themselves in balance. We are truly at the dawn of an age of discovery of the ECS and the development of new medicines that may help alleviate some of the cruelest diseases that people suffer from. At Northern Green, we are incredibly excited to see what discoveries await us as we continue to untangle the mysteries of our own human anatomy and this powerful plant.</p>
+          <p>Study of the ECS was initially focused on attempts to understand (and demonize) an illegal drug, but new research has since flourished into a far more broad-based exploration into what is an astoundingly intricate and far-reaching system by which our bodies learn, feel, motivate, and keep themselves in balance. We are truly at the dawn of an age of discovery of the ECS and the development of new medicines that may help alleviate some of the cruellest diseases that people suffer from. At Northern Green, we are incredibly excited to see what discoveries await us as we continue to untangle the mysteries of our own human anatomy and this powerful plant.</p>
         </div>
 
       </div>
@@ -71,7 +71,7 @@ function Article() {
               buttonStyle="btn--primary"
               url="/register"
             >
-            Sign Up for Medical Cannabis
+            Sign Up for Medicinal Cannabis
             </Button>
           </div>
         </div>

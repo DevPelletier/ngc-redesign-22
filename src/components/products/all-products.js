@@ -26,8 +26,8 @@ const vaporizer_bliss = [
       {id: 'c', content: 'CBD: 195mg/g' }
     ],
     descripItems: [
-      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal!'},
-      {id: 'b', content: 'BLISS is Kaiser Day’s balanced THC:CBD formula complemented by uplifting and flavorful terpenes such as myrcene, which occurs naturally in highly-fragrant plants like mangoes. One of the most dominant terpenes in the BLISS formulation is caryophyllene, which has been shown to reduce stress, anxiety and have pain-relieving properties.**'},
+      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal.'},
+      {id: 'b', content: 'BLISS is Kaiser Day’s balanced THC:CBD formula complemented by uplifting and flavourful terpenes such as myrcene, which occurs naturally in highly-fragrant plants like mangoes. One of the most dominant terpenes in the BLISS formulation is caryophyllene, which has been shown to reduce stress, anxiety and have pain-relieving properties.**'},
     ],
     listItems: [
       {id: 'a', content: 'CBDV: 2.0mg/g'},
@@ -48,7 +48,7 @@ const vaporizer_relief = [
       {id: 'c', content: 'CBD: 300mg/g' }
     ],
     descripItems: [
-      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal!'},
+      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal.'},
       {id: 'b', content: "RELIEF Medical Cannabis vaporizer is Kaiser Day’s one-of-a-kind 1:3 THC:CBD blend, with myrcene. Myrcene contains anti-inflammatory qualities that aid in the treatment of chronic pain disorders such as migraines and arthritis. Kaiser Day’s RELIEF formulation also contains caryophyllene. which has analgesic qualities and has been used to relieve pain in people living with Parkinson's.**"},
     ],
     listItems: [
@@ -70,7 +70,7 @@ const vaporizer_relax = [
       {id: 'd', content: 'CBD: 200mg/g' }
     ],
     descripItems: [
-      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal!'},
+      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal.'},
       {id: 'b', content: "RELAX is Kaiser Day’s even THC:CBD blend that combines CBD's anti-anxiety qualities with the soothing benefits of myrcene and the balancing impacts of caryophyllene and limonene. Terpenes like linalool, phytol, and borneol are also included in Kaiser Day’s RELAX formulation.**"},
     ],
     listItems: [
@@ -93,7 +93,7 @@ const vaporizer_ascend = [
       {id: 'c', content: 'CBD: 80mg/g' }
     ],
     descripItems: [
-      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal!'},
+      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal.'},
       {id: 'b', content: "ASCEND is Kaiser Day’s ultra-high THC formulation with a proprietary, effect-specific terpene profile. ASCEND’s energizing properties are suitable for conditions where a high-THC formulation is needed for daytime use.**"}
     ],
     listItems: [
@@ -115,7 +115,7 @@ const vaporizer_sleep = [
       {id: 'c', content: 'CBD: 80mg/g' }
     ],
     descripItems: [
-      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal!'},
+      {id: 'a', content: 'NGC has partnered with Kaiser Day Cannaceuticals to offer their full-spectrum vaporizers on our Client Portal.'},
       {id: 'b', content: "SLEEP is Kaiser Day’s full-spectrum, THC-dominant formula with sleep-inducing and anxiolytic terpenes, including myrcene, caryophyllene, limonene, terpineol and linalool. SLEEP is designed to help you fall asleep and stay asleep.**"},
     ],
     listItems: [
@@ -141,7 +141,7 @@ const driedflower_shishkaberry = [
       {id: 'a', content: 'CBD: ~0%' }
     ],
     descripItems: [
-      {id: 'a', content: "Shishkaberry (formerly “IN-Gesia” at NGC) is a well-known indica-dominant strain in Canadian medical cannabis with standard indica characteristics. NGC’s Shishkaberry carries an aroma profile of blackberry, pine, and cloves due to the dominant terpenes Myrcene, Ocimene, Caryophyllene, and Humulene. Shishkaberry’s lineage is a combination of the famous strains Afghani and DJ Short Blueberry. NGC’s Shishkaberry contains between 14-19% THC content, and ~0 CBD content, and is available in 5g dried flower weight, with 15g jars to come soon"}
+      {id: 'a', content: "Shishkaberry (formerly “IN-Gesia” at NGC) is a well-known indica-dominant strain in Canadian medical cannabis with standard indica characteristics. NGC’s Shishkaberry carries an aroma profile of blackberry, pine, and cloves due to the dominant terpenes myrcene, ocimene, caryophyllene, and humulene. Shishkaberry’s lineage is a combination of the famous strains Afghani and DJ Short Blueberry. NGC’s Shishkaberry contains between 14-19% THC content, and ~0 CBD content, and is available in 5g dried flower weight, with 15g jars to come soon"}
     ],
     listItems: [
     ]
@@ -219,7 +219,7 @@ const driedflower_washingmachine = [
       {id: 'e', content: 'CBD: 11%' }
     ],
     descripItems: [
-      {id: 'a', content: "One of our new LIMITED-RUN medicinal strains - Washing Machine is a sativa-hybrid strain that user report as having a happy and heavy sedating effect, making this strain ideal for patients with mental health and sleep issues. Washing Machine has high THC content (21%), and a strong terpene profile. The aroma and taste of this strain is strongly herbal with spice and earthiness. Washing Machine is available in 5 g and 15 g dried flower weights - while quantities last."}
+      {id: 'a', content: "One of our new LIMITED-RUN medicinal strains - Washing Machine is a sativa-hybrid strain that users report as having a happy and heavy sedating effect, making this strain ideal for patients with mental health and sleep issues. Washing Machine has high THC content (21%), and a strong terpene profile. The aroma and taste of this strain is strongly herbal with spice and earthiness. Washing Machine is available in 5 g and 15 g dried flower weights - while quantities last."}
     ],
     listItems: [
     ]
@@ -479,7 +479,7 @@ const accessories_lighter = [
     tagItems: [
     ],
     descripItems: [
-      {id: 'a', content: "The NGC branded lighter send the subtle signal that you’re serious about craft medicinal cannabis. Complete with black finish and the Northern Green Canada wordmark - pick up one of these to pair with our expertly crafted dried flower products… or if you just want to support NGC!"}
+      {id: 'a', content: "The NGC branded lighter sends the subtle signal that you’re serious about craft medicinal cannabis. Complete with black finish and the Northern Green Canada wordmark - pick up one of these to pair with our expertly crafted dried flower products… or if you just want to support NGC!"}
     ],
     listItems: [
     ]

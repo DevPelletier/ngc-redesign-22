@@ -19,7 +19,7 @@ function Page() {
           <h2>Careers<br />@ Northern Green Canada</h2>
           <h4>Imagine a place...</h4>
           <p>Imagine a place that empowers the entrepreneurial spirit. A place on the cutting edge of an exciting new industry loaded with opportunity. A place whose very company DNA is anchored in three simple words, ‘to do good’.</p>
-          <p>Northern Green is just such a place. Founded on a belief in creating a work environment that nurtures creativity, we strive empower our people to create something special. If you’re a self starter, a problem solver, someone seeking a challenge to help others, then we may be just the place for you.</p>
+          <p>Northern Green is just such a place. Founded on a belief in creating a work environment that nurtures creativity, we strive to empower our people to create something special. If you’re a self starter, a problem solver, someone seeking a challenge to help others, then we may be just the place for you.</p>
         </div>
         <div className="img-container col-width-md push-right border-radius">
           <img src="imgs/test-imgs/E2C36A83-9363-4DA7-B02A-F74325652E8D.jpeg" alt=""/>

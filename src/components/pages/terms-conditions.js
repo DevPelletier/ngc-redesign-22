@@ -38,7 +38,7 @@ function Page() {
             <li>You must not allow anyone else to use your account or have your password;</li>
             <li>You must notify us if you suspect there has been unauthorized use of your account;</li>
             <li>You must only use our products as prescribed by your doctor; and</li>
-            <li>You must not re-sell or otherwise transfer our products to any other person.</li>
+            <li>You must not resell or otherwise transfer our products to any other person.</li>
           </ol>
           <p>You are solely responsible for all activity that occurs using your account. We will not be liable to you or to any third party for any use (whether authorized or unauthorized) of your account.</p>
           <p>You acknowledge and agree that we may access and/or disclose your account and related information if required to do so by law or if we reasonably believe that such actions are reasonably required to comply with our legal obligations, enforce or fulfill these terms and conditions, or protect the rights, property or safety of NGC.</p>
@@ -67,7 +67,7 @@ function Page() {
           <p>In making any submissions:</p>
           <ol>
           <li>You agree that your Comments will not violate any right of any third party, including copyright, trademark, privacy, personality or other personal or proprietary right;</li>
-          <li>You agree that your Comments will not contain libelous or otherwise offensive material, or contain any malware that could in any way affect the operation of our website;</li>
+          <li>You agree that your Comments will not contain libellous or otherwise offensive material, or contain any malware that could in any way affect the operation of our website;</li>
           <li>You may not use a false e-mail address, pretend to be someone other than yourself, or otherwise mislead us or third parties as to the origin of any Comments; and</li>
           <li>You are solely responsible for any Comments you make and their accuracy. </li>
           </ol>
@@ -89,7 +89,7 @@ function Page() {
           <h4>11. Disclaimer of Website and Services</h4>
           <ol>
           <li>The use of our website and services is at your sole risk.</li>
-          <li>Our website may contain typographical errors and omissions from time to time. We reserve the rights to correct such errors and to update information on the website, including pricing information about our products.</li>
+          <li>Our website may contain typographical errors and omissions from time to time. We reserve the right to correct such errors and to update information on the website, including pricing information about our products.</li>
           <li>NGC reserves the right, at any time and without notice, to modify or terminate any aspect of these terms and conditions, our services, and this website.</li>
           </ol>
           <h4>12. Links to Third Party Websites and Materials</h4>

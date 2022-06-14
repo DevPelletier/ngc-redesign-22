@@ -23,7 +23,7 @@ function Article() {
     <section className="article-info text-interject">
       <div className="inner-section two-col-even width-03">
         <div className="article-intro col-width-xsm">
-          <p className="h4-style">When you think ‘cannabis edibles’, you’re probably thinking of those magical brownies a friend once told you about. But is that all there is to edibles? Far from it! Find out how far the world of edibles has come, and the potential of edibles to help medicinal cannabis users.</p>
+          <p className="h4-style">When you think of ‘cannabis edibles’, you’re probably thinking of those magical brownies a friend once told you about. But is that all there is to edibles? Far from it! Find out how far the world of edibles has come, and the potential of edibles to help medicinal cannabis users.</p>
         </div>
         <div className="article-author-tags-container">
           <h6>Written By:</h6>
@@ -67,7 +67,7 @@ function Article() {
               buttonStyle="btn--primary"
               url="/register"
             >
-            Sign Up for Medical Cannabis
+            Sign Up for Medicinal Cannabis
             </Button>
           </div>
         </div>

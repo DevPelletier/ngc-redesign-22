@@ -168,23 +168,23 @@ function RegistrationForm() {
                     The information in the application and the medical document is correct and complete;
                   </p></li>
                   <li><p className="sm">
-                    The medical document is not being used to seek or obtain fresh or dried marihuana or cannabis oil from another source;
+                    The medical document is not being used to seek or obtain fresh or dried cannabis or cannabis oil from another source;
                   </p></li>
                   <li><p className="sm">
                     The original of the medical document is provided in support of the application;
                   </p></li>
                   <li><p className="sm">
-                  The applicant will use fresh or dried marihuana or cannabis oil only for their own medical purposes.
+                  The applicant will use fresh or dried cannabis or cannabis oil only for their own medical purposes.
                   </p></li>
                   <li><p className="sm">
-                    The applicant consents to the health care practitioner named in the Medical document disclosing required personal health information to the Northern Green Canada for the purpose of registering the applicant in compliance with the requirements of the Access to Cannabis for Medical Purposes Regulations.
+                    The applicant consents to the health care practitioner named in the medical document disclosing required personal health information to Northern Green Canada for the purpose of registering the applicant in compliance with the requirements of the Access to Cannabis for Medical Purposes Regulations.
                   </p></li>
                   <li><p className="sm">
-                    The applicant is aware that the benefits and risks associated with the use of marihuana are not fully understood and that the use of marihuana may involve risks that have not been identified; and the applicant accepts those risks
+                    The applicant is aware that the benefits and risks associated with the use of cannabis are not fully understood and that the use of cannabis may involve risks that have not been identified; and the applicant accepts those risks
                   </p></li>
                   <li><p className="sm">
                     By signing this registration form, applicant or caregiver (if applicable) allow Northern Green Canada to send registration information to the mailing and email addresses provided therein.<br />
-                    The signee hereby acknowledges that this Application requires you to provide certain Personal Information to Northern Green Canada. Such information is being collected and will be used by Northern Green Canada for the purposes of completing your registration, which includes, without limitation, determining your eligibility to purchase products from Northern Green Canada, for determining your qualification for financial assistance, if available to you, from certain third parties (i.e.Veteran’s Affairs Canada)<br />
+                    The signee hereby acknowledges that this Application requires you to provide certain Personal Information to Northern Green Canada. Such information is being collected and will be used by Northern Green Canada for the purposes of completing your registration, which includes, without limitation, determining your eligibility to purchase products from Northern Green Canada, for determining your qualification for financial assistance, if available to you, from certain third parties (i.e. Veteran’s Affairs Canada)<br />
                     Quebec’s Commission de la santé et de la sécurité du travail or private insurance companies) (collectively, “Authorized Third Parties”), for research and study purposes and for providing ongoing support to you. You hereby agree that your Personal Information may be disclosed by Northern Green Canada to: (a) Authorized Third Parties, (b) any parties, including but not limited medical or academic researchers, involved in conducting research or study services but only provided such parties are under strict obligations to maintain the confidentiality of the Applicant’s Personal Information and (c) Northern Green Canada client support team. By signing this Application, you consent to the foregoing collection, use and disclosure of your Personal Information.
                   </p></li>
                 </ol>

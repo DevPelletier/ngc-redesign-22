@@ -42,8 +42,8 @@ function Page() {
         <div className="text-container top">
           <h2>We'd Love To Connect With You</h2>
           <p>If you can't find something that you're looking for, or have any questions about Northern Green Canada, please contact:</p>
-          <h4>Emma Catto <br />Client Services Lead</h4>
-          <p><a href="">ECatto@northerngreencanada.com</a><br /><a href="">1-866-233-3707</a></p>
+          <h4>Nkechi Nwakuwa <br />Client Services Representative</h4>
+          <p><a href="">NNwakuwa@northerngreencanada.com</a><br /><a href="">1-866-233-3707</a></p>
           <p>If you would like to inquire further about Clinic partnerships with our Business Development team, please contact:</p>
           <h4>Kathryn Freer <br />VP Business Development & Communications</h4>
           <p><a href="">KFreer@northerngreencanada.com</a></p>

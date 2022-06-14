@@ -38,25 +38,22 @@
 @media screen and (max-width: $breakpoint1) {
   .hero-container {
     grid-template-columns: 1fr;
-    // grid-template-rows: auto 250px;
+    grid-template-rows: minmax(300px, 40vh);
     height: unset;
 
     .hero-text {
       grid-column: unset;
 
       .text-container {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        padding: 60px 0;
       }
     }
 
     .hero-img-container {
+      max-height: 500px;
       grid-column: unset;
       align-self: stretch;
       justify-self: stretch;
-      height: 50vh;
-      min-height: 280px;
-      max-height: 400px;
     }
   }
 }
